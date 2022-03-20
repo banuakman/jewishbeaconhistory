@@ -1,10 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { ComingSoon } from "./Components/ComingSoon";
-import {Map} from './Components/Map'
+
 const App = () => (
   <Routes>
-    <Route path="/hub-1" element={<Map/>}></Route>
+    <Route path="/hub-1" element={<h1>hub-1</h1>}></Route>
     <Route path="/hub-2" element={<h1>hub-2</h1>}></Route>
     <Route path="/hub-3" element={<h1>hub-3</h1>}></Route>
     <Route path="/hub-4" element={<h1>hub-4</h1>}></Route>
