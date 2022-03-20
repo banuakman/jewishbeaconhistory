@@ -8,12 +8,12 @@ const ComingSoon = () => {
         <div className="logos">
           <img
             className="startlogo"
-            src="BHACentennialLogo.png"
+            src="images/BHACentennialLogo.png"
             alt="Beacon Hebrew Alliance"
           />
           <img
             className="startlogo"
-            src="BHSLogo.png"
+            src="images/BHSLogo.png"
             alt="Beacon History Society"
           />
         </div>
