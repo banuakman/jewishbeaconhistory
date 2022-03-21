@@ -7,6 +7,8 @@ import {Description} from './Components/Description'
 import {Link} from './Components/Link'
 
 const App = () => (
+<>
+  <h1 className="title">Main Title</h1>
   <Routes>
     <Route path="/hub-1" element={<div><Header text="Bu bir başlık"/><Map/><Description header="Bu bir başlık" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." hasBusiness={true}/><Link text="Bu bir business" to="/business-1"/><Link text="Bu bir business" to="/business-1"/><Link text="Bu bir business" to="/business-1"/></div>}></Route>
     <Route path="/hub-2" element={<h1>hub-2</h1>}></Route>
@@ -70,6 +72,7 @@ const App = () => (
     <Route path="/business-50" element={<h1>business</h1>}></Route>
     <Route path="/" element={<ComingSoon />}></Route>
   </Routes>
+  </>
 );
 
 export default App;
