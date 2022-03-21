@@ -1,9 +1,27 @@
-@import './bootstrap.scss', './colors.scss', './grid.scss';
+@import './bootstrap.scss', './colors.scss', './grid.scss' , './fontsizes.scss';
 
 
 html {
-    font-size: 14px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     margin: 0;
+}
+
+@media (max-width: 2000px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media (max-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 14px;
+    }
 }
