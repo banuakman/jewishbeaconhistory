@@ -1,0 +1,13 @@
+.header-container{
+    min-height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container .header-text{
+    font-size: 16px;
+    padding:10px;
+    padding-left: 30px;
+}

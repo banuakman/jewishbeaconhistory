@@ -1,0 +1,108 @@
+.menu-container{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100000;
+}
+
+.menu-button{
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+.menu-button img{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: 20px;
+}
+.menu-container .menu-box{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container .menu-box .menu-box-links{
+    width: 100%;
+    height: 90%;
+    padding:20px
+}
+
+.menu-box-links-header{
+    padding:0px;
+}
+.menu-box-links-header button{
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 100%;
+    display: inline-block;
+    text-align: start;
+    padding:0px;
+    position: relative;
+    top: 40px;
+}
+
+.menu-box-links-header h1{
+    width: 100%;
+    text-align: start;
+    font-size: 16px;
+    text-align: center;
+    margin:0px;
+}
+
+.menu-box-links a{
+    display: block;
+    text-align: start;
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    padding-left: 0px;
+}
+.menu-box-links span{
+    padding:10px;
+    display: block;
+    padding-left: 0px;
+}
+
+.menu-box-deep-links{
+    padding-left: 30px;
+}
+.menu-box-search{
+    border:1px solid #acacac;
+    text-align: start;
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding:10px;
+}
+.menu-box-search input{
+    display: inline-block;
+    width: 90%;
+    outline: none;
+    height: 30px;
+    height: 100%;
+    border:none;
+    font-size: 20px;
+}
+.menu-box-search span{
+    display: inline-block;
+    width: 10%;
+    height: 30px;
+    text-align: end;
+    border:none;
+
+}

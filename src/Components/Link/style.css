@@ -1,0 +1,16 @@
+.link-container{
+    padding:30px;
+    padding-top: 0px;
+}
+.link-container button {
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    color: #C5B358;
+    text-align: start;
+    padding:0px;
+}
+
+.link-container button:hover{
+    color:black
+}
