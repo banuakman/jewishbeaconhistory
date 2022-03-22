@@ -11,6 +11,11 @@
     padding:0px;
 }
 
+.link-container button img{
+    width: 10px;
+    margin-right: 8px;
+}
+
 .link-container button:hover{
     color:black
 }

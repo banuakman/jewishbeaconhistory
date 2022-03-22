@@ -8,7 +8,7 @@ import { useNavigate  } from "react-router-dom";
 
 var icon = (value) => L.divIcon({
   className: 'leaflet-div-icon',
-  html: "<div class='marker-pin'>"+value+"</div>",
+  html: "<div class='marker-pin'><span>"+value+"</span></div>",
   iconSize: [30, 42],
   iconAnchor: [15, 42]
 });
@@ -20,10 +20,10 @@ function Map() {
 
   return (
     <div className="map-container">
-      <MapContainer style={{ height: "100%", width: "100%" }} center={[41.50492, -73.96988]} zoom={15}>
+      <MapContainer style={{ height: "100%", width: "100%" }} center={[41.50492, -73.96988]} zoom={15} maxZoom={20}>
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution=''
+          url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
         />
         <Marker position={[41.50824, -73.97739]} icon={icon(1)}
           eventHandlers={{
