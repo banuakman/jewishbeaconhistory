@@ -1,40 +1,44 @@
-.description-container{
-    padding:30px;
-}
-.description-container p{
-    padding: 0px;
-    margin:0px;
-}
-.description-container h1{
-    text-align: start;
-    color: #C5B358;
-    font-weight: lighter;
-    font-size: 40px;
+.description-details {
+  white-space: pre-line;
 }
 
-.description-container img{
-    width: 10px;
-    margin-right: 10px;
+.description-container {
+  padding: 30px;
+}
+.description-container p {
+  padding: 0px;
+  margin: 0px;
+}
+.description-container h1 {
+  text-align: start;
+  color: #c5b358;
+  font-weight: lighter;
+  font-size: 40px;
 }
 
-.description-container span{
-    font-size: 18px;
-    font-weight: 500;
-    color:#ccc;
-    margin-top: 20px;
-    display: block;
+.description-container img {
+  width: 10px;
+  margin-right: 10px;
 }
 
-.description-container button{
-    background-color: transparent;
-    border: none;
-    text-align: start;
-    padding:0px;
-    margin:10px;
-    margin-left: 0px;
-    cursor: pointer;
-    color:#C5B358;
+.description-container span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ccc;
+  margin-top: 20px;
+  display: block;
 }
-.description-container button:hover{
-    color: black;
+
+.description-container button {
+  background-color: transparent;
+  border: none;
+  text-align: start;
+  padding: 0px;
+  margin: 10px;
+  margin-left: 0px;
+  cursor: pointer;
+  color: #c5b358;
+}
+.description-container button:hover {
+  color: black;
 }
