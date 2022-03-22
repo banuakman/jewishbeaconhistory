@@ -12,6 +12,11 @@
     font-size: 40px;
 }
 
+.description-container img{
+    width: 10px;
+    margin-right: 10px;
+}
+
 .description-container span{
     font-size: 18px;
     font-weight: 500;

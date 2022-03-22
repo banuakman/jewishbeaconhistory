@@ -4,30 +4,55 @@
 }
 
 .leaflet-div-icon{
-    border:none !important;
-    height: 20px !important;
-    width: 20px !important;
-    border-radius: 20px;
-    background-color: rgb(30, 156, 230) !important;
+    height: 30px !important;
+    width: 30px !important;
+    background-color: transparent !important;
     padding:0px !important;
-    box-shadow: 0 0 5px rgb(53, 53, 53);
+    background-origin: padding-box;
+    border: none !important;
 }
 .leaflet-div-icon-location{
-    border:3px solid white !important;
+    border: none !important;
     height: 20px !important;
     width: 20px !important;
     border-radius: 20px;
-    background-color: rgb(52, 136, 245) !important;
+    background-color:transparent !important;
     padding:0px !important;
-    box-shadow: 0 0 5px rgb(53, 53, 53);
+    
 }
 .marker-pin{
-    border: none !important;
     height: 100%;
-    border-radius: 20px;
     width: 100%;
     background-color: transparent;
     color:white;
     text-align: center;
-    padding-top: 1px;
+    position: relative;
+    background-image: url("../../../public/location_pin_empty.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.marker-pin span{
+    position: absolute;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    padding:0px;
+    top: 50%;
+    font-size: 12px;
+    margin-left: -5.8px;
+    margin-top: -5.5px;
+    background-color: transparent;
+}
+
+.marker-pin img{
+    position: relative;
+}
+.marker-pin:hover{
+    background-image: url("../../../public/location_pin_empty_orange.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
