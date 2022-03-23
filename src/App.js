@@ -6,6 +6,7 @@ import { Map } from "./Components/Map";
 import { Description } from "./Components/Description";
 import { Link } from "./Components/Link";
 import { Slider } from "./Components/Slider";
+import { AudioPlayer } from "./Components/AudioPlayer";
 
 const App = () => (
   <Routes>
@@ -33,6 +34,7 @@ const App = () => (
         <div>
           <Header text="Stop #1 - Historic Bank Square" />
           <Slider />
+          <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />
           <Description
             header="Historic Bank Square"
             text="Bank Square was the main hub of commercial activity in the village of Fishkill Landing and later in the city of Beacon after it formed in 1913. Where you are standing now was once a wide intersection of five streets lined with many shops and businesses. One hundred years ago, you would have seen the square teeming with trolley cars, pedestrians, automobiles, and a few horse-drawn carriages. Sadly this area was completely demolished in the late 1950s during Beacon’s Urban Renewal program. Tap the list below to learn more about the Jewish businesses that thrived in Bank Square during its heyday, and scroll through the pictures to get a sense of what this busy intersection looked like at the turn of the 20th Century."
