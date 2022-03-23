@@ -5,6 +5,7 @@ import { Header } from "./Components/Header";
 import { Map } from "./Components/Map";
 import { Description } from "./Components/Description";
 import { Link } from "./Components/Link";
+import { Slider } from "./Components/Slider";
 
 const App = () => (
   <Routes>
@@ -31,6 +32,7 @@ const App = () => (
       element={
         <div>
           <Header text="Stop #1 - Historic Bank Square" />
+          <Slider />
           <Description
             header="Historic Bank Square"
             text="Bank Square was the main hub of commercial activity in the village of Fishkill Landing and later in the city of Beacon after it formed in 1913. Where you are standing now was once a wide intersection of five streets lined with many shops and businesses. One hundred years ago, you would have seen the square teeming with trolley cars, pedestrians, automobiles, and a few horse-drawn carriages. Sadly this area was completely demolished in the late 1950s during Beacon’s Urban Renewal program. Tap the list below to learn more about the Jewish businesses that thrived in Bank Square during its heyday, and scroll through the pictures to get a sense of what this busy intersection looked like at the turn of the 20th Century."
@@ -164,51 +166,6 @@ const App = () => (
     <Route path="/stop1_Vogel" element={<h1>business</h1>}></Route>
     <Route path="/stop1_Snidaman" element={<h1>business</h1>}></Route>
     <Route path="/stop1_OK" element={<h1>business</h1>}></Route>
-    <Route path="/business-6" element={<h1>business</h1>}></Route>
-    <Route path="/business-7" element={<h1>business</h1>}></Route>
-    <Route path="/business-8" element={<h1>business</h1>}></Route>
-    <Route path="/business-9" element={<h1>business</h1>}></Route>
-    <Route path="/business-10" element={<h1>business</h1>}></Route>
-    <Route path="/business-11" element={<h1>business</h1>}></Route>
-    <Route path="/business-12" element={<h1>business</h1>}></Route>
-    <Route path="/business-13" element={<h1>business</h1>}></Route>
-    <Route path="/business-14" element={<h1>business</h1>}></Route>
-    <Route path="/business-15" element={<h1>business</h1>}></Route>
-    <Route path="/business-16" element={<h1>business</h1>}></Route>
-    <Route path="/business-17" element={<h1>business</h1>}></Route>
-    <Route path="/business-18" element={<h1>business</h1>}></Route>
-    <Route path="/business-19" element={<h1>business</h1>}></Route>
-    <Route path="/business-20" element={<h1>business</h1>}></Route>
-    <Route path="/business-21" element={<h1>business</h1>}></Route>
-    <Route path="/business-22" element={<h1>business</h1>}></Route>
-    <Route path="/business-23" element={<h1>business</h1>}></Route>
-    <Route path="/business-24" element={<h1>business</h1>}></Route>
-    <Route path="/business-25" element={<h1>business</h1>}></Route>
-    <Route path="/business-26" element={<h1>business</h1>}></Route>
-    <Route path="/business-27" element={<h1>business</h1>}></Route>
-    <Route path="/business-28" element={<h1>business</h1>}></Route>
-    <Route path="/business-29" element={<h1>business</h1>}></Route>
-    <Route path="/business-30" element={<h1>business</h1>}></Route>
-    <Route path="/business-31" element={<h1>business</h1>}></Route>
-    <Route path="/business-32" element={<h1>business</h1>}></Route>
-    <Route path="/business-33" element={<h1>business</h1>}></Route>
-    <Route path="/business-34" element={<h1>business</h1>}></Route>
-    <Route path="/business-35" element={<h1>business</h1>}></Route>
-    <Route path="/business-36" element={<h1>business</h1>}></Route>
-    <Route path="/business-37" element={<h1>business</h1>}></Route>
-    <Route path="/business-38" element={<h1>business</h1>}></Route>
-    <Route path="/business-39" element={<h1>business</h1>}></Route>
-    <Route path="/business-40" element={<h1>business</h1>}></Route>
-    <Route path="/business-41" element={<h1>business</h1>}></Route>
-    <Route path="/business-42" element={<h1>business</h1>}></Route>
-    <Route path="/business-43" element={<h1>business</h1>}></Route>
-    <Route path="/business-44" element={<h1>business</h1>}></Route>
-    <Route path="/business-45" element={<h1>business</h1>}></Route>
-    <Route path="/business-46" element={<h1>business</h1>}></Route>
-    <Route path="/business-47" element={<h1>business</h1>}></Route>
-    <Route path="/business-48" element={<h1>business</h1>}></Route>
-    <Route path="/business-49" element={<h1>business</h1>}></Route>
-    <Route path="/business-50" element={<h1>business</h1>}></Route>
     <Route path="/" element={<ComingSoon />}></Route>
   </Routes>
 );
