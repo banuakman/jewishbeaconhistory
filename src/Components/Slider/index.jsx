@@ -59,7 +59,7 @@ function Slider() {
       {sliderdata.map((slider) => (
         <SwiperSlide key={slider.id} className="slide">
           <div className="cuisine-item text-center">
-            <img src={slider.imglink} className="mb-2" alt={slider.alt} />
+            <img src={slider.imglink} alt={slider.alt} />
             <p>{slider.caption}</p>
           </div>
         </SwiperSlide>
