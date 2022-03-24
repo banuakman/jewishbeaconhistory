@@ -30,6 +30,7 @@
     background-image: url("../../../public/location_pin_empty.svg");
     background-repeat: no-repeat;
     background-position: center;
+    font-weight: bold;
 }
 .marker-pin span{
     position: absolute;

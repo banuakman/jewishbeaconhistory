@@ -55,6 +55,7 @@ function Slider() {
       // scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
+      className="swiper-responsive"
     >
       {sliderdata.map((slider) => (
         <SwiperSlide key={slider.id} className="slide">

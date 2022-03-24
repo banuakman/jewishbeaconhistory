@@ -38,10 +38,11 @@
 }
 
 .menu-box-links-header{
+    margin:10px;
     padding:0px;
 }
 .menu-box-links-header button{
-    width: 100px;
+    width: auto;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -51,7 +52,9 @@
     text-align: start;
     padding:0px;
     position: relative;
-    top: 40px;
+    top: 22px;
+    text-align: start;
+    left: -20px;
 }
 
 .menu-box-links-header h1{
@@ -105,4 +108,31 @@
     text-align: end;
     border:none;
 
+}
+
+.menu-container-desktop{
+    position: relative;
+}
+.menu-container-desktop > * {
+    margin-left: 20px;
+    background-color: transparent;
+    border:none;
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+.menu-container-desktop img{
+    width: 15px;
+}
+
+.menu-container-desktop .menu-dropdown{
+    position: absolute;
+    right: 0px;
+    min-width: 300px;
+    min-height: 400px;
+    z-index: 10000000;
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px #ccc;
+    border-radius: 5px;
+    padding:10px;
 }

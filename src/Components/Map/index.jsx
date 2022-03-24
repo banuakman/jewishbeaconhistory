@@ -23,7 +23,6 @@ function Map() {
         style={{ height: "100%", width: "100%" }}
         center={[41.50492, -73.96988]}
         zoom={15}
-        maxZoom={20}
       >
         <TileLayer
           attribution=""

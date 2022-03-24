@@ -4,7 +4,7 @@ import "./style.css";
 
 function AudioPlayer({ audiofile }) {
   return (
-    <div>
+    <div style={{display:"flex",justifyContent:"center",margin:"20px"}}>
       <ReactPlayer
         url={audiofile}
         width="400px"
