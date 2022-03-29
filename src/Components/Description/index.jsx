@@ -10,7 +10,7 @@ function Description({ header, text, hasBusiness }) {
 
   return (
     <div className="description-container">
-      {header !== undefined && <h1>{header}</h1>}
+      {header !== undefined && <h1 className="header1">{header}</h1>}
       {hasBusiness && (
         <button
           onClick={executeScroll}

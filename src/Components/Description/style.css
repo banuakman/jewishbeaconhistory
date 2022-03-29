@@ -1,5 +1,5 @@
 .description-details {
-  white-space: pre-line;
+  font-family: "Roboto", sans-serif;
 }
 
 .description-container {
@@ -11,7 +11,7 @@
 }
 .description-container h1 {
   text-align: start;
-  color: #c5b358;
+  color: #816638;
   font-weight: lighter;
   font-size: 40px;
 }
@@ -37,8 +37,12 @@
   margin: 10px;
   margin-left: 0px;
   cursor: pointer;
-  color: #c5b358;
+  color: #816638;
 }
 .description-container button:hover {
   color: black;
+}
+
+.header1 {
+  font-family: "Lora", serif;
 }
