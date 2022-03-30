@@ -470,10 +470,36 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop1_1.jpg",
-                    alt: "Today, Polhill Park",
+                    imglink: "/images/stop9_1.jpg",
+                    alt: "",
+                    caption: "Main Street at the dummy light in 2022 (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop9_2.jpg",
+                    alt: "",
+                    caption: "Main Street at the dummy light c. 1999 (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop9_3.jpg",
+                    alt: "",
                     caption:
-                      "Today, Polhill Park is where Bank Square used to be (1)",
+                      "Lithograph of Matteawan with early factory buildings, c. 1850s (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop9_4.jpg",
+                    alt: "",
+                    caption:
+                      "Shrader Hat Company Works at One East Main, c. 1914 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop9_5.jpg",
+                    alt: "",
+                    caption:
+                      "Werber Leather Coat Company occupied 578 Main Street after the Littauer Silk Mill (4)",
                   },
                 ]}
               />
@@ -499,10 +525,30 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop1_1.jpg",
-                    alt: "Today, Polhill Park",
+                    imglink: "/images/stop10_1.jpg",
+                    alt: "",
                     caption:
-                      "Today, Polhill Park is where Bank Square used to be (1)",
+                      "Parade in Fountain Square c.1957 with 36 E Main on left (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop10_2.jpg",
+                    alt: "",
+                    caption:
+                      "The Chanler Fife, Drum and Bugle Corps marched towards the old horse fountain at Fountain Square, c.1915 (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop10_3.jpg",
+                    alt: "",
+                    caption: "House at 36 E Main Street in 2022 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop10_4.jpg",
+                    alt: "",
+                    caption:
+                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 E Main (4)",
                   },
                 ]}
               />
