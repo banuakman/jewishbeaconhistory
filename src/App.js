@@ -17,7 +17,7 @@ const App = () => (
         <Route
           path="/home"
           element={
-            <div>
+            <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
               <Header text="Jewish Beacon History Walk" />
               <Map />
               <Description
@@ -104,10 +104,37 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop1_1.jpg",
-                    alt: "Today, Polhill Park",
+                    imglink: "/images/stop2_1.jpg",
+                    alt: "Postcard from 1892 showing Main Street",
                     caption:
-                      "Today, Polhill Park is where Bank Square used to be (1)",
+                      "Postcard from 1892 showing Main Street looking east with 172 Main (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop2_2.jpg",
+                    alt: "The view of Main Street",
+                    caption: "The view of Main Street looking east today (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop2_3.jpg",
+                    alt: "a mural of the Hudson Valley painted by Rick Price in 2009",
+                    caption:
+                      "Today, the side of 172 Main has a mural of the Hudson Valley painted by Rick Price in 2009 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop2_4.jpg",
+                    alt: "View of Main Street looking west from Cross Street 1900",
+                    caption:
+                      "View of Main Street looking west from Cross Street, c. 1900 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop2_5.jpg",
+                    alt: "View of Main Street looking west from Cross Street 2022",
+                    caption:
+                      "View of Main Street looking west from Cross Street in 2022 (5)",
                   },
                 ]}
               />
@@ -133,10 +160,31 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop1_1.jpg",
-                    alt: "Today, Polhill Park",
+                    imglink: "/images/stop3_1.jpg",
+                    alt: "Storefront at 215 Main where Schuman’s Army & Navy Store used to be",
                     caption:
-                      "Today, Polhill Park is where Bank Square used to be (1)",
+                      "Storefront at 215 Main where Schuman’s Army & Navy Store used to be (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop3_2.jpg",
+                    alt: "Schuman’s Army & Navy Store honors the City of Beacon’s 50th anniversary, c.1963",
+                    caption:
+                      "Schuman’s Army & Navy Store honors the City of Beacon’s 50th anniversary, c.1963 (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop3_3.jpg",
+                    alt: "Main Street looking west from Holland House (today the DMV)",
+                    caption:
+                      "Main Street looking west from Holland House (today the DMV) with Schuman’s Army & Navy Store (215 Main) on the left, c. 1950 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop3_4.jpg",
+                    alt: "Current view looking west on Main Street from the DMV building, March 2022",
+                    caption:
+                      "Current view looking west on Main Street from the DMV building, March 2022 (4)",
                   },
                 ]}
               />
@@ -162,10 +210,30 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop1_1.jpg",
-                    alt: "Today, Polhill Park",
+                    imglink: "/images/stop4_1.jpg",
+                    alt: "M.H. Fishman department store opened June 17, 1949",
                     caption:
-                      "Today, Polhill Park is where Bank Square used to be (1)",
+                      "M.H. Fishman department store opened June 17, 1949 (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop4_2.jpg",
+                    alt: "M.H. Fishman’s store in 1967",
+                    caption: "M.H. Fishman’s store in 1967 (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop4_3.jpg",
+                    alt: "Firemen’s Parade going by M.H. Fishman, c. 1960",
+                    caption:
+                      "Firemen’s Parade going by M.H. Fishman, c. 1960 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop4_4.jpg",
+                    alt: "The Howland Public Library moved to 313 Main in 1976",
+                    caption:
+                      "The Howland Public Library moved to 313 Main in 1976 (4)",
                   },
                 ]}
               />
@@ -191,10 +259,36 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop1_1.jpg",
-                    alt: "Today, Polhill Park",
+                    imglink: "/images/stop5_1.jpg",
+                    alt: "",
                     caption:
-                      "Today, Polhill Park is where Bank Square used to be (1)",
+                      "Current view of the corner of S. Chestnut and Main (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop5_2.jpg",
+                    alt: "Corner of S. Chestnut and Main from 1960s",
+                    caption: "Corner of S. Chestnut and Main from 1960s (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop5_3.jpg",
+                    alt: "A&P Supermarket on Main Street, c. 1960s",
+                    caption: "A&P Supermarket on Main Street, c. 1960s (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop5_4.jpg",
+                    alt: "Current businesses occupying the old A&P building ",
+                    caption:
+                      "Current businesses occupying the old A&P building (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop5_5.jpg",
+                    alt: "Picture of the Ritter Family",
+                    caption:
+                      "The Ritter Family and employees outside their laundry at 4-6 S. Chestnut Street in 1931 (5)",
                   },
                 ]}
               />
@@ -220,10 +314,38 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop1_1.jpg",
-                    alt: "Today, Polhill Park",
+                    imglink: "/images/stop6_1.jpg",
+                    alt: "",
                     caption:
-                      "Today, Polhill Park is where Bank Square used to be (1)",
+                      "Southwest corner of Main Street and Teller Avenue with 403 Main on the left (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop6_2.jpg",
+                    alt: "",
+                    caption:
+                      "Corner of Main, Teller and Fishkill Avenues c. 1928 with 403 Main on the left (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop6_3.jpg",
+                    alt: "",
+                    caption:
+                      "Highland Hospital on Verplanck Ave between Fishkill and Schenck, c. 1914 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop6_4.jpg",
+                    alt: "",
+                    caption:
+                      "This house once stood next to the Mase Hook & Ladder Fire Company, c.1915-20 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop6_5.jpg",
+                    alt: "",
+                    caption:
+                      "The Verizon building is where David Alper’s Real Estate office once was. (5)",
                   },
                 ]}
               />
@@ -249,10 +371,31 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop1_1.jpg",
-                    alt: "Today, Polhill Park",
+                    imglink: "/images/stop7_1.jpg",
+                    alt: "",
                     caption:
-                      "Today, Polhill Park is where Bank Square used to be (1)",
+                      "Southwest corner of Main Street and Teller Avenue with 403 Main on the left (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop7_2.jpg",
+                    alt: "",
+                    caption:
+                      "Corner of Main, Teller and Fishkill Avenues c. 1928 with 403 Main on the left (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop7_3.jpg",
+                    alt: "",
+                    caption:
+                      "Highland Hospital on Verplanck Ave between Fishkill and Schenck, c. 1914 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop7_4.jpg",
+                    alt: "",
+                    caption:
+                      "This house once stood next to the Mase Hook & Ladder Fire Company, c.1915-20 (4)",
                   },
                 ]}
               />
@@ -278,10 +421,30 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop1_1.jpg",
-                    alt: "Today, Polhill Park",
+                    imglink: "/images/stop8_1.jpg",
+                    alt: "",
                     caption:
-                      "Today, Polhill Park is where Bank Square used to be (1)",
+                      "The “brown block” looking east from 456 to 474 Main c. 1900s (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop8_2.jpg",
+                    alt: "",
+                    caption:
+                      "Present day “brown block” looking west from 472 Main (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop8_3.jpg",
+                    alt: "",
+                    caption:
+                      "Main Street from the old Howland library looking west c. 1933 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop8_4.jpg",
+                    alt: "",
+                    caption: "Beacon Falls Cafe stands today at 472 Main (4)",
                   },
                 ]}
               />
