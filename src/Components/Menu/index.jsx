@@ -1,11 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { isDesktop } from "react-device-detect";
 import "./style.css";
+import { useLocation } from 'react-router-dom'
 
 function Menu() {
   const [isOpen, setIsOpen] = useState(false);
   const [isDrop, setIsDrop] = useState(false);
+
+  let location = useLocation()
+
+
+  useEffect(()=>{
+    setIsOpen(false)
+  },[location])
 
   if (isDesktop) {
     return (

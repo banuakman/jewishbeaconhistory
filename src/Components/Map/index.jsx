@@ -5,6 +5,7 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { LocationMarker } from "./LocationMarker";
 import { useNavigate } from "react-router-dom";
+import { isDesktop } from "react-device-detect";
 
 var icon = (value) =>
   L.divIcon({
@@ -18,11 +19,11 @@ function Map() {
   let navigate = useNavigate();
 
   return (
-    <div className="map-container">
+    <div className="map-container" style={{ height: isDesktop ? "700px" : "400px" }}>
       <MapContainer
         style={{ height: "100%", width: "100%" }}
         center={[41.50492, -73.96988]}
-        zoom={15}
+        zoom={14}
       >
         <TileLayer
           attribution=""
@@ -115,6 +116,24 @@ function Map() {
           eventHandlers={{
             click: (e) => {
               return navigate("/stop10");
+            },
+          }}
+        />
+        <Marker
+          position={[44.51300, -74.9611]}
+          icon={icon(11)}
+          eventHandlers={{
+            click: (e) => {
+              return navigate("/stop11");
+            },
+          }}
+        />
+        <Marker
+          position={[41.70166, -73.9611]}
+          icon={icon(12)}
+          eventHandlers={{
+            click: (e) => {
+              return navigate("/stop12");
             },
           }}
         />
