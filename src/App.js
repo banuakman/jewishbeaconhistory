@@ -617,7 +617,7 @@ const App = () => (
               />
               <AudioPlayer audiofile="/audios/S1_B1_Beskin.mp3" />
               <Description
-                header="East Main and Water"
+                header="Beskin’s Department Store"
                 text={[
                   "Samuel Beskin is perhaps the most prominent Jewish leader in Beacon’s history.  He arrived in Fishkill Landing at the age of 27 in 1894 from Russia as a poor street  peddler who spoke little English. Within 20 years he established himself as a successful businessman, operating a hotel, a bottling works, an apartment house, the Overland Headwear Company, and two department stores (the second one with Beacon’s first elevator). He held an important position as the State Road contractor under Governor Al Smith helping to build a road around the Ashokan Dam among other projects. He served as Beacon’s second mayor from 1917-1921. Beskin was one of the founding members of the Beacon Hebrew Alliance, and helped to establish the congregation in the early 1920s. Sadly, Beskin died of a heart attack in 1924, and he never did get to see the beautiful Beacon Hebrew Alliance building completed. He is buried in the Agudas Israel cemetery in New Windsor.",
                 ]}
