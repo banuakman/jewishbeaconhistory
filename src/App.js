@@ -86,11 +86,12 @@ const App = () => (
                 hasBusiness={true}
               />
               <Link text="Beskin’s Department Store" to="/stop1_Beskin" />
-              <Link text="Glick’s Variety Store" to="/stop1_Glick" />
-              <Link text="Vogel’s Drug Store" to="/stop1_Vogel" />
               <Link text="Snidaman the Tailor" to="/stop1_Snidaman" />
-              <Link text="O.K. Cleaners" to="stop1_OK" />
               <Link text="Aero Leather Clothing Company" to="stop1_Aero" />
+              <Link
+                text="Lewis&Pine Jewelry and Apothecary"
+                to="stop1_LewisPine"
+              />
             </div>
           }
         ></Route>
@@ -570,6 +571,58 @@ const App = () => (
           element={
             <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
               <Header text="Beskin’s Department Store" />
+              <Slider
+                sliderdata={[
+                  {
+                    id: 1,
+                    imglink: "/images/stop1_Beskins_1.jpg",
+                    alt: "",
+                    caption:
+                      "Samuel Beskin was Beacon's second mayor, c.1919 (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop1_Beskins_2.jpg",
+                    alt: "",
+                    caption:
+                      "Beskin's second department store featured Beacon's first elevator. Postcard c. 1910 (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop1_Beskins_3.jpg",
+                    alt: "",
+                    caption:
+                      "Business card for Beskin’s Department Store, c. 1912 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop1_Beskins_4.jpg",
+                    alt: "",
+                    caption: "Jugs from Beskin’s bottling works, c. 1910 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop1_Beskins_5.jpg",
+                    alt: "",
+                    caption: "Mayor Samuel Beskin’s gavel, 1917-1921 (5)",
+                  },
+                  {
+                    id: 6,
+                    imglink: "/images/stop1_Beskins_6.jpg",
+                    alt: "",
+                    caption:
+                      "The gravesite of Samuel Beskin in Agudas Israel Cemetery in New Windsor (6)",
+                  },
+                ]}
+              />
+              <AudioPlayer audiofile="/audios/S1_B1_Beskin.mp3" />
+              <Description
+                header="East Main and Water"
+                text={[
+                  "Samuel Beskin is perhaps the most prominent Jewish leader in Beacon’s history.  He arrived in Fishkill Landing at the age of 27 in 1894 from Russia as a poor street  peddler who spoke little English. Within 20 years he established himself as a successful businessman, operating a hotel, a bottling works, an apartment house, the Overland Headwear Company, and two department stores (the second one with Beacon’s first elevator). He held an important position as the State Road contractor under Governor Al Smith helping to build a road around the Ashokan Dam among other projects. He served as Beacon’s second mayor from 1917-1921. Beskin was one of the founding members of the Beacon Hebrew Alliance, and helped to establish the congregation in the early 1920s. Sadly, Beskin died of a heart attack in 1924, and he never did get to see the beautiful Beacon Hebrew Alliance building completed. He is buried in the Agudas Israel cemetery in New Windsor.",
+                ]}
+                hasBusiness={false}
+              />
             </div>
           }
         ></Route>
