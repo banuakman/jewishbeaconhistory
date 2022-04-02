@@ -24,7 +24,7 @@ function Slider({ sliderdata }) {
         <SwiperSlide key={slider.id} className="slide">
           <div className="cuisine-item text-center">
             <img src={slider.imglink} alt={slider.alt} />
-            <p>{slider.caption}</p>
+            <p className="swipercaption">{slider.caption}</p>
           </div>
         </SwiperSlide>
       ))}
