@@ -108,7 +108,7 @@ const App = () => (
                     imglink: "/images/stop2_1.jpg",
                     alt: "Postcard from 1892 showing Main Street",
                     caption:
-                      "Postcard from 1892 showing Main Street looking east with 172 Main (1)",
+                      "Postcard from 1892 showing Main Street looking east with 172 Main on the left (1)",
                   },
                   {
                     id: 2,
@@ -186,6 +186,27 @@ const App = () => (
                     alt: "Current view looking west on Main Street from the DMV building, March 2022",
                     caption:
                       "Current view looking west on Main Street from the DMV building, March 2022 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop3_5.jpg",
+                    alt: "",
+                    caption:
+                      "A postcard of Pomey’s Hotel at 246 Main, c. 1918 (5)",
+                  },
+                  {
+                    id: 6,
+                    imglink: "/images/stop3_6.jpg",
+                    alt: "",
+                    caption:
+                      "Max’s on Main now occupies 246 Main where Pomey’s used to be, March 2022 (6)",
+                  },
+                  {
+                    id: 7,
+                    imglink: "/images/stop3_7.jpg",
+                    alt: "",
+                    caption:
+                      "Today Scarborough Faire occupies 257 Main where Nathan Rotner’s tailor shop was, March 2022 (7)",
                   },
                 ]}
               />
@@ -336,17 +357,24 @@ const App = () => (
                   },
                   {
                     id: 4,
-                    imglink: "/images/stop6_4.jpg",
+                    imglink: "/images/stop6_6.jpg",
                     alt: "",
                     caption:
-                      "This house once stood next to the Mase Hook & Ladder Fire Company, c.1915-20 (4)",
+                      "The corner of Schenck and Verplanck has Townhouses where the old Highland Hospital used to be, March 2022 (4)",
                   },
                   {
                     id: 5,
+                    imglink: "/images/stop6_4.jpg",
+                    alt: "",
+                    caption:
+                      "This house once stood next to the Mase Hook & Ladder Fire Company, c.1915-20 (5)",
+                  },
+                  {
+                    id: 6,
                     imglink: "/images/stop6_5.jpg",
                     alt: "",
                     caption:
-                      "The Verizon building is where David Alper’s Real Estate office once was. (5)",
+                      "The Verizon building is where David Alper’s Real Estate office once was. (6)",
                   },
                 ]}
               />
@@ -502,6 +530,13 @@ const App = () => (
                     caption:
                       "Werber Leather Coat Company occupied 578 Main Street after the Littauer Silk Mill (4)",
                   },
+                  {
+                    id: 6,
+                    imglink: "/images/stop9_6.jpg",
+                    alt: "",
+                    caption:
+                      "The old factory building at Ackerman and Main in 2022 (4)",
+                  },
                 ]}
               />
               {/*              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />*/}
@@ -526,30 +561,37 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop10_1.jpg",
+                    imglink: "/images/stop10_5.jpg",
                     alt: "",
                     caption:
-                      "Parade in Fountain Square c.1957 with 36 E Main on left (1)",
+                      "View looking towards 15 East Main from the Ron and Ronnie Sauers bridge in 2022 (1)",
                   },
                   {
                     id: 2,
-                    imglink: "/images/stop10_2.jpg",
+                    imglink: "/images/stop10_1.jpg",
                     alt: "",
                     caption:
-                      "The Chanler Fife, Drum and Bugle Corps marched towards the old horse fountain at Fountain Square, c.1915 (2)",
+                      "Parade in Fountain Square c.1957 with 36 E Main on left (2)",
                   },
                   {
                     id: 3,
-                    imglink: "/images/stop10_3.jpg",
+                    imglink: "/images/stop10_2.jpg",
                     alt: "",
-                    caption: "House at 36 E Main Street in 2022 (3)",
+                    caption:
+                      "The Chanler Fife, Drum and Bugle Corps marched towards the old horse fountain at Fountain Square, c.1915 (3)",
                   },
                   {
                     id: 4,
+                    imglink: "/images/stop10_3.jpg",
+                    alt: "",
+                    caption: "House at 36 E Main Street in 2022 (4)",
+                  },
+                  {
+                    id: 5,
                     imglink: "/images/stop10_4.jpg",
                     alt: "",
                     caption:
-                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 E Main (4)",
+                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 E Main (5)",
                   },
                 ]}
               />
