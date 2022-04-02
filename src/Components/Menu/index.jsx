@@ -14,6 +14,7 @@ function Menu() {
   useEffect(()=>{
     setIsOpen(false)
     setIsDrop(false)
+    window.scrollTo(0, 0)
   },[location])
 
   if (isDesktop) {
