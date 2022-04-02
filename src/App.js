@@ -87,10 +87,10 @@ const App = () => (
               />
               <Link text="Beskin’s Department Store" to="/stop1_Beskin" />
               <Link text="Snidaman the Tailor" to="/stop1_Snidaman" />
-              <Link text="Aero Leather Clothing Company" to="stop1_Aero" />
+              <Link text="Aero Leather Clothing Company" to="/stop1_Aero" />
               <Link
                 text="Lewis&Pine Jewelry and Apothecary"
-                to="stop1_LewisPine"
+                to="/stop1_LewisPine"
               />
             </div>
           }
@@ -615,10 +615,17 @@ const App = () => (
                   },
                 ]}
               />
-              <AudioPlayer audiofile="/audios/S1_B1_Beskin.mp3" />
+              <AudioPlayer audiofile="/audios/S1_Beskin.mp3" />
               <Description
                 header="Beskin’s Department Store"
                 text={[
+                  "Owner: Samuel Beskin",
+                  <br />,
+                  "Date established: 1906",
+                  <br />,
+                  "Address: Bank Square (Beekman Street)",
+                  <br />,
+                  <br />,
                   "Samuel Beskin is perhaps the most prominent Jewish leader in Beacon’s history.  He arrived in Fishkill Landing at the age of 27 in 1894 from Russia as a poor street  peddler who spoke little English. Within 20 years he established himself as a successful businessman, operating a hotel, a bottling works, an apartment house, the Overland Headwear Company, and two department stores (the second one with Beacon’s first elevator). He held an important position as the State Road contractor under Governor Al Smith helping to build a road around the Ashokan Dam among other projects. He served as Beacon’s second mayor from 1917-1921. Beskin was one of the founding members of the Beacon Hebrew Alliance, and helped to establish the congregation in the early 1920s. Sadly, Beskin died of a heart attack in 1924, and he never did get to see the beautiful Beacon Hebrew Alliance building completed. He is buried in the Agudas Israel cemetery in New Windsor.",
                 ]}
                 hasBusiness={false}
@@ -627,37 +634,176 @@ const App = () => (
           }
         ></Route>
         <Route
-          path="/stop1_Glick"
-          element={
-            <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
-              <Header text="Glick’s Variety Store" />
-            </div>
-          }
-        ></Route>
-        <Route
-          path="/stop1_Vogel"
-          element={
-            <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
-              <Header text="Vogel’s Drug Store" />
-            </div>
-          }
-        ></Route>
-        <Route
           path="/stop1_Snidaman"
           element={
             <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
-              <Header text="Snidaman the Tailor" />
+              <Header text="Samuel Snidaman, Tailor" />
+              <Slider
+                sliderdata={[
+                  {
+                    id: 1,
+                    imglink: "/images/stop1_Snidaman_1.jpg",
+                    alt: "",
+                    caption:
+                      "Ad for Samuel Snidaman’s custom tailor services, c. 1926 (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop1_Snidaman_2.jpg",
+                    alt: "",
+                    caption:
+                      "Samuel Snidaman’s Tailor shop when it was in Bank Square, c. 1906 (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop1_Snidaman_3.jpg",
+                    alt: "",
+                    caption:
+                      "Gravesite of Samuel Snidaman at Agudas Israel Cemetery in New Windsor (3)",
+                  },
+                ]}
+              />
+              <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" />
+              <Description
+                header="Samuel Snidaman, Tailor"
+                text={[
+                  "Owner: Samuel Snidaman",
+                  <br />,
+                  "Date established: 1886",
+                  <br />,
+                  "Original Address: Bank Square",
+                  <br />,
+                  "Second Address:  42 Elm Street",
+                  <br />,
+                  "Later Address: 1 Cross Street",
+                  <br />,
+                  <br />,
+                  "Samuel Snidaman is the first known Jewish resident of Fishkill Landing. Snidaman immigrated from Russia in 1886 when he was 18 years old, and appears on the 1910 census as having a tailor shop out of his home on 42 Elm Street. As you can see in the picture shown here, Snidaman also had a tailor shop in the area of Bank Square for a short while, next to the one of the department stores of the second mayor of Beacon, Samuel Beskin. We don’t know how involved Snidaman may of been in the wave of Jewish immigrants that soon followed him to Beacon, but we do know that in his lifetime, he associated with many Jewish business-owners, and he was one of the founding directors of Beacon Hebrew Alliance, serving as a trustee in 1922 and listed as a member when the synagogue was built in 1929.",
+                ]}
+                hasBusiness={false}
+              />
             </div>
           }
         ></Route>
         <Route
-          path="/stop1_OK"
+          path="/stop1_Aero"
           element={
             <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
-              <Header text="O.K. Cleaners" />
+              <Header text="Aero Leather Clothing Company" />
+              <Slider
+                sliderdata={[
+                  {
+                    id: 1,
+                    imglink: "/images/stop1_Aero_1.jpg",
+                    alt: "",
+                    caption:
+                      "Abe Wolkowitz shows a wool flight suit designed for the U.S. Armed Forces in 1942 (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop1_Aero_2.jpg",
+                    alt: "",
+                    caption:
+                      "An Aero Leather worker sewing a seam on a leather coat, c. 1942 (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop1_Aero_3.jpg",
+                    alt: "",
+                    caption:
+                      "The foreman of Aero Leather surrounded by women workers during WWII, c. 1942 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop1_Aero_4.jpg",
+                    alt: "",
+                    caption:
+                      "The back of an Aero Leather bomber jacket in the collection of the Beacon Historical Society (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop1_Aero_5.jpg",
+                    alt: "",
+                    caption:
+                      "Newspaper advertisement for Aero Leather Company, c. 1950s (5)",
+                  },
+                  {
+                    id: 6,
+                    imglink: "/images/stop1_Aero_6.jpg",
+                    alt: "",
+                    caption:
+                      "The stained glass window donated by Abe and Ann Wolkowitz in the sanctuary at Beacon Hebrew Alliance (6)",
+                  },
+                ]}
+              />
+              {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+              <Description
+                header="Aero Leather Clothing Company"
+                text={[
+                  "Owner: Abraham Wolkowitz and John Lieberman",
+                  <br />,
+                  "Date established: 1937",
+                  <br />,
+                  "Address: 79 Ferry Street and near Main and Cross Streets",
+                  <br />,
+                  <br />,
+                  "Abraham Wolkowitz, was a member of the Beacon Hebrew Alliance and co-owner of Aero-Leather Clothing Company. A former employee of the Werber Leather Coat Company (see stop #9), Wolkowitz and his partner John Lieberman struck out on their own in 1937. During WWII, Aero Leather employed hundreds of workers to support the war effort by supplying the US Army Air Forces with insulated clothing and bomber jackets to help bomber crews flying in sub-zero temperatures during the war. Wolkowitz was extremely active in Beacon's Jewish community and donated a window to the BHA Sanctuary. While the factory buildings no longer exist, the house where Wolkowitz and several of his employees once lived still stands at 56 Teller Avenue.",
+                  <br />,
+                  "Text by Diane Lapis",
+                ]}
+                hasBusiness={false}
+              />
             </div>
           }
         ></Route>
+        <Route
+          path="/stop1_LewisPine"
+          element={
+            <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+              <Header text="Lewis & Pine" />
+              <Slider
+                sliderdata={[
+                  {
+                    id: 1,
+                    imglink: "/images/stop1_LewisPine_1.jpg",
+                    alt: "",
+                    caption: "Lewis & Pine storefront at 133 Main Street (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop1_LewisPine_2.jpg",
+                    alt: "",
+                    caption: "Owner Yali Lewis shows off her wares (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop1_LewisPine_3.jpg",
+                    alt: "",
+                    caption:
+                      "Lewis & Pine is on the right at 133 Main Street (3)",
+                  },
+                ]}
+              />
+              {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+              <Description
+                header="Lewis & Pine"
+                text={[
+                  "Owner: Yali Lewis",
+                  <br />,
+                  "Date established: 2018",
+                  <br />,
+                  "Address: 133 Main Street",
+                  <br />,
+                  <br />,
+                  "Lewis & Pine opened in 2018, and is the most recent Jewish-owned business operating on Main Street today. Artist and owner Yali Lewis designs and makes all of the jewelry in her store by hand. In addition to her own products she carefully curates complementary work from artists working in other media such as ceramics and letterpress. The boutique has preserved the historic features of the building with beautiful pressed metal walls and ceiling and original hardwood floors.",
+                ]}
+                hasBusiness={false}
+              />
+              {/* <AudioPlayer audiofile="/audios/S1_LewisPine_YaliLewisinterview.MOV" /> */}
+            </div>
+          }
+        ></Route>
+
         <Route path="/" element={<ComingSoon />}></Route>
       </Routes>
     </Container>
