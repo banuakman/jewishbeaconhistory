@@ -120,20 +120,20 @@ function Map() {
           }}
         />
         <Marker
-          position={[44.51300, -74.9611]}
-          icon={icon(11)}
+          position={[41.50522126463467, -73.96568542352239]}
+          icon={icon('<img src="location_pin_BHA.svg"/>')}
           eventHandlers={{
             click: (e) => {
-              return navigate("/stop11");
+              return navigate("/beaconhebrewalliance");
             },
           }}
         />
         <Marker
-          position={[41.70166, -73.9611]}
-          icon={icon(12)}
+          position={[41.504112456175555, -73.95916229102383]}
+          icon={icon('<img src="location_pin_BHS.svg"/>')}
           eventHandlers={{
             click: (e) => {
-              return navigate("/stop12");
+              return navigate("/beaconhistoricalsociety");
             },
           }}
         />

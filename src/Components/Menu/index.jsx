@@ -13,6 +13,7 @@ function Menu() {
 
   useEffect(()=>{
     setIsOpen(false)
+    setIsDrop(false)
   },[location])
 
   if (isDesktop) {
