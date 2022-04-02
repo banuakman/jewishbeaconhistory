@@ -86,11 +86,12 @@ const App = () => (
                 hasBusiness={true}
               />
               <Link text="Beskin’s Department Store" to="/stop1_Beskin" />
-              <Link text="Glick’s Variety Store" to="/stop1_Glick" />
-              <Link text="Vogel’s Drug Store" to="/stop1_Vogel" />
               <Link text="Snidaman the Tailor" to="/stop1_Snidaman" />
-              <Link text="O.K. Cleaners" to="stop1_OK" />
-              <Link text="Aero Leather Clothing Company" to="stop1_Aero" />
+              <Link text="Aero Leather Clothing Company" to="/stop1_Aero" />
+              <Link
+                text="Lewis&Pine Jewelry and Apothecary"
+                to="/stop1_LewisPine"
+              />
             </div>
           }
         ></Route>
@@ -107,7 +108,7 @@ const App = () => (
                     imglink: "/images/stop2_1.jpg",
                     alt: "Postcard from 1892 showing Main Street",
                     caption:
-                      "Postcard from 1892 showing Main Street looking east with 172 Main (1)",
+                      "Postcard from 1892 showing Main Street looking east with 172 Main on the left (1)",
                   },
                   {
                     id: 2,
@@ -185,6 +186,27 @@ const App = () => (
                     alt: "Current view looking west on Main Street from the DMV building, March 2022",
                     caption:
                       "Current view looking west on Main Street from the DMV building, March 2022 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop3_5.jpg",
+                    alt: "",
+                    caption:
+                      "A postcard of Pomey’s Hotel at 246 Main, c. 1918 (5)",
+                  },
+                  {
+                    id: 6,
+                    imglink: "/images/stop3_6.jpg",
+                    alt: "",
+                    caption:
+                      "Max’s on Main now occupies 246 Main where Pomey’s used to be, March 2022 (6)",
+                  },
+                  {
+                    id: 7,
+                    imglink: "/images/stop3_7.jpg",
+                    alt: "",
+                    caption:
+                      "Today Scarborough Faire occupies 257 Main where Nathan Rotner’s tailor shop was, March 2022 (7)",
                   },
                 ]}
               />
@@ -335,17 +357,24 @@ const App = () => (
                   },
                   {
                     id: 4,
-                    imglink: "/images/stop6_4.jpg",
+                    imglink: "/images/stop6_6.jpg",
                     alt: "",
                     caption:
-                      "This house once stood next to the Mase Hook & Ladder Fire Company, c.1915-20 (4)",
+                      "The corner of Schenck and Verplanck has Townhouses where the old Highland Hospital used to be, March 2022 (4)",
                   },
                   {
                     id: 5,
+                    imglink: "/images/stop6_4.jpg",
+                    alt: "",
+                    caption:
+                      "This house once stood next to the Mase Hook & Ladder Fire Company, c.1915-20 (5)",
+                  },
+                  {
+                    id: 6,
                     imglink: "/images/stop6_5.jpg",
                     alt: "",
                     caption:
-                      "The Verizon building is where David Alper’s Real Estate office once was. (5)",
+                      "The Verizon building is where David Alper’s Real Estate office once was. (6)",
                   },
                 ]}
               />
@@ -501,6 +530,13 @@ const App = () => (
                     caption:
                       "Werber Leather Coat Company occupied 578 Main Street after the Littauer Silk Mill (4)",
                   },
+                  {
+                    id: 6,
+                    imglink: "/images/stop9_6.jpg",
+                    alt: "",
+                    caption:
+                      "The old factory building at Ackerman and Main in 2022 (4)",
+                  },
                 ]}
               />
               {/*              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />*/}
@@ -525,30 +561,37 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop10_1.jpg",
+                    imglink: "/images/stop10_5.jpg",
                     alt: "",
                     caption:
-                      "Parade in Fountain Square c.1957 with 36 E Main on left (1)",
+                      "View looking towards 15 East Main from the Ron and Ronnie Sauers bridge in 2022 (1)",
                   },
                   {
                     id: 2,
-                    imglink: "/images/stop10_2.jpg",
+                    imglink: "/images/stop10_1.jpg",
                     alt: "",
                     caption:
-                      "The Chanler Fife, Drum and Bugle Corps marched towards the old horse fountain at Fountain Square, c.1915 (2)",
+                      "Parade in Fountain Square c.1957 with 36 E Main on left (2)",
                   },
                   {
                     id: 3,
-                    imglink: "/images/stop10_3.jpg",
+                    imglink: "/images/stop10_2.jpg",
                     alt: "",
-                    caption: "House at 36 E Main Street in 2022 (3)",
+                    caption:
+                      "The Chanler Fife, Drum and Bugle Corps marched towards the old horse fountain at Fountain Square, c.1915 (3)",
                   },
                   {
                     id: 4,
+                    imglink: "/images/stop10_3.jpg",
+                    alt: "",
+                    caption: "House at 36 E Main Street in 2022 (4)",
+                  },
+                  {
+                    id: 5,
                     imglink: "/images/stop10_4.jpg",
                     alt: "",
                     caption:
-                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 E Main (4)",
+                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 E Main (5)",
                   },
                 ]}
               />
@@ -570,22 +613,65 @@ const App = () => (
           element={
             <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
               <Header text="Beskin’s Department Store" />
-            </div>
-          }
-        ></Route>
-        <Route
-          path="/stop1_Glick"
-          element={
-            <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
-              <Header text="Glick’s Variety Store" />
-            </div>
-          }
-        ></Route>
-        <Route
-          path="/stop1_Vogel"
-          element={
-            <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
-              <Header text="Vogel’s Drug Store" />
+              <Slider
+                sliderdata={[
+                  {
+                    id: 1,
+                    imglink: "/images/stop1_Beskins_1.jpg",
+                    alt: "",
+                    caption:
+                      "Samuel Beskin was Beacon's second mayor, c.1919 (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop1_Beskins_2.jpg",
+                    alt: "",
+                    caption:
+                      "Beskin's second department store featured Beacon's first elevator. Postcard c. 1910 (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop1_Beskins_3.jpg",
+                    alt: "",
+                    caption:
+                      "Business card for Beskin’s Department Store, c. 1912 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop1_Beskins_4.jpg",
+                    alt: "",
+                    caption: "Jugs from Beskin’s bottling works, c. 1910 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop1_Beskins_5.jpg",
+                    alt: "",
+                    caption: "Mayor Samuel Beskin’s gavel, 1917-1921 (5)",
+                  },
+                  {
+                    id: 6,
+                    imglink: "/images/stop1_Beskins_6.jpg",
+                    alt: "",
+                    caption:
+                      "The gravesite of Samuel Beskin in Agudas Israel Cemetery in New Windsor (6)",
+                  },
+                ]}
+              />
+              <AudioPlayer audiofile="/audios/S1_Beskin.mp3" />
+              <Description
+                header="Beskin’s Department Store"
+                text={[
+                  "Owner: Samuel Beskin",
+                  <br />,
+                  "Date established: 1906",
+                  <br />,
+                  "Address: Bank Square (Beekman Street)",
+                  <br />,
+                  <br />,
+                  "Samuel Beskin is perhaps the most prominent Jewish leader in Beacon’s history.  He arrived in Fishkill Landing at the age of 27 in 1894 from Russia as a poor street  peddler who spoke little English. Within 20 years he established himself as a successful businessman, operating a hotel, a bottling works, an apartment house, the Overland Headwear Company, and two department stores (the second one with Beacon’s first elevator). He held an important position as the State Road contractor under Governor Al Smith helping to build a road around the Ashokan Dam among other projects. He served as Beacon’s second mayor from 1917-1921. Beskin was one of the founding members of the Beacon Hebrew Alliance, and helped to establish the congregation in the early 1920s. Sadly, Beskin died of a heart attack in 1924, and he never did get to see the beautiful Beacon Hebrew Alliance building completed. He is buried in the Agudas Israel cemetery in New Windsor.",
+                ]}
+                hasBusiness={false}
+              />
             </div>
           }
         ></Route>
@@ -593,18 +679,173 @@ const App = () => (
           path="/stop1_Snidaman"
           element={
             <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
-              <Header text="Snidaman the Tailor" />
+              <Header text="Samuel Snidaman, Tailor" />
+              <Slider
+                sliderdata={[
+                  {
+                    id: 1,
+                    imglink: "/images/stop1_Snidaman_1.jpg",
+                    alt: "",
+                    caption:
+                      "Ad for Samuel Snidaman’s custom tailor services, c. 1926 (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop1_Snidaman_2.jpg",
+                    alt: "",
+                    caption:
+                      "Samuel Snidaman’s Tailor shop when it was in Bank Square, c. 1906 (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop1_Snidaman_3.jpg",
+                    alt: "",
+                    caption:
+                      "Gravesite of Samuel Snidaman at Agudas Israel Cemetery in New Windsor (3)",
+                  },
+                ]}
+              />
+              <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" />
+              <Description
+                header="Samuel Snidaman, Tailor"
+                text={[
+                  "Owner: Samuel Snidaman",
+                  <br />,
+                  "Date established: 1886",
+                  <br />,
+                  "Original Address: Bank Square",
+                  <br />,
+                  "Second Address:  42 Elm Street",
+                  <br />,
+                  "Later Address: 1 Cross Street",
+                  <br />,
+                  <br />,
+                  "Samuel Snidaman is the first known Jewish resident of Fishkill Landing. Snidaman immigrated from Russia in 1886 when he was 18 years old, and appears on the 1910 census as having a tailor shop out of his home on 42 Elm Street. As you can see in the picture shown here, Snidaman also had a tailor shop in the area of Bank Square for a short while, next to the one of the department stores of the second mayor of Beacon, Samuel Beskin. We don’t know how involved Snidaman may of been in the wave of Jewish immigrants that soon followed him to Beacon, but we do know that in his lifetime, he associated with many Jewish business-owners, and he was one of the founding directors of Beacon Hebrew Alliance, serving as a trustee in 1922 and listed as a member when the synagogue was built in 1929.",
+                ]}
+                hasBusiness={false}
+              />
             </div>
           }
         ></Route>
         <Route
-          path="/stop1_OK"
+          path="/stop1_Aero"
           element={
             <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
-              <Header text="O.K. Cleaners" />
+              <Header text="Aero Leather Clothing Company" />
+              <Slider
+                sliderdata={[
+                  {
+                    id: 1,
+                    imglink: "/images/stop1_Aero_1.jpg",
+                    alt: "",
+                    caption:
+                      "Abe Wolkowitz shows a wool flight suit designed for the U.S. Armed Forces in 1942 (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop1_Aero_2.jpg",
+                    alt: "",
+                    caption:
+                      "An Aero Leather worker sewing a seam on a leather coat, c. 1942 (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop1_Aero_3.jpg",
+                    alt: "",
+                    caption:
+                      "The foreman of Aero Leather surrounded by women workers during WWII, c. 1942 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop1_Aero_4.jpg",
+                    alt: "",
+                    caption:
+                      "The back of an Aero Leather bomber jacket in the collection of the Beacon Historical Society (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop1_Aero_5.jpg",
+                    alt: "",
+                    caption:
+                      "Newspaper advertisement for Aero Leather Company, c. 1950s (5)",
+                  },
+                  {
+                    id: 6,
+                    imglink: "/images/stop1_Aero_6.jpg",
+                    alt: "",
+                    caption:
+                      "The stained glass window donated by Abe and Ann Wolkowitz in the sanctuary at Beacon Hebrew Alliance (6)",
+                  },
+                ]}
+              />
+              {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+              <Description
+                header="Aero Leather Clothing Company"
+                text={[
+                  "Owner: Abraham Wolkowitz and John Lieberman",
+                  <br />,
+                  "Date established: 1937",
+                  <br />,
+                  "Address: 79 Ferry Street and near Main and Cross Streets",
+                  <br />,
+                  <br />,
+                  "Abraham Wolkowitz, was a member of the Beacon Hebrew Alliance and co-owner of Aero-Leather Clothing Company. A former employee of the Werber Leather Coat Company (see stop #9), Wolkowitz and his partner John Lieberman struck out on their own in 1937. During WWII, Aero Leather employed hundreds of workers to support the war effort by supplying the US Army Air Forces with insulated clothing and bomber jackets to help bomber crews flying in sub-zero temperatures during the war. Wolkowitz was extremely active in Beacon's Jewish community and donated a window to the BHA Sanctuary. While the factory buildings no longer exist, the house where Wolkowitz and several of his employees once lived still stands at 56 Teller Avenue.",
+                  <br />,
+                  "Text by Diane Lapis",
+                ]}
+                hasBusiness={false}
+              />
             </div>
           }
         ></Route>
+        <Route
+          path="/stop1_LewisPine"
+          element={
+            <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+              <Header text="Lewis & Pine" />
+              <Slider
+                sliderdata={[
+                  {
+                    id: 1,
+                    imglink: "/images/stop1_LewisPine_1.jpg",
+                    alt: "",
+                    caption: "Lewis & Pine storefront at 133 Main Street (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/stop1_LewisPine_2.jpg",
+                    alt: "",
+                    caption: "Owner Yali Lewis shows off her wares (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/stop1_LewisPine_3.jpg",
+                    alt: "",
+                    caption:
+                      "Lewis & Pine is on the right at 133 Main Street (3)",
+                  },
+                ]}
+              />
+              {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+              <Description
+                header="Lewis & Pine"
+                text={[
+                  "Owner: Yali Lewis",
+                  <br />,
+                  "Date established: 2018",
+                  <br />,
+                  "Address: 133 Main Street",
+                  <br />,
+                  <br />,
+                  "Lewis & Pine opened in 2018, and is the most recent Jewish-owned business operating on Main Street today. Artist and owner Yali Lewis designs and makes all of the jewelry in her store by hand. In addition to her own products she carefully curates complementary work from artists working in other media such as ceramics and letterpress. The boutique has preserved the historic features of the building with beautiful pressed metal walls and ceiling and original hardwood floors.",
+                ]}
+                hasBusiness={false}
+              />
+              {/* <AudioPlayer audiofile="/audios/S1_LewisPine_YaliLewisinterview.MOV" /> */}
+            </div>
+          }
+        ></Route>
+
         <Route path="/" element={<ComingSoon />}></Route>
       </Routes>
     </Container>
