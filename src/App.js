@@ -35,6 +35,87 @@ const App = () => (
         ></Route>
 
         <Route
+          path="/beaconhebrewalliance"
+          element={
+            <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+              <Header text="Beacon Hebrew Alliance (BHA)" />
+              <Slider
+                sliderdata={[
+                  {
+                    id: 1,
+                    imglink: "/images/BHA_1.jpg",
+                    alt: "",
+                    caption: "A 2021 aerial view of the BHA building. (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/BHA_2.jpg",
+                    alt: "",
+                    caption:
+                      "Newspaper article reporting on the opening of the 'new Hebrew Synagogue and Community Center.' (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/BHA_3.jpg",
+                    alt: "",
+                    caption:
+                      "Denning’s Point bricks were used in the construction of BHA. A time capsule was buried behind the cornerstone, installed in 1929 (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/BHA_4.jpg",
+                    alt: "",
+                    caption: "BHA sanctuary c. 1930 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/BHA_5.jpg",
+                    alt: "",
+                    caption:
+                      "BHA Hebrew School students handle the Torah during Simchat Torah, c. 1997 (5)",
+                  },
+                  {
+                    id: 6,
+                    imglink: "/images/BHA_6.jpg",
+                    alt: "",
+                    caption: "The Zollner’s baby naming c. 2003 (6)",
+                  },
+                ]}
+              />
+              {/* <AudioPlayer audiofile="/audios/HubStop1.mp3" /> */}
+              <Description
+                header="Beacon Hebrew Alliance (BHA)"
+                text={[
+                  "Date established: 1921",
+                  <br />,
+                  "Date of building: 1929",
+                  <br />,
+                  "Address: 331 Verplanck Avenue",
+                  <br />,
+                  "Website: ",
+                  <a
+                    href="https://www.beaconhebrewalliance.org/"
+                    target="_blank"
+                  >
+                    www.beaconhebrewalliance.org
+                  </a>,
+                  <br />,
+                  <br />,
+                  "Officially incorporated in May 1921, BHA was founded by a dozen or so Jewish families that were made up of some prominent business and civic leaders such as Beacon’s second mayor Samuel Beskin (stop #1), department store owner Ed Harris (stop #8), tavern-keeper Hyman Pomeranz (stop #3), and tailor Samuel Snidaman (stop #1), who was the first known Jewish resident of Fishkill Landing. Prior to this, the only way for the Jews of Beacon to observe their faith was either to go to Newburgh on the ferry, or travel north 20 miles to Poughkeepsie.",
+                  <br />,
+                  "Fundraising for the new BHA building was chaired by Sidney Schuman (see stop #3) and Fannie Miller (stop #6) under the leadership of Board President David Alper (stop #6), a real estate developer in Beacon. When Schuman and Miller had raised $6000 from their connections, they sought out support in the local community. According to the Beacon News, $1,700 for the building was  raised by nonmembers, local residents and businesses. A recognizable donor is Henry Morgenthau Jr., Secretary of the Treasury under Roosevelt, who donated $100. His family still owns Fishkill Farms.",
+                  <br />,
+                  "The synagogue’s construction, headed by James Lynch, a noted builder in Beacon, began in the summer of 1929 with a deadline to be ready for the Jewish New Year in September. Amazingly, Lynch and his crew completed the work within a half an hour of the Rosh Hashanah services!  Lynch donated some of the building supplies from his lumberyard and the Obed Lodge Masons aided in the construction. The building is made of locally produced bricks from the Dennings Point Brick Works. Manager David Strickland donated a large portion of the supplies needed for the building including a new brick product called red corrugated face.",
+                  <br />,
+                  "BHA today still remains at the heart of the Jewish community in Beacon. Since 2011, BHA has had the consistent spiritual leadership of Rabbi Brent Chaim Spodek and Cantor Ellen Pearson Gersh. The membership is robust, with 133 families and hundreds of individuals who participate in its services and programs each year.",
+                ]}
+                hasBusiness={false}
+              />
+            </div>
+          }
+        ></Route>
+
+        <Route
           path="/stop1"
           element={
             <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
