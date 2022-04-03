@@ -13,8 +13,10 @@ function Slider({ sliderdata }) {
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       slidesPerView={1}
-      navigation
-      pagination={({ clickable: true }, { dynamicBullets: true })}
+      navigation={true}
+      pagination={{
+        clickable: true,
+      }}
       // scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}

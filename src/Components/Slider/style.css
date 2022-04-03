@@ -9,5 +9,28 @@
 
 .swipercaption {
   font-size: 0.75em;
-  margin-top: 0px;
+  margin-top: 2px;
+}
+
+.swiper-pagination-bullet {
+  width: 1em !important;
+  height: 1em !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 1em !important;
+  height: 1em !important;
+  background: #e86c4f !important;
+}
+
+.swiper-pagination-horizontal {
+  bottom: 0px !important;
+}
+
+.swiper-button-next {
+  color: #e86c4f !important;
+}
+
+.swiper-button-prev {
+  color: #e86c4f !important;
 }
