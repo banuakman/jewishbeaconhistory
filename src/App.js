@@ -330,28 +330,28 @@ const App = () => (
                   {
                     id: 1,
                     imglink: "/images/stop3_1.jpg",
-                    alt: "Storefront at 215 Main where Schuman’s Army & Navy Store used to be",
+                    alt: "",
                     caption:
-                      "Storefront at 215 Main where Schuman’s Army & Navy Store used to be (1)",
+                      "Storefront at 215 Main where Schuman’s Army & Navy Store was once located. (1)",
                   },
                   {
                     id: 2,
                     imglink: "/images/stop3_2.jpg",
-                    alt: "Schuman’s Army & Navy Store honors the City of Beacon’s 50th anniversary, c.1963",
+                    alt: "",
                     caption:
                       "Schuman’s Army & Navy Store honors the City of Beacon’s 50th anniversary, c.1963 (2)",
                   },
                   {
                     id: 3,
                     imglink: "/images/stop3_3.jpg",
-                    alt: "Main Street looking west from Holland House (today the DMV)",
+                    alt: "",
                     caption:
                       "Main Street looking west from Holland House (today the DMV) with Schuman’s Army & Navy Store (215 Main) on the left, c. 1950 (3)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop3_4.jpg",
-                    alt: "Current view looking west on Main Street from the DMV building, March 2022",
+                    alt: "",
                     caption:
                       "Current view looking west on Main Street from the DMV building, March 2022 (4)",
                   },
@@ -367,14 +367,14 @@ const App = () => (
                     imglink: "/images/stop3_6.jpg",
                     alt: "",
                     caption:
-                      "Max’s on Main now occupies 246 Main where Pomey’s used to be, March 2022 (6)",
+                      "Max’s on Main now occupies 246 Main where Pomey’s was once located, March 2022 (6)",
                   },
                   {
                     id: 7,
                     imglink: "/images/stop3_7.jpg",
                     alt: "",
                     caption:
-                      "Today Scarborough Faire occupies 257 Main where Nathan Rotner’s tailor shop was, March 2022 (7)",
+                      "Today Scarborough Faire occupies 257 Main where Nathan Rotner’s tailor shop once was located, March 2022 (7)",
                   },
                 ]}
               />
@@ -382,7 +382,7 @@ const App = () => (
               <Description
                 header="Main between Willow and Walnut"
                 text={[
-                  "Here in the central portion of Main Street, Beacon’s older buildings start to give way to newer construction. This stop at 215 Main was the site of Schuman’s Army & Navy store owned and operated by Sidney and Rose Schuman. The Schumans were active founding members of the Beacon Hebrew Alliance and prior to the synagogue’s construction in 1929, the membership would hold services and meetings above their store. Further east and across the street was the second location of Vogel Pharmacy at 234 Main Street, run by Max Vogel until 1968. Another founder of BHA, Hyman Pomeranz ran Pomey’s Hotel and Bar at 246 Main. The bar there is original to the building from when it was the Grand Cafe, then Pomey’s, and now Max’s On Main. Finally, Nathan Rotner, a Russian Jewish immigrant, had a tailor shop at 257 Main. Click the links below to find out more about these vibrant Jewish businesses.",
+                  "Here in the central portion of Main Street, Beacon’s older buildings start to give way to newer construction. This stop at 215 Main was the site of Schuman’s Army & Navy Store owned and operated by Sidney and Rose Schuman. The Schumans were active founding members of the Beacon Hebrew Alliance; prior to the synagogue’s construction in 1929, the membership would hold services and meetings above their store. Further east and across the street was the second location of Vogel Pharmacy at 234 Main Street, run by Max Vogel until 1968. Another founder of BHA, Hyman Pomeranz, ran Pomey’s Hotel and Bar at 246 Main. The bar there is original to the building from the days when it was the Grand Cafe, then Pomey’s, and now Max’s On Main. Finally, Nathan Rotner, a Russian Jewish immigrant, had a tailor shop at 257 Main.",
                 ]}
                 hasBusiness={false}
               />
@@ -401,27 +401,27 @@ const App = () => (
                   {
                     id: 1,
                     imglink: "/images/stop4_1.jpg",
-                    alt: "M.H. Fishman department store opened June 17, 1949",
+                    alt: "",
                     caption:
-                      "M.H. Fishman department store opened June 17, 1949 (1)",
+                      "M.H. Fishman’s Department store, opened June 17, 1949. (1)",
                   },
                   {
                     id: 2,
                     imglink: "/images/stop4_2.jpg",
-                    alt: "M.H. Fishman’s store in 1967",
+                    alt: "",
                     caption: "M.H. Fishman’s store in 1967 (2)",
                   },
                   {
                     id: 3,
                     imglink: "/images/stop4_3.jpg",
-                    alt: "Firemen’s Parade going by M.H. Fishman, c. 1960",
+                    alt: "",
                     caption:
-                      "Firemen’s Parade going by M.H. Fishman, c. 1960 (3)",
+                      "Firemen’s Parade passing by M.H. Fishman's, c. 1960 (3)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop4_4.jpg",
-                    alt: "The Howland Public Library moved to 313 Main in 1976",
+                    alt: "",
                     caption:
                       "The Howland Public Library moved to 313 Main in 1976 (4)",
                   },
@@ -431,7 +431,7 @@ const App = () => (
               <Description
                 header="S. Cedar and Main"
                 text={[
-                  "The building at 313 Main was constructed by Jacob Ritter in 1949. Ritter was a founder of the Beacon Hebrew Alliance and owned a laundry on South Chestnut Street. In his later years he dabbled in construction and real estate. The original tenant of this building was M.H. Fishman Company, a Jewish-owned “five and dime” department store that sold a large selection of discounted products. In 1971, Fishman’s was closing, and Ritter’s son, attorney Leo Ritter, sold the building to the Howland Library board for $80,000. The Howland Public Library was founded in 1872 by Civil War General Joseph Howland. For more than 100 years it had occupied the iconic Norwegian Gothic building at Main Street and Tioronda Ave designed by famed architect Richard Morris Hunt. By the 1970s, the library had outgrown its headquarters, and by moving to 313 Main it gained 10,000 square feet of additional space for its growing collection of materials. Visit the library's local history room or look in the reference section for books about local history.",
+                  "The building at 313 Main was constructed by Jacob Ritter in 1949. Ritter was a founder of the Beacon Hebrew Alliance and owned a laundry on South Chestnut Street. In his later years he dabbled in construction and real estate. The original tenant of this building was M.H. Fishman Company, a Jewish-owned five-and-dime department store that sold a large selection of discounted products. In 1971, Fishman’s was closing, and  Jacob Ritter’s son, attorney Leo Ritter, sold the building to the Howland Library board for $80,000. The Howland Public Library had been founded in 1872 by Civil War General Joseph Howland. Designed by famed architect Richard Morris Hunt, the library had occupied the iconic Norwegian Gothic building at Main Street and Tioronda Avenue for more than one hundred years. By the 1970s, the library had outgrown its headquarters, and by moving to 313 Main it gained 10,000 square feet of additional space for its growing collection of materials.  Visit the library's local history room or look in the reference section for books about local history.",
                 ]}
                 hasBusiness={false}
               />
