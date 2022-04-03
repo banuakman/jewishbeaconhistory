@@ -274,34 +274,34 @@ const App = () => (
                   {
                     id: 1,
                     imglink: "/images/stop2_1.jpg",
-                    alt: "Postcard from 1892 showing Main Street",
+                    alt: "",
                     caption:
                       "Postcard from 1892 showing Main Street looking east with 172 Main on the left (1)",
                   },
                   {
                     id: 2,
                     imglink: "/images/stop2_2.jpg",
-                    alt: "The view of Main Street",
-                    caption: "The view of Main Street looking east today (2)",
+                    alt: "",
+                    caption: "The view of Main Street looking east today. (2)",
                   },
                   {
                     id: 3,
                     imglink: "/images/stop2_3.jpg",
-                    alt: "a mural of the Hudson Valley painted by Rick Price in 2009",
+                    alt: "",
                     caption:
-                      "Today, the side of 172 Main has a mural of the Hudson Valley painted by Rick Price in 2009 (3)",
+                      "Today, the side of 172 Main features a mural of the Hudson Valley painted by Rick Price in 2009 (3)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop2_4.jpg",
-                    alt: "View of Main Street looking west from Cross Street 1900",
+                    alt: "",
                     caption:
                       "View of Main Street looking west from Cross Street, c. 1900 (4)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop2_5.jpg",
-                    alt: "View of Main Street looking west from Cross Street 2022",
+                    alt: "",
                     caption:
                       "View of Main Street looking west from Cross Street in 2022 (5)",
                   },
@@ -311,7 +311,7 @@ const App = () => (
               <Description
                 header="West End of Main"
                 text={[
-                  "The west end of Main Street looks much the same today as it did one hundred years ago. The buildings are made of bricks that came from right here on the Hudson. People of all sorts were attracted to Beacon in the late 19th and early 20th centuries, for its plethora of jobs and natural beauty. Jewish business owners set up shop here to serve this new growing city. A great number of the founders of Beacon Hebrew Alliance had their businesses in this area. Here at 172 Main is the location of Samuel Cahn’s Dry Goods store, and his son Dr. Simon Cahn’s dentistry practice. You can still see Sam Cahn’s name in the tiled entryway. Across the street and a little west of here was the Beacon Furniture Company at 163-167 Main owned and operated for 60 years by three generations of the Isaacs family. Directly across the street at 171-173 Main was Bernstein and Sons department store, started by Ausher Bernstein and later run by his son Nathan.",
+                  "The west end of Main Street looks much the same today as it did one hundred years ago. The buildings are constructed of bricks from right here on the Hudson. People of all sorts were attracted to Beacon in the late nineteenth and early twentieth centuries, for its abundance of jobs and natural beauty. Jewish business owners set up shop here to serve this new growing city, and many of the founders of Beacon Hebrew Alliance ran businesses in this area. Here at 172 Main, you’ll find the location of Samuel Cahn’s Dry Goods store along with his son Dr. Simon Cahn’s dentistry practice. You can still see Sam Cahn’s name in the tiled entryway. Across the street and a little west of here was the Beacon Furniture Company at 163-167 Main owned and operated for sixty years by three generations of the Isaacs family. Directly across the street at 171-173 Main was Bernstein and Sons department store, started by Ausher Bernstein and later run by his son Nathan.",
                 ]}
                 hasBusiness={false}
               />
