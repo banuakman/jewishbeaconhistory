@@ -210,36 +210,36 @@ const App = () => (
                   {
                     id: 1,
                     imglink: "/images/stop1_1.jpg",
-                    alt: "Today, Polhill Park",
+                    alt: "",
                     caption:
-                      "Today, Polhill Park is where Bank Square used to be (1)",
+                      "Today, Polhill Park is on the site of the old Bank Square (1)",
                   },
                   {
                     id: 2,
                     imglink: "/images/stop1_2.jpg",
-                    alt: "Five Corners of Bank Square",
+                    alt: "",
                     caption:
-                      "Postcard of the “Five Corners” of Bank Square (2)",
+                      "Postcard of the 'Five Corners' of Bank Square (2)",
                   },
                   {
                     id: 3,
                     imglink: "/images/stop1_3.jpg",
-                    alt: "Bank Square with Fishkill National Bank",
+                    alt: "",
                     caption:
-                      "Postcard from 1892 of Bank Square with the Fishkill National Bank (3)",
+                      "Postcard showing Bank Square in 1892 with the Fishkill National Bank (3)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop1_4.jpg",
-                    alt: "Postcard of Bank Square",
+                    alt: "",
                     caption: "Postcard of Bank Square c. 1913 (4)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop1_5.jpg",
-                    alt: "Beskin's Department Store and Snidaman's Tailor Shop",
+                    alt: "",
                     caption:
-                      "Beskin's Department Store and Snidaman's Tailor Shop (5)",
+                      "Beskin’s Department Store and Snidaman’s Tailor Shop on Bank Square c. 1906 (5)",
                   },
                 ]}
               />
@@ -247,7 +247,9 @@ const App = () => (
               <Description
                 header="Historic Bank Square"
                 text={[
-                  "Bank Square was the main hub of commercial activity in the village of Fishkill Landing and later in the city of Beacon after it formed in 1913. Where you are standing now was once a wide intersection of five streets lined with many shops and businesses. One hundred years ago, you would have seen the square teeming with trolley cars, pedestrians, automobiles, and a few horse-drawn carriages. Sadly this area was completely demolished in the late 1950s during Beacon’s Urban Renewal program. Tap the list below to learn more about the Jewish businesses that thrived in Bank Square during its heyday, and scroll through the pictures to get a sense of what this busy intersection looked like at the turn of the 20th Century.",
+                  "Polhill Park was once a wide intersection of five streets called Bank Square, which was lined with many shops and businesses. It was the main hub of commercial activity in the village of Fishkill Landing and later in the city of Beacon after it was established in 1913. One hundred years ago, you would have seen the square teeming with trolley cars, pedestrians, automobiles, and a few horse-drawn carriages. Sadly, this area was completely demolished in the 1960s during Beacon’s urban renewal program. Tap the list below to learn more about the Jewish businesses that thrived in Bank Square during its heyday and scroll through the pictures to get a sense of what this busy intersection looked like at the turn of the twentieth century.",
+                  <br />,
+                  "On your way to the next stop, check out Lewis & Pine Jewelry and Apothecary at 133 Main Street. This present-day Jewish-owned business sells handmade jewelry and is in a beautifully restored historic building.",
                 ]}
                 hasBusiness={false}
               />
