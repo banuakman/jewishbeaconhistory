@@ -543,7 +543,7 @@ const App = () => (
                     imglink: "/images/stop6_5.jpg",
                     alt: "",
                     caption:
-                      "The Verizon building is where David Alper’s Real Estate office once was. (6)",
+                      "The Verizon building is now located on the former site of David Alper’s real estate office (6)",
                   },
                 ]}
               />
@@ -551,7 +551,7 @@ const App = () => (
               <Description
                 header="Fishkill/Teller and Main"
                 text={[
-                  "Two Jewish leaders who were instrumental in the building of the Beacon Hebrew Alliance (BHA) synagogue in 1929, had businesses located in this area. Ms. Fannie Miller had a dress shop at 403 Main Street, and was the President of the Beacon Hebrew Ladies Aid Society for many years. Miller’s male counterpart, David Alper was President of BHA when the synagogue was constructed, and his real estate office used to be where the Verizon building is today. Going north at 11 Fishkill Avenue is where Dr. Louis Rogen and Dr. Harold Ginsberg, both former presidents of BHA, used to have their dental practice; and at the corner Fishkill and Verplanck, perched up on a hill, is the Beacon Hebrew Alliance synagogue. If you turn right on Verplanck there is a townhouse development where the old Highland Hospital once stood. Many Jewish doctors worked there, including Dr. Irving Mond, Dr. Harold Kaplan, and Dr. Frank Hacker.",
+                  "Two Jewish leaders who were instrumental in the building of the Beacon Hebrew Alliance (BHA) synagogue in 1929 operated businesses located in this area. Fannie Miller had a dress shop at 403 Main Street and was the president of the Beacon Hebrew Ladies Aid Society for many years. Miller’s BHA leadership counterpart, David Alper was president of BHA when the synagogue was constructed, and his real estate office was located where the Verizon building sits today. Going north at 11 Fishkill Avenue, there was once the dental practice of Dr. Louis Rogen and Dr. Harold Ginsberg, both former presidents of BHA. And at the corner of Fishkill and Verplanck, perched up on a hill, you’ll see the Beacon Hebrew Alliance synagogue.  Turning right on Verplanck, you can see a townhouse development where the old Highland Hospital once stood. Many Jewish doctors worked there, including Dr. Irving Mond, Dr. Harold Kaplan, and Dr. Frank Hacker.",
                 ]}
                 hasBusiness={false}
               />
@@ -688,14 +688,14 @@ const App = () => (
                     imglink: "/images/stop9_4.jpg",
                     alt: "",
                     caption:
-                      "Shrader Hat Company Works at One East Main, c. 1914 (4)",
+                      "Shrader Hat Company Works at 1 East Main St, c. 1914 (4)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop9_5.jpg",
                     alt: "",
                     caption:
-                      "Werber Leather Coat Company occupied 578 Main Street after the Littauer Silk Mill (4)",
+                      "Werber Leather Coat Company occupied 578 Main Street after the Littauer Silk Mill closed (4)",
                   },
                   {
                     id: 6,
@@ -710,7 +710,7 @@ const App = () => (
               <Description
                 header="North and Main"
                 text={[
-                  "Where you are standing at 520 Main Street was once the tailor shop of Hyman Siegel, a founder of Beacon Hebrew Alliance and an avid religious scholar. After Siegel retired, Eugene Glauberman, another Jewish tailor, set up shop here. Of interest at the intersection of Main and East Main Streets is Beacon’s only remaining dummy light. Erected in 1927, it has become one of the most recognizable symbols of Beacon. The eastern end of Main Street also contains many relics from Beacon’s industrial past. The first factory in Beacon was built in 1814 along the shores of Fishkill Creek near what is now One East Main Street. Subsequently, hats, wood planers, electric blankets, and silk were all manufactured in this area. The long brick building at 578 Main has housed many factories, among them the Jewish-owned Werber Leather Coat Company, that operated here from the 1930s-60s.",
+                  "Several Jewish tailors once lived and worked near this spot, including the first Jewish resident of Matteawan in 1848. Of interest at the intersection of Main and East Main Streets is Beacon’s only remaining dummy light (ie. a traffic light set in the middle of the intersection, and not at the sides, corners or above). Erected in 1927, it has become one of the most recognizable symbols of Beacon. The eastern end of Main Street also contains many relics from Beacon’s industrial past. The first factory in Beacon was built in 1814 along the shores of Fishkill Creek near what is now 1 East Main Street. Subsequently, hats, wood planers, electric blankets, and silk were all manufactured in this area. The long brick building at 578 Main has housed many factories, among them the Jewish-owned Werber Leather Coat Company that operated here in the 1930s.",
                 ]}
                 hasBusiness={false}
               />
@@ -738,27 +738,48 @@ const App = () => (
                     imglink: "/images/stop10_1.jpg",
                     alt: "",
                     caption:
-                      "Parade in Fountain Square c.1957 with 36 E Main on left (2)",
+                      "A parade in Fountain Square c.1957 with 36 East Main at left (2)",
                   },
                   {
                     id: 3,
                     imglink: "/images/stop10_2.jpg",
                     alt: "",
                     caption:
-                      "The Chanler Fife, Drum and Bugle Corps marched towards the old horse fountain at Fountain Square, c.1915 (3)",
+                      "The Chanler Fife, Drum and Bugle Corps marching towards the old horse fountain at Fountain Square, c. 1915 (3)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop10_3.jpg",
                     alt: "",
-                    caption: "House at 36 E Main Street in 2022 (4)",
+                    caption: "A house at 36 East Main Street in 2022 (4)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop10_4.jpg",
                     alt: "",
                     caption:
-                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 E Main (5)",
+                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 East Main, c. 1956 (5)",
+                  },
+                  {
+                    id: 6,
+                    imglink: "/images/stop10_6.jpg",
+                    alt: "",
+                    caption:
+                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 East Main, c. 1956 (6)",
+                  },
+                  {
+                    id: 7,
+                    imglink: "/images/stop10_7.jpg",
+                    alt: "",
+                    caption:
+                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 East Main, c. 1956 (7)",
+                  },
+                  {
+                    id: 8,
+                    imglink: "/images/BHS_1.jpg",
+                    alt: "",
+                    caption:
+                      "The former rectory of St. Joachim’s has been the home of Beacon Historical Society since 2021 (8)",
                   },
                 ]}
               />
@@ -766,7 +787,7 @@ const App = () => (
               <Description
                 header="East Main and Water"
                 text={[
-                  "Having crossed Fishkill Creek, you are now at the intersection of East Main, Leonard and Water Streets, in an area that used to be known as Fountain Square. Two long-running Jewish businesses were here: Stein’s Shoes at 11-15 East Main; and Dr. Simon Lewis’s dental practice at 36 East Main. Dr. Lewis, a WWII veteran, was a beloved figure in Beacon and the Jewish community, known for his warm heart and generosity. While you are here, be sure to visit the Beacon Historical Society at 61 Leonard Street, where you can learn more about the Jewish businesses on this tour and other fascinating aspects of Beacon’s history.",
+                  "Having crossed Fishkill Creek, you are now at the intersection of East Main, Leonard, and Water Streets, in an area that was once known as Fountain Square. Two long-running Jewish businesses were here: Stein’s Shoes at 11-15 East Main, and Dr. Simon Lewis’s dental practice at 36 East Main. Dr. Lewis, a WWII veteran, was a beloved figure in Beacon and the Jewish community, known for his warm heart and generosity. Stein’s Shoes was started by Louis Stein, a founder of the Beacon Hebrew Alliance, and it ran at its East Main Street location for sixty years. Louis Stein’s daughter Tillie Shapiro ran the store after his retirement. While you are here, be sure to visit the Beacon Historical Society at 61 Leonard Street, where you can learn more about the Jewish businesses on this tour and other fascinating aspects of Beacon’s history.",
                 ]}
                 hasBusiness={false}
               />
