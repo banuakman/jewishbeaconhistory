@@ -457,26 +457,27 @@ const App = () => (
                   {
                     id: 2,
                     imglink: "/images/stop5_2.jpg",
-                    alt: "Corner of S. Chestnut and Main from 1960s",
-                    caption: "Corner of S. Chestnut and Main from 1960s (2)",
+                    alt: "",
+                    caption:
+                      "Corner of S. Chestnut and Main from the 1960s (2)",
                   },
                   {
                     id: 3,
                     imglink: "/images/stop5_3.jpg",
-                    alt: "A&P Supermarket on Main Street, c. 1960s",
+                    alt: "",
                     caption: "A&P Supermarket on Main Street, c. 1960s (3)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop5_4.jpg",
-                    alt: "Current businesses occupying the old A&P building ",
+                    alt: "",
                     caption:
                       "Current businesses occupying the old A&P building (4)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop5_5.jpg",
-                    alt: "Picture of the Ritter Family",
+                    alt: "",
                     caption:
                       "The Ritter Family and employees outside their laundry at 4-6 S. Chestnut Street in 1931 (5)",
                   },
@@ -570,29 +571,27 @@ const App = () => (
                     id: 1,
                     imglink: "/images/stop7_1.jpg",
                     alt: "",
-                    caption:
-                      "Southwest corner of Main Street and Teller Avenue with 403 Main on the left (1)",
+                    caption: "Looking east from 445 Main in 2022 (1)",
                   },
                   {
                     id: 2,
                     imglink: "/images/stop7_2.jpg",
                     alt: "",
                     caption:
-                      "Corner of Main, Teller and Fishkill Avenues c. 1928 with 403 Main on the left (2)",
+                      "The Beacon Theatre marquee on opening day in 1934 (2)",
                   },
                   {
                     id: 3,
                     imglink: "/images/stop7_3.jpg",
                     alt: "",
-                    caption:
-                      "Highland Hospital on Verplanck Ave between Fishkill and Schenck, c. 1914 (3)",
+                    caption: "Storyscreen Theater marquee in 2022 (3)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop7_4.jpg",
                     alt: "",
                     caption:
-                      "This house once stood next to the Mase Hook & Ladder Fire Company, c.1915-20 (4)",
+                      "Original Wonderbar sign painted on the side of 445 Main (4)",
                   },
                 ]}
               />
@@ -600,7 +599,7 @@ const App = () => (
               <Description
                 header="The Beacon Theatre"
                 text={[
-                  "Max and Bertha Ginsberg were founding members of Beacon Hebrew Alliance, and owners and proprietors of three movie theaters in the area, including the Beacon Theatre, whose building still stands at 445 Main Street and is home to Story Screen Beacon Theater now. Max and Bertha had four sons: Benjamin, Julius, Murray, and Jacob who were all members of BHA. Benjamin was the manager of the theater and his brother Julius opened the popular Wonderbar over the theater with his partner Tommy Hanlon, who eventually took over the business. Julius’s son Bernard ran the theater until it closed in the late 1960s. In addition to the Beacon Theatre, several other Jewish businesses were tenants of the building in the 1950s and 60s, including Pappy’s Luncheonette and the Optometry office of Dr. Robert Frankel. Across the street Morris Alper, the son of former BHA Board President David Alper, had an insurance business.",
+                  "Max and Bertha Ginsberg were founding members of Beacon Hebrew Alliance, as well as the owners and proprietors of three movie theaters in the area; among the Beacon Theatre, whose building still stands at 445 Main Street and provides a home today for the Story Screen Beacon Theater. Max and Bertha had four sons: Benjamin, Julius, Murray, and Jacob, all of them members of BHA. Benjamin was the manager of the theater, and his brother Julius opened the popular Wonderbar over the theater with his partner Tommy Hanlon, who eventually took over the business. Julius’s son Bernard ran the theater until it closed in the late 1960s. In addition to the Beacon Theatre, several other Jewish businesses were tenants in the building in the 1950s and 60s, including Pappy’s Luncheonette and the optometry office of Dr. Robert Frankel. Across the street, Morris Alper, the son of former BHA Board President David Alper, had an insurance business.",
                 ]}
                 hasBusiness={false}
               />
@@ -621,7 +620,7 @@ const App = () => (
                     imglink: "/images/stop8_1.jpg",
                     alt: "",
                     caption:
-                      "The “brown block” looking east from 456 to 474 Main c. 1900s (1)",
+                      "The “brown block” looking east from 456 to 474 Main c. 1900s. (1)",
                   },
                   {
                     id: 2,
@@ -649,7 +648,7 @@ const App = () => (
               <Description
                 header="Tioronda and Main"
                 text={[
-                  "From roughly 456 Main to 476 Main, is a row of registered landmark historical buildings known as the “brown block.” A number of Jewish businesses occupied this block in the 20th century. First of these was Ed. Harris Clothing and Shoes at 464 Main owned by Jewish businessman Edward Harris. Advertisements for Ed. Harris claimed it was “Beacon’s Largest Store” in the 1930s, and Harris had his name engraved on the sidewalk outside. Next in the row was Moore Brothers Pharmacy at 466 Main, run by Paul Wolkoff. A few doors down, where you stand now was Max Bernstein’s toy store at 472 Main. Max was the brother of Nathan Bernstein who had a clothing store on the west end of Main Street. Next door was Caplan’s Jewelry store at 476 Main run by Abraham Caplan.",
+                  "From roughly 456 Main to 476 Main, there is a row of registered landmark historical buildings known as the “brown block” due to the color of the bricks used in the buildings’ construction. A number of Jewish businesses occupied this block in the twentieth century, and the first of these was Ed. Harris Clothing and Shoes at 464 Main, owned by Jewish businessman Edward Harris. Advertisements for Ed. Harris claimed it was “Beacon’s Largest Store” in the 1930s, and Harris had his name engraved on the sidewalk outside. Next in the row was Moore Brothers Pharmacy at 466 Main, run by Paul Wolkoff. A few doors down, there was Max Bernstein’s toy store at 472 Main. Max was the brother of Nathan Bernstein who had a clothing store on the west end of Main Street. Next door was Caplan’s Jewelry Store at 476 Main, run by Abraham Caplan.",
                 ]}
                 hasBusiness={false}
               />
