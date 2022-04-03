@@ -35,6 +35,91 @@ const App = () => (
         ></Route>
 
         <Route
+          path="/beaconhistoricalsociety"
+          element={
+            <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+              <Header text="Beacon Historical Society (BHS)" />
+              <Slider
+                sliderdata={[
+                  {
+                    id: 1,
+                    imglink: "/images/BHS_1.jpg",
+                    alt: "",
+                    caption:
+                      "The former rectory of St. Joachim’s is the home of BHS since 2021 (1)",
+                  },
+                  {
+                    id: 2,
+                    imglink: "/images/BHS_2.jpg",
+                    alt: "",
+                    caption:
+                      "The original farmhouse purchased in 1860 by the church and expanded in 1875 (2)",
+                  },
+                  {
+                    id: 3,
+                    imglink: "/images/BHS_3.jpg",
+                    alt: "",
+                    caption: "St. Joachim’s rectory (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/BHS_4.jpg",
+                    alt: "",
+                    caption:
+                      "Display on Jewish War Veterans of WWII at BHS in April 20220 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/BHS_5.jpg",
+                    alt: "",
+                    caption:
+                      "Display on Sam Beskin as part of exhibition “Celebrating 100 Years of Jewish Culture in Beacon” at BHS in April 2022 (5)",
+                  },
+                  {
+                    id: 6,
+                    imglink: "/images/BHS_6.jpg",
+                    alt: "",
+                    caption:
+                      "Display on Louis Ritter as part of exhibition “Celebrating 100 Years of Jewish Culture in Beacon” at BHS in April 2022 (6)",
+                  },
+                ]}
+              />
+              {/* <AudioPlayer audiofile="/audios/HubStop1.mp3" /> */}
+              <Description
+                header="Beacon Hebrew Alliance (BHA)"
+                text={[
+                  "Date established: 1976",
+                  <br />,
+                  "Address: 61 Leonard Street",
+                  <br />,
+                  "Website: ",
+                  <a href="https://www.beaconhistorical.org/" target="_blank">
+                    www.beaconhistorical.org
+                  </a>,
+                  <br />,
+                  "Hours: Thursday: 10am - 12pm, Saturday: 12pm - 4pm & by appointment",
+                  <br />,
+                  <br />,
+                  "The Beacon Historical Society (BHS) showcases Beacon’s history through exhibitions, archival collections, lecture series, special events, and an informative newsletter. BHS was formed in 1976, with a mission to discover, procure, preserve, and present Beacon’s heritage and history. The Society’s collection includes books, prints, documents, photographs, postcards, paintings, maps and artifacts--all relating to the history of Beacon, NY and its antecedent villages of Fishkill Landing and Matteawan.",
+                  <br />,
+                  "From April 2-30, 2022, in honor of the centennial of the Beacon Hebrew Alliance (BHA), the BHS and BHA are proud to co-present “Celebrating 100 Years of Jewish Culture in Beacon” an exhibition commemorating Jewish history, culture, and community in Beacon and the Hudson Valley. Stop by during our open hours to view the exhibit and learn more about the important contributions the Jewish community has made to the city of Beacon.",
+                  <br />,
+                  "You can help support our mission by becoming a member, a supporter and a volunteer!",
+                  <br />,
+                  "Please call 845-831-0514 or visit our website at ",
+                  <a href="https://www.beaconhistorical.org/" target="_blank">
+                    www.beaconhistorical.org
+                  </a>,
+                  ,
+                  " for more information.",
+                ]}
+                hasBusiness={false}
+              />
+            </div>
+          }
+        ></Route>
+
+        <Route
           path="/beaconhebrewalliance"
           element={
             <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
