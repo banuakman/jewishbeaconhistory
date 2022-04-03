@@ -1,13 +1,15 @@
-.header-container{
-    min-height: 30px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header-container {
+  min-height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.header-container .header-text{
-    font-size: 16px;
-    padding:10px;
-    padding-left: 0px;
+.header-container .header-text {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding-top: 10px;
+  padding-left: 0px;
 }

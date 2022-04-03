@@ -2,20 +2,19 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { isDesktop } from "react-device-detect";
 import "./style.css";
-import { useLocation } from 'react-router-dom'
+import { useLocation } from "react-router-dom";
 
 function Menu() {
   const [isOpen, setIsOpen] = useState(false);
   const [isDrop, setIsDrop] = useState(false);
 
-  let location = useLocation()
+  let location = useLocation();
 
-
-  useEffect(()=>{
-    setIsOpen(false)
-    setIsDrop(false)
-    window.scrollTo(0, 0)
-  },[location])
+  useEffect(() => {
+    setIsOpen(false);
+    setIsDrop(false);
+    window.scrollTo(0, 0);
+  }, [location]);
 
   if (isDesktop) {
     return (
@@ -76,11 +75,11 @@ function Menu() {
             <div className="menu-box-links">
               <div className="menu-box-links-header">
                 <button onClick={() => setIsOpen(false)}>
-                  <img src="close-icon.png" />
+                  <img className="close-icon" src="close-icon.png" />
                 </button>
                 <h1>Jewish Beacon History Walk</h1>
               </div>
-              <Link to="/">About</Link>
+              <Link to="/home">Home</Link>
               <Link to="/credits">Credits</Link>
               <span>Tour Stops</span>
               <div className="menu-box-deep-links">

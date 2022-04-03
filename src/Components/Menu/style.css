@@ -14,8 +14,8 @@
   position: relative;
 }
 .menu-button img {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   position: relative;
   left: 20px;
 }
@@ -30,7 +30,6 @@
   align-items: center;
   justify-content: center;
   overflow: auto;
-
 }
 
 .menu-container .menu-box .menu-box-links {
@@ -60,9 +59,11 @@
 }
 
 .menu-box-links-header h1 {
+  font-family: "Roboto", sans-serif;
   width: 100%;
   text-align: start;
-  font-size: 16px;
+  font-size: 1.1em;
+  font-weight: bold;
   text-align: center;
   margin: 0px;
 }
@@ -84,6 +85,12 @@
 .menu-box-deep-links {
   padding-left: 30px;
 }
+
+.close-icon {
+  width: 35px;
+  height: 35px;
+}
+
 .menu-box-search {
   border: 1px solid #acacac;
   text-align: start;
@@ -112,6 +119,8 @@
 }
 
 .menu-container-desktop {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
   position: relative;
 }
 .menu-container-desktop > * {
@@ -139,9 +148,9 @@
 }
 
 .menu-container-desktop .menu-dropdown a {
-  text-decoration: none ;
+  text-decoration: none;
   color: black;
   display: inline-block;
   width: 100%;
-  padding:5px
+  padding: 5px;
 }
