@@ -241,6 +241,20 @@ const App = () => (
                     caption:
                       "Beskin’s Department Store and Snidaman’s Tailor Shop on Bank Square c. 1906 (5)",
                   },
+                  {
+                    id: 6,
+                    imglink: "/images/stop1_Aero_3.jpg",
+                    alt: "",
+                    caption:
+                      "The foreman of Aero Leather and women workers during WWII, c. 1942. (6)",
+                  },
+                  {
+                    id: 7,
+                    imglink: "/images/stop1_LewisPine_3.jpg",
+                    alt: "",
+                    caption:
+                      "The Lewis & Pine storefront at 133 Main Street (7)",
+                  },
                 ]}
               />
               <AudioPlayer audiofile="/audios/HubStop1.mp3" />
@@ -286,24 +300,44 @@ const App = () => (
                   },
                   {
                     id: 3,
-                    imglink: "/images/stop2_3.jpg",
-                    alt: "",
-                    caption:
-                      "Today, the side of 172 Main features a mural of the Hudson Valley painted by Rick Price in 2009 (3)",
-                  },
-                  {
-                    id: 4,
                     imglink: "/images/stop2_4.jpg",
                     alt: "",
                     caption:
-                      "View of Main Street looking west from Cross Street, c. 1900 (4)",
+                      "View of Main Street looking west from Cross Street, c. 1900 (3)",
                   },
                   {
-                    id: 5,
+                    id: 4,
                     imglink: "/images/stop2_5.jpg",
                     alt: "",
                     caption:
-                      "View of Main Street looking west from Cross Street in 2022 (5)",
+                      "View of Main Street looking west from Cross Street in 2022 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop2_6.jpg",
+                    alt: "",
+                    caption: "The street view of 172 Main Street in 2022 (5)",
+                  },
+                  {
+                    id: 6,
+                    imglink: "/images/stop2_7.jpg",
+                    alt: "",
+                    caption:
+                      "The tiled entryway of 172 Main still bears Samuel Cahn’s name, March 2022 (6)",
+                  },
+                  {
+                    id: 7,
+                    imglink: "/images/stop2_8.jpg",
+                    alt: "",
+                    caption:
+                      "The storefronts from 165-167 Main where the Beacon Furniture Company was once located (7)",
+                  },
+                  {
+                    id: 8,
+                    imglink: "/images/stop2_9.jpg",
+                    alt: "",
+                    caption:
+                      "Ausher Bernstein's Guarantee Outfitting House, c. 1921 at 171-173 Main; 'the house where quality counts' (8)",
                   },
                 ]}
               />
@@ -425,6 +459,13 @@ const App = () => (
                     caption:
                       "The Howland Public Library moved to 313 Main in 1976 (4)",
                   },
+                  {
+                    id: 5,
+                    imglink: "/images/stop4_5.jpg",
+                    alt: "",
+                    caption:
+                      "The original Howland Library building at Tioranda and Main built by General Joseph Howland in 1872 (5)",
+                  },
                 ]}
               />
               <AudioPlayer audiofile="/audios/HubStop4.mp3" />
@@ -481,6 +522,13 @@ const App = () => (
                     caption:
                       "The Ritter Family and employees outside their laundry at 4-6 S. Chestnut Street in 1931 (5)",
                   },
+                  {
+                    id: 6,
+                    imglink: "/images/stop5_Rosenblum_2.jpg",
+                    alt: "",
+                    caption:
+                      "Looking northwest on Main at Eliza Street was Rosenblum Shoes (second store from left), and the Mid-Town Market at right where Abraham Lewis’s grocery was once located, c. 1965. (6)",
+                  },
                 ]}
               />
               <AudioPlayer audiofile="/audios/HubStop5.mp3" />
@@ -519,31 +567,44 @@ const App = () => (
                   },
                   {
                     id: 3,
-                    imglink: "/images/stop6_3.jpg",
-                    alt: "",
-                    caption:
-                      "Highland Hospital on Verplanck Ave between Fishkill and Schenck, c. 1914 (3)",
-                  },
-                  {
-                    id: 4,
-                    imglink: "/images/stop6_6.jpg",
-                    alt: "",
-                    caption:
-                      "The corner of Schenck and Verplanck has Townhouses where the old Highland Hospital used to be, March 2022 (4)",
-                  },
-                  {
-                    id: 5,
-                    imglink: "/images/stop6_4.jpg",
-                    alt: "",
-                    caption:
-                      "This house once stood next to the Mase Hook & Ladder Fire Company, c.1915-20 (5)",
-                  },
-                  {
-                    id: 6,
                     imglink: "/images/stop6_5.jpg",
                     alt: "",
                     caption:
-                      "The Verizon building is now located on the former site of David Alper’s real estate office (6)",
+                      "The Verizon building is now located on the former site of David Alper’s real estate office (3)",
+                  },
+                  {
+                    id: 4,
+                    imglink: "/images/stop6_7.jpg",
+                    alt: "",
+                    caption:
+                      "This Victorian house at 11 Fishkill Avenue was the dental office of Dr. Louis Rogen and Dr. Harold Ginsberg from approx 1950-1975 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/BHA_2.jpg",
+                    alt: "",
+                    caption:
+                      "A newspaper article in 1930 reporting on the opening of the 'new Hebrew Synagogue and Community Center' (5)",
+                  },
+                  {
+                    id: 6,
+                    imglink: "/images/BHA_1.jpg",
+                    alt: "",
+                    caption: "A 2021 aerial view of the BHA building (6)",
+                  },
+                  {
+                    id: 7,
+                    imglink: "/images/stop6_3.jpg",
+                    alt: "",
+                    caption:
+                      "Highland Hospital on Verplanck Ave between Fishkill and Schenck, c. 1914 (7)",
+                  },
+                  {
+                    id: 8,
+                    imglink: "/images/stop6_6.jpg",
+                    alt: "",
+                    caption:
+                      "The corner of Schenck and Verplanck has Townhouses where the old Highland Hospital used to be, March 2022 (8)",
                   },
                 ]}
               />
@@ -582,16 +643,36 @@ const App = () => (
                   },
                   {
                     id: 3,
-                    imglink: "/images/stop7_3.jpg",
+                    imglink: "/images/Stop7_BeaconTheatre_1.jpg",
                     alt: "",
-                    caption: "Storyscreen Theater marquee in 2022 (3)",
+                    caption:
+                      "Max Ginsberg at left and other investors who built the Beacon Theatre, August 7, 1934 (3)",
                   },
                   {
                     id: 4,
+                    imglink: "/images/Stop7_BeaconTheatre_3.jpg",
+                    alt: "",
+                    caption:
+                      "An ad for movies at the Beacon Theatre, c. 1930 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop7_3.jpg",
+                    alt: "",
+                    caption: "Storyscreen Theater marquee in 2022 (5)",
+                  },
+                  {
+                    id: 6,
                     imglink: "/images/stop7_4.jpg",
                     alt: "",
                     caption:
-                      "Original Wonderbar sign painted on the side of 445 Main (4)",
+                      "Original Wonderbar sign painted on the side of 445 Main (6)",
+                  },
+                  {
+                    id: 7,
+                    imglink: "/images/stop7_5.jpg",
+                    alt: "",
+                    caption: "The cover of the Wonder-bar menu, c. 1940 (7)",
                   },
                 ]}
               />
@@ -638,9 +719,29 @@ const App = () => (
                   },
                   {
                     id: 4,
+                    imglink: "/images/stop8_5.jpg",
+                    alt: "",
+                    caption:
+                      "The Ed. Harris Building at 464 Main Street was sold in 1940 (4)",
+                  },
+                  {
+                    id: 5,
+                    imglink: "/images/stop8_6.jpg",
+                    alt: "",
+                    caption:
+                      "Edward Harris owned a clothing store on the east end of Main Street that claimed to be 'Beacon's Largest Store' in the 1930s (5)",
+                  },
+                  {
+                    id: 6,
                     imglink: "/images/stop8_4.jpg",
                     alt: "",
-                    caption: "Beacon Falls Cafe stands today at 472 Main (4)",
+                    caption: "Beacon Falls Cafe stands today at 472 Main (6)",
+                  },
+                  {
+                    id: 7,
+                    imglink: "/images/stop8_7.jpg",
+                    alt: "",
+                    caption: "Max Bernstein’s business card from 1943 (7)",
                   },
                 ]}
               />
@@ -666,43 +767,50 @@ const App = () => (
                 sliderdata={[
                   {
                     id: 1,
-                    imglink: "/images/stop9_1.jpg",
+                    imglink: "/images/stop9_7.jpg",
                     alt: "",
-                    caption: "Main Street at the dummy light in 2022 (1)",
+                    caption:
+                      "A business card for Gustavus Jackson, the first Jewish settler in Matteawan, c. 1848. He ran a store near Schenck and Main with his son Willie (1)",
                   },
                   {
                     id: 2,
-                    imglink: "/images/stop9_2.jpg",
+                    imglink: "/images/stop9_1.jpg",
                     alt: "",
-                    caption: "Main Street at the dummy light c. 1999 (2)",
+                    caption: "Main Street at the dummy light in 2022 (2)",
                   },
                   {
                     id: 3,
-                    imglink: "/images/stop9_3.jpg",
+                    imglink: "/images/stop9_2.jpg",
                     alt: "",
-                    caption:
-                      "Lithograph of Matteawan with early factory buildings, c. 1850s (3)",
+                    caption: "Main Street at the dummy light c. 1999 (3)",
                   },
                   {
                     id: 4,
-                    imglink: "/images/stop9_4.jpg",
+                    imglink: "/images/stop9_3.jpg",
                     alt: "",
                     caption:
-                      "Shrader Hat Company Works at 1 East Main St, c. 1914 (4)",
+                      "Lithograph of Matteawan with early factory buildings, c. 1850s (4)",
                   },
                   {
                     id: 5,
-                    imglink: "/images/stop9_5.jpg",
+                    imglink: "/images/stop9_4.jpg",
                     alt: "",
                     caption:
-                      "Werber Leather Coat Company occupied 578 Main Street after the Littauer Silk Mill closed (4)",
+                      "Shrader Hat Company Works at 1 East Main St, c. 1914 (5)",
                   },
                   {
                     id: 6,
+                    imglink: "/images/stop9_5.jpg",
+                    alt: "",
+                    caption:
+                      "Werber Leather Coat Company occupied 578 Main Street after the Littauer Silk Mill closed (6)",
+                  },
+                  {
+                    id: 7,
                     imglink: "/images/stop9_6.jpg",
                     alt: "",
                     caption:
-                      "The old factory building at Ackerman and Main in 2022 (4)",
+                      "The old factory building at Ackerman and Main in 2022 (7)",
                   },
                 ]}
               />
