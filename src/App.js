@@ -77,21 +77,21 @@ const App = () => (
                   },
                 ]}
               />
-              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />
+              <AudioPlayer audiofile="/audios/HubStop1.mp3" />
               <Description
                 header="Historic Bank Square"
                 text={[
                   "Bank Square was the main hub of commercial activity in the village of Fishkill Landing and later in the city of Beacon after it formed in 1913. Where you are standing now was once a wide intersection of five streets lined with many shops and businesses. One hundred years ago, you would have seen the square teeming with trolley cars, pedestrians, automobiles, and a few horse-drawn carriages. Sadly this area was completely demolished in the late 1950s during Beacon’s Urban Renewal program. Tap the list below to learn more about the Jewish businesses that thrived in Bank Square during its heyday, and scroll through the pictures to get a sense of what this busy intersection looked like at the turn of the 20th Century.",
                 ]}
-                hasBusiness={true}
+                hasBusiness={false}
               />
-              <Link text="Beskin’s Department Store" to="/stop1_Beskin" />
+              {/* <Link text="Beskin’s Department Store" to="/stop1_Beskin" />
               <Link text="Snidaman the Tailor" to="/stop1_Snidaman" />
               <Link text="Aero Leather Clothing Company" to="/stop1_Aero" />
               <Link
                 text="Lewis&Pine Jewelry and Apothecary"
                 to="/stop1_LewisPine"
-              />
+              /> */}
             </div>
           }
         ></Route>
@@ -139,15 +139,15 @@ const App = () => (
                   },
                 ]}
               />
-              {/*              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />*/}
+              <AudioPlayer audiofile="/audios/HubStop2.mp3" />
               <Description
                 header="West End of Main"
                 text={[
                   "The west end of Main Street looks much the same today as it did one hundred years ago. The buildings are made of bricks that came from right here on the Hudson. People of all sorts were attracted to Beacon in the late 19th and early 20th centuries, for its plethora of jobs and natural beauty. Jewish business owners set up shop here to serve this new growing city. A great number of the founders of Beacon Hebrew Alliance had their businesses in this area. Here at 172 Main is the location of Samuel Cahn’s Dry Goods store, and his son Dr. Simon Cahn’s dentistry practice. You can still see Sam Cahn’s name in the tiled entryway. Across the street and a little west of here was the Beacon Furniture Company at 163-167 Main owned and operated for 60 years by three generations of the Isaacs family. Directly across the street at 171-173 Main was Bernstein and Sons department store, started by Ausher Bernstein and later run by his son Nathan.",
                 ]}
-                hasBusiness={true}
+                hasBusiness={false}
               />
-              <Link text="Business" to="/business-1" />
+              {/* <Link text="Business" to="/business-1" /> */}
             </div>
           }
         ></Route>
@@ -210,15 +210,15 @@ const App = () => (
                   },
                 ]}
               />
-              {/*              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />*/}
+              <AudioPlayer audiofile="/audios/HubStop3.mp3" />
               <Description
                 header="Main between Willow and Walnut"
                 text={[
                   "Here in the central portion of Main Street, Beacon’s older buildings start to give way to newer construction. This stop at 215 Main was the site of Schuman’s Army & Navy store owned and operated by Sidney and Rose Schuman. The Schumans were active founding members of the Beacon Hebrew Alliance and prior to the synagogue’s construction in 1929, the membership would hold services and meetings above their store. Further east and across the street was the second location of Vogel Pharmacy at 234 Main Street, run by Max Vogel until 1968. Another founder of BHA, Hyman Pomeranz ran Pomey’s Hotel and Bar at 246 Main. The bar there is original to the building from when it was the Grand Cafe, then Pomey’s, and now Max’s On Main. Finally, Nathan Rotner, a Russian Jewish immigrant, had a tailor shop at 257 Main. Click the links below to find out more about these vibrant Jewish businesses.",
                 ]}
-                hasBusiness={true}
+                hasBusiness={false}
               />
-              <Link text="Business" to="/business-1" />
+              {/* <Link text="Business" to="/business-1" /> */}
             </div>
           }
         ></Route>
@@ -259,15 +259,15 @@ const App = () => (
                   },
                 ]}
               />
-              {/*              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />*/}
+              <AudioPlayer audiofile="/audios/HubStop4.mp3" />
               <Description
                 header="S. Cedar and Main"
                 text={[
                   "The building at 313 Main was constructed by Jacob Ritter in 1949. Ritter was a founder of the Beacon Hebrew Alliance and owned a laundry on South Chestnut Street. In his later years he dabbled in construction and real estate. The original tenant of this building was M.H. Fishman Company, a Jewish-owned “five and dime” department store that sold a large selection of discounted products. In 1971, Fishman’s was closing, and Ritter’s son, attorney Leo Ritter, sold the building to the Howland Library board for $80,000. The Howland Public Library was founded in 1872 by Civil War General Joseph Howland. For more than 100 years it had occupied the iconic Norwegian Gothic building at Main Street and Tioronda Ave designed by famed architect Richard Morris Hunt. By the 1970s, the library had outgrown its headquarters, and by moving to 313 Main it gained 10,000 square feet of additional space for its growing collection of materials. Visit the library's local history room or look in the reference section for books about local history.",
                 ]}
-                hasBusiness={true}
+                hasBusiness={false}
               />
-              <Link text="Business" to="/business-1" />
+              {/* <Link text="Business" to="/business-1" /> */}
             </div>
           }
         ></Route>
@@ -314,15 +314,15 @@ const App = () => (
                   },
                 ]}
               />
-              {/*              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />*/}
+              <AudioPlayer audiofile="/audios/HubStop5.mp3" />
               <Description
                 header="S. Chestnut and Main"
                 text={[
                   "The corner of South Chestnut and Main Street was a locus of Jewish enterprise, led by the Ritter family who owned much of the block (from 327 Main to 8 S. Chestnut). Sarah and Jacob Ritter were Hungarian Jewish immigrants who moved to Beacon in the early 1920s from New York City to raise their family of five children. They started a laundry around the corner at 4-6 South Chestnut Street, and then expanded into real estate development, and later their son Louis had an insurance business there. Some of the other Jewish businesses on this block included Izzy Stone’s watch repair shop at 329 Main, and Shapiro Shoes at 331 Main run by Morris and Tillie Shapiro. Across the street at 328 Main was Rosenblum’s Shoes, and a little further east at 334 Main was Abe Lewis’s Grocery store. All of these business owners were members of the Beacon Hebrew Alliance and very active in Jewish and civic life in Beacon.",
                 ]}
-                hasBusiness={true}
+                hasBusiness={false}
               />
-              <Link text="Business" to="/business-1" />
+              {/* <Link text="Business" to="/business-1" /> */}
             </div>
           }
         ></Route>
@@ -378,15 +378,15 @@ const App = () => (
                   },
                 ]}
               />
-              {/*              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />*/}
+              <AudioPlayer audiofile="/audios/HubStop6.mp3" />
               <Description
                 header="Fishkill/Teller and Main"
                 text={[
                   "Two Jewish leaders who were instrumental in the building of the Beacon Hebrew Alliance (BHA) synagogue in 1929, had businesses located in this area. Ms. Fannie Miller had a dress shop at 403 Main Street, and was the President of the Beacon Hebrew Ladies Aid Society for many years. Miller’s male counterpart, David Alper was President of BHA when the synagogue was constructed, and his real estate office used to be where the Verizon building is today. Going north at 11 Fishkill Avenue is where Dr. Louis Rogen and Dr. Harold Ginsberg, both former presidents of BHA, used to have their dental practice; and at the corner Fishkill and Verplanck, perched up on a hill, is the Beacon Hebrew Alliance synagogue. If you turn right on Verplanck there is a townhouse development where the old Highland Hospital once stood. Many Jewish doctors worked there, including Dr. Irving Mond, Dr. Harold Kaplan, and Dr. Frank Hacker.",
                 ]}
-                hasBusiness={true}
+                hasBusiness={false}
               />
-              <Link text="Business" to="/business-1" />
+              {/* <Link text="Business" to="/business-1" /> */}
             </div>
           }
         ></Route>
@@ -428,15 +428,15 @@ const App = () => (
                   },
                 ]}
               />
-              {/*              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />*/}
+              <AudioPlayer audiofile="/audios/HubStop7.mp3" />
               <Description
                 header="The Beacon Theatre"
                 text={[
                   "Max and Bertha Ginsberg were founding members of Beacon Hebrew Alliance, and owners and proprietors of three movie theaters in the area, including the Beacon Theatre, whose building still stands at 445 Main Street and is home to Story Screen Beacon Theater now. Max and Bertha had four sons: Benjamin, Julius, Murray, and Jacob who were all members of BHA. Benjamin was the manager of the theater and his brother Julius opened the popular Wonderbar over the theater with his partner Tommy Hanlon, who eventually took over the business. Julius’s son Bernard ran the theater until it closed in the late 1960s. In addition to the Beacon Theatre, several other Jewish businesses were tenants of the building in the 1950s and 60s, including Pappy’s Luncheonette and the Optometry office of Dr. Robert Frankel. Across the street Morris Alper, the son of former BHA Board President David Alper, had an insurance business.",
                 ]}
-                hasBusiness={true}
+                hasBusiness={false}
               />
-              <Link text="Business" to="/business-1" />
+              {/* <Link text="Business" to="/business-1" /> */}
             </div>
           }
         ></Route>
@@ -477,15 +477,15 @@ const App = () => (
                   },
                 ]}
               />
-              {/*              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />*/}
+              <AudioPlayer audiofile="/audios/HubStop8.mp3" />
               <Description
                 header="Tioronda and Main"
                 text={[
                   "From roughly 456 Main to 476 Main, is a row of registered landmark historical buildings known as the “brown block.” A number of Jewish businesses occupied this block in the 20th century. First of these was Ed. Harris Clothing and Shoes at 464 Main owned by Jewish businessman Edward Harris. Advertisements for Ed. Harris claimed it was “Beacon’s Largest Store” in the 1930s, and Harris had his name engraved on the sidewalk outside. Next in the row was Moore Brothers Pharmacy at 466 Main, run by Paul Wolkoff. A few doors down, where you stand now was Max Bernstein’s toy store at 472 Main. Max was the brother of Nathan Bernstein who had a clothing store on the west end of Main Street. Next door was Caplan’s Jewelry store at 476 Main run by Abraham Caplan.",
                 ]}
-                hasBusiness={true}
+                hasBusiness={false}
               />
-              <Link text="Business" to="/business-1" />
+              {/* <Link text="Business" to="/business-1" /> */}
             </div>
           }
         ></Route>
@@ -539,15 +539,15 @@ const App = () => (
                   },
                 ]}
               />
-              {/*              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />*/}
+              <AudioPlayer audiofile="/audios/HubStop9.mp3" />
               <Description
                 header="North and Main"
                 text={[
                   "Where you are standing at 520 Main Street was once the tailor shop of Hyman Siegel, a founder of Beacon Hebrew Alliance and an avid religious scholar. After Siegel retired, Eugene Glauberman, another Jewish tailor, set up shop here. Of interest at the intersection of Main and East Main Streets is Beacon’s only remaining dummy light. Erected in 1927, it has become one of the most recognizable symbols of Beacon. The eastern end of Main Street also contains many relics from Beacon’s industrial past. The first factory in Beacon was built in 1814 along the shores of Fishkill Creek near what is now One East Main Street. Subsequently, hats, wood planers, electric blankets, and silk were all manufactured in this area. The long brick building at 578 Main has housed many factories, among them the Jewish-owned Werber Leather Coat Company, that operated here from the 1930s-60s.",
                 ]}
-                hasBusiness={true}
+                hasBusiness={false}
               />
-              <Link text="Business" to="/business-1" />
+              {/* <Link text="Business" to="/business-1" /> */}
             </div>
           }
         ></Route>
@@ -595,15 +595,15 @@ const App = () => (
                   },
                 ]}
               />
-              {/*              <AudioPlayer audiofile="/audios/S1_BankSquare.mp3" />*/}
+              <AudioPlayer audiofile="/audios/HubStop10.mp3" />
               <Description
                 header="East Main and Water"
                 text={[
                   "Having crossed Fishkill Creek, you are now at the intersection of East Main, Leonard and Water Streets, in an area that used to be known as Fountain Square. Two long-running Jewish businesses were here: Stein’s Shoes at 11-15 East Main; and Dr. Simon Lewis’s dental practice at 36 East Main. Dr. Lewis, a WWII veteran, was a beloved figure in Beacon and the Jewish community, known for his warm heart and generosity. While you are here, be sure to visit the Beacon Historical Society at 61 Leonard Street, where you can learn more about the Jewish businesses on this tour and other fascinating aspects of Beacon’s history.",
                 ]}
-                hasBusiness={true}
+                hasBusiness={false}
               />
-              <Link text="Business" to="/business-1" />
+              {/* <Link text="Business" to="/business-1" /> */}
             </div>
           }
         ></Route>
