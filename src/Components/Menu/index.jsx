@@ -19,7 +19,7 @@ function Menu() {
   if (isDesktop) {
     return (
       <div className="menu-container-desktop">
-        <Link to="/home">Home</Link>
+        <Link to="/home">Map</Link>
         <Link to="/credits">Credits</Link>
         <button
           onClick={() => {
@@ -79,7 +79,7 @@ function Menu() {
                 </button>
                 <h1>Jewish Beacon History Walk</h1>
               </div>
-              <Link to="/home">Home</Link>
+              <Link to="/home">Map</Link>
               <Link to="/credits">Credits</Link>
               <span>Tour Stops</span>
               <div className="menu-box-deep-links">

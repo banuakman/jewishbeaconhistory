@@ -3,6 +3,7 @@ import ThemeProvider from "react-bootstrap/ThemeProvider";
 import Container from "react-bootstrap/Container";
 import { Routes, Route } from "react-router-dom";
 import { ComingSoon } from "./Components/ComingSoon";
+import { Credits } from "./Components/Credits";
 import { Header } from "./Components/Header";
 import { Map } from "./Components/Map";
 import { Description } from "./Components/Description";
@@ -14,6 +15,18 @@ const App = () => (
   <ThemeProvider>
     <Container>
       <Routes>
+        <Route path="/" element={<ComingSoon />}></Route>
+
+        <Route
+          path="/credits"
+          element={
+            <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+              <Header text="Jewish Beacon History Walk" />
+              <Credits />
+            </div>
+          }
+        ></Route>
+
         <Route
           path="/home"
           element={
@@ -24,7 +37,9 @@ const App = () => (
                 text={[
                   "The Jewish Beacon History Walk was created to celebrate the centennial of the Beacon Hebrew Alliance, the first and only synagogue in Beacon, New York, founded in 1921. In researching the origins of the synagogue, we uncovered a rich history of Jewish enterprise in Beacon. By delving into the stories behind the Jewish businesses, we discovered many interrelationships between the early Jewish families that settled in Beacon, formed the Beacon Hebrew Alliance and helped to build the city you see today.",
                   <br />,
+                  <br />,
                   "Starting with an interactive map of Beacon’s Main Street, you can see where different Jewish businesses once were as you travel along the route. The Walk has ten different “hub stops” going from west to east. When you come to a hub stop on the map, click on it to learn more about the history of that area, and see a list of Jewish businesses that once thrived there. You can click on any “business card” to learn more about that business, who owned it, and how they were connected to civic and Jewish life in Beacon.",
+                  <br />,
                   <br />,
                   "The Jewish Beacon History Walk is best experienced by listening to the audio guide through headphones. Historical photos, written descriptions, and clips from oral history interviews are also included at each point on the tour. We encourage you to go into the businesses that are there now, chat with the store owners, and try to imagine what it was like in the heyday of Jewish Beacon almost 100 years ago…",
                 ]}
@@ -86,7 +101,7 @@ const App = () => (
               />
               {/* <AudioPlayer audiofile="/audios/HubStop1.mp3" /> */}
               <Description
-                header="Beacon Hebrew Alliance (BHA)"
+                header="The Beacon Historical Society (BHS)"
                 text={[
                   "Date established: 1976",
                   <br />,
@@ -102,9 +117,12 @@ const App = () => (
                   <br />,
                   "The Beacon Historical Society (BHS) showcases Beacon’s history through exhibitions, archival collections, lecture series, special events, and an informative newsletter. BHS was formed in 1976, with a mission to discover, procure, preserve, and present Beacon’s heritage and history. The Society’s collection includes books, prints, documents, photographs, postcards, paintings, maps and artifacts--all relating to the history of Beacon, NY and its antecedent villages of Fishkill Landing and Matteawan.",
                   <br />,
+                  <br />,
                   "From April 2-30, 2022, in honor of the centennial of the Beacon Hebrew Alliance (BHA), the BHS and BHA are proud to co-present “Celebrating 100 Years of Jewish Culture in Beacon” an exhibition commemorating Jewish history, culture, and community in Beacon and the Hudson Valley. Stop by during our open hours to view the exhibit and learn more about the important contributions the Jewish community has made to the city of Beacon.",
                   <br />,
+                  <br />,
                   "You can help support our mission by becoming a member, a supporter and a volunteer!",
+                  <br />,
                   <br />,
                   "Please call 845-831-0514 or visit our website at ",
                   <a href="https://www.beaconhistorical.org/" target="_blank">
@@ -188,9 +206,12 @@ const App = () => (
                   <br />,
                   "Officially incorporated in May 1921, BHA was founded by a dozen or so Jewish families that were made up of some prominent business and civic leaders such as Beacon’s second mayor Samuel Beskin (stop #1), department store owner Ed Harris (stop #8), tavern-keeper Hyman Pomeranz (stop #3), and tailor Samuel Snidaman (stop #1), who was the first known Jewish resident of Fishkill Landing. Prior to this, the only way for the Jews of Beacon to observe their faith was either to go to Newburgh on the ferry, or travel north 20 miles to Poughkeepsie.",
                   <br />,
+                  <br />,
                   "Fundraising for the new BHA building was chaired by Sidney Schuman (see stop #3) and Fannie Miller (stop #6) under the leadership of Board President David Alper (stop #6), a real estate developer in Beacon. When Schuman and Miller had raised $6000 from their connections, they sought out support in the local community. According to the Beacon News, $1,700 for the building was  raised by nonmembers, local residents and businesses. A recognizable donor is Henry Morgenthau Jr., Secretary of the Treasury under Roosevelt, who donated $100. His family still owns Fishkill Farms.",
                   <br />,
+                  <br />,
                   "The synagogue’s construction, headed by James Lynch, a noted builder in Beacon, began in the summer of 1929 with a deadline to be ready for the Jewish New Year in September. Amazingly, Lynch and his crew completed the work within a half an hour of the Rosh Hashanah services!  Lynch donated some of the building supplies from his lumberyard and the Obed Lodge Masons aided in the construction. The building is made of locally produced bricks from the Dennings Point Brick Works. Manager David Strickland donated a large portion of the supplies needed for the building including a new brick product called red corrugated face.",
+                  <br />,
                   <br />,
                   "BHA today still remains at the heart of the Jewish community in Beacon. Since 2011, BHA has had the consistent spiritual leadership of Rabbi Brent Chaim Spodek and Cantor Ellen Pearson Gersh. The membership is robust, with 133 families and hundreds of individuals who participate in its services and programs each year.",
                 ]}
@@ -873,14 +894,14 @@ const App = () => (
                     imglink: "/images/stop10_6.jpg",
                     alt: "",
                     caption:
-                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 East Main, c. 1956 (6)",
+                      "A photo of Louis Stein from a Merchant Profile article in the Beacon News, c. 1934 (6)",
                   },
                   {
                     id: 7,
                     imglink: "/images/stop10_7.jpg",
                     alt: "",
                     caption:
-                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 East Main, c. 1956 (7)",
+                      "The Sisterhood of BHA with Rabbi Wengrovsky and his wife. President Tillie Shapiro is standing at the right end, c. 1962 (7)",
                   },
                   {
                     id: 8,
@@ -1141,8 +1162,6 @@ const App = () => (
             </div>
           }
         ></Route>
-
-        <Route path="/" element={<ComingSoon />}></Route>
       </Routes>
     </Container>
   </ThemeProvider>
