@@ -31,7 +31,7 @@ function Credits() {
       </div>
       <div className="credits-title">Photography by</div>
       <div className="credits-body">
-        Frank Ritter, ,{" "}
+        Frank Ritter,{" "}
         <a href="http://www.ritterphoto.com/" target="_blank">
           Frank Ritter Photography
         </a>

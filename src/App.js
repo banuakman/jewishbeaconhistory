@@ -260,14 +260,14 @@ const App = () => (
                     imglink: "/images/stop1_1.jpg",
                     alt: "",
                     caption:
-                      "Today, Polhill Park is on the site of the old Bank Square (1)",
+                      "Today, Polhill Park is on the site of the old Bank Square. February 28, 2022 (1)",
                   },
                   {
                     id: 2,
                     imglink: "/images/stop1_2.jpg",
                     alt: "",
                     caption:
-                      "Postcard of the 'Five Corners' of Bank Square (2)",
+                      "Postcard of the 'Five Corners' of Bank Square c. 1890s (2)",
                   },
                   {
                     id: 3,
@@ -301,7 +301,7 @@ const App = () => (
                     imglink: "/images/stop1_LewisPine_3.jpg",
                     alt: "",
                     caption:
-                      "The Lewis & Pine storefront at 133 Main Street (1)",
+                      "The Lewis & Pine storefront at 133 Main Street. March 6, 2022  (1)",
                   },
                 ]}
               />
@@ -354,7 +354,8 @@ const App = () => (
                     id: 2,
                     imglink: "/images/stop2_2.jpg",
                     alt: "",
-                    caption: "The view of Main Street looking east today. (2)",
+                    caption:
+                      "The view of Main Street looking east today. February 21, 2022 (2)",
                   },
                   {
                     id: 3,
@@ -368,27 +369,28 @@ const App = () => (
                     imglink: "/images/stop2_5.jpg",
                     alt: "",
                     caption:
-                      "View of Main Street looking west from Cross Street in 2022 (2)",
+                      "View of Main Street looking west from Cross Street. March 11, 2022 (2)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop2_6.jpg",
                     alt: "",
-                    caption: "The street view of 172 Main Street in 2022 (2)",
+                    caption:
+                      "The street view of 172 Main Street. March 6, 2022 (2)",
                   },
                   {
                     id: 6,
                     imglink: "/images/stop2_7.jpg",
                     alt: "",
                     caption:
-                      "The tiled entryway of 172 Main still bears Samuel Cahn’s name, March 2022 (2)",
+                      "The tiled entryway of 172 Main still bears Samuel Cahn’s name. March 6, 2022 (2)",
                   },
                   {
                     id: 7,
                     imglink: "/images/stop2_8.jpg",
                     alt: "",
                     caption:
-                      "The storefronts from 165-167 Main where the Beacon Furniture Company was once located (2)",
+                      "The storefronts from 165-167 Main where the Beacon Furniture Company was once located. March 27, 2022 (2)",
                   },
                   {
                     id: 8,
@@ -447,35 +449,35 @@ const App = () => (
                     imglink: "/images/stop3_3.jpg",
                     alt: "",
                     caption:
-                      "Main Street looking west from Holland House (today the DMV) with Schuman’s Army & Navy Store (215 Main) on the left, c. 1950 (3)",
+                      "Main Street looking west from Holland House (today the DMV) with Schuman’s Army & Navy Store (215 Main) on the left, c. 1950 (2)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop3_4.jpg",
                     alt: "",
                     caption:
-                      "Current view looking west on Main Street from the DMV building, March 2022 (4)",
+                      "Current view looking west on Main Street from the DMV building, March 2022 (1)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop3_5.jpg",
                     alt: "",
                     caption:
-                      "A postcard of Pomey’s Hotel at 246 Main, c. 1918 (5)",
+                      "A postcard of Pomey’s Hotel at 246 Main, c. 1918 (2)",
                   },
                   {
                     id: 6,
                     imglink: "/images/stop3_6.jpg",
                     alt: "",
                     caption:
-                      "Max’s on Main now occupies 246 Main where Pomey’s was once located, March 2022 (6)",
+                      "Max’s on Main now occupies 246 Main where Pomey’s was once located. March 27, 2022 (1)",
                   },
                   {
                     id: 7,
                     imglink: "/images/stop3_7.jpg",
                     alt: "",
                     caption:
-                      "Today Scarborough Faire occupies 257 Main where Nathan Rotner’s tailor shop once was located, March 2022 (7)",
+                      "Today Scarborough Faire occupies 257 Main where Nathan Rotner’s tailor shop once was located. March 27, 2022 (1)",
                   },
                 ]}
               />
@@ -488,6 +490,15 @@ const App = () => (
                 hasBusiness={false}
               />
               {/* <Link text="Business" to="/business-1" /> */}
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Frank Ritter, Frank Ritter Photography",
+                  <br />,
+                  "(2) Beacon Historical Society",
+                ]}
+              />
             </div>
           }
         ></Route>
@@ -510,28 +521,28 @@ const App = () => (
                     id: 2,
                     imglink: "/images/stop4_2.jpg",
                     alt: "",
-                    caption: "M.H. Fishman’s store in 1967 (2)",
+                    caption: "M.H. Fishman’s store in 1967 (1)",
                   },
                   {
                     id: 3,
                     imglink: "/images/stop4_3.jpg",
                     alt: "",
                     caption:
-                      "Firemen’s Parade passing by M.H. Fishman's, c. 1960 (3)",
+                      "Firemen’s Parade passing by M.H. Fishman's, c. 1960 (1)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop4_4.jpg",
                     alt: "",
                     caption:
-                      "The Howland Public Library moved to 313 Main in 1976 (4)",
+                      "The Howland Public Library moved to 313 Main in 1976. March 4, 2022 (2)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop4_5.jpg",
                     alt: "",
                     caption:
-                      "The original Howland Library building at Tioranda and Main built by General Joseph Howland in 1872 (5)",
+                      "The original Howland Library building at Tioranda and Main built by General Joseph Howland in 1872 (1)",
                   },
                 ]}
               />
@@ -544,6 +555,15 @@ const App = () => (
                 hasBusiness={false}
               />
               {/* <Link text="Business" to="/business-1" /> */}
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Beacon Historical Society",
+                  <br />,
+                  "(2) Frank Ritter, Frank Ritter Photography",
+                ]}
+              />
             </div>
           }
         ></Route>
@@ -560,7 +580,7 @@ const App = () => (
                     imglink: "/images/stop5_1.jpg",
                     alt: "",
                     caption:
-                      "Current view of the corner of S. Chestnut and Main (1)",
+                      "Current view of the corner of S. Chestnut and Main. March 4, 2022 (1)",
                   },
                   {
                     id: 2,
@@ -573,28 +593,28 @@ const App = () => (
                     id: 3,
                     imglink: "/images/stop5_3.jpg",
                     alt: "",
-                    caption: "A&P Supermarket on Main Street, c. 1960s (3)",
+                    caption: "A&P Supermarket on Main Street, c. 1960s (2)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop5_4.jpg",
                     alt: "",
                     caption:
-                      "Current businesses occupying the old A&P building (4)",
+                      "Current businesses occupying the old A&P building. March 11, 2022 (1)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop5_5.jpg",
                     alt: "",
                     caption:
-                      "The Ritter Family and employees outside their laundry at 4-6 S. Chestnut Street in 1931 (5)",
+                      "The Ritter Family and employees outside their laundry at 4-6 S. Chestnut Street in 1931 (3)",
                   },
                   {
                     id: 6,
                     imglink: "/images/stop5_Rosenblum_2.jpg",
                     alt: "",
                     caption:
-                      "Looking northwest on Main at Eliza Street was Rosenblum Shoes (second store from left), and the Mid-Town Market at right where Abraham Lewis’s grocery was once located, c. 1965. (6)",
+                      "Looking northwest on Main at Eliza Street was Rosenblum Shoes (second store from left), and the Mid-Town Market at right where Abraham Lewis’s grocery was once located, c. 1965. (2)",
                   },
                 ]}
               />
@@ -607,6 +627,17 @@ const App = () => (
                 hasBusiness={false}
               />
               {/* <Link text="Business" to="/business-1" /> */}
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Frank Ritter, Frank Ritter Photography",
+                  <br />,
+                  "(2) Beacon Historical Society",
+                  <br />,
+                  "(3) courtesy of Frank Ritter",
+                ]}
+              />
             </div>
           }
         ></Route>
@@ -623,7 +654,7 @@ const App = () => (
                     imglink: "/images/stop6_1.jpg",
                     alt: "",
                     caption:
-                      "Southwest corner of Main Street and Teller Avenue with 403 Main on the left (1)",
+                      "Southwest corner of Main Street and Teller Avenue with 403 Main on the left. March 11, 2022 (1)",
                   },
                   {
                     id: 2,
@@ -637,41 +668,41 @@ const App = () => (
                     imglink: "/images/stop6_5.jpg",
                     alt: "",
                     caption:
-                      "The Verizon building is now located on the former site of David Alper’s real estate office (3)",
+                      "The Verizon building is now located on the former site of David Alper’s real estate office. March 11, 2022 (1)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop6_7.jpg",
                     alt: "",
                     caption:
-                      "This Victorian house at 11 Fishkill Avenue was the dental office of Dr. Louis Rogen and Dr. Harold Ginsberg from approx 1950-1975 (4)",
+                      "This Victorian house at 11 Fishkill Avenue was the dental office of Dr. Louis Rogen and Dr. Harold Ginsberg from approx 1950-1975. March 13, 2022 (1)",
                   },
                   {
                     id: 5,
                     imglink: "/images/BHA_2.jpg",
                     alt: "",
                     caption:
-                      "A newspaper article in 1930 reporting on the opening of the 'new Hebrew Synagogue and Community Center' (5)",
+                      "A newspaper article in 1930 reporting on the opening of the 'new Hebrew Synagogue and Community Center'. March 31, 1930 (3)",
                   },
                   {
                     id: 6,
                     imglink: "/images/BHA_1.jpg",
                     alt: "",
-                    caption: "A 2021 aerial view of the BHA building (6)",
+                    caption: "A 2021 aerial view of the BHA building (4)",
                   },
                   {
                     id: 7,
                     imglink: "/images/stop6_3.jpg",
                     alt: "",
                     caption:
-                      "Highland Hospital on Verplanck Ave between Fishkill and Schenck, c. 1914 (7)",
+                      "Highland Hospital on Verplanck Ave between Fishkill and Schenck, c. 1914 (2)",
                   },
                   {
                     id: 8,
                     imglink: "/images/stop6_6.jpg",
                     alt: "",
                     caption:
-                      "The corner of Schenck and Verplanck has Townhouses where the old Highland Hospital used to be, March 2022 (8)",
+                      "The corner of Schenck and Verplanck has Townhouses where the old Highland Hospital used to be, March 2022 (1)",
                   },
                 ]}
               />
@@ -684,6 +715,19 @@ const App = () => (
                 hasBusiness={false}
               />
               {/* <Link text="Business" to="/business-1" /> */}
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Frank Ritter, Frank Ritter Photography",
+                  <br />,
+                  "(2) Beacon Historical Society",
+                  <br />,
+                  "(3) Beacon News",
+                  <br />,
+                  "(4) Felix Lara, photographer",
+                ]}
+              />
             </div>
           }
         ></Route>
@@ -699,47 +743,47 @@ const App = () => (
                     id: 1,
                     imglink: "/images/stop7_1.jpg",
                     alt: "",
-                    caption: "Looking east from 445 Main in 2022 (1)",
+                    caption: "Looking east from 445 Main. March 11, 2022 (1)",
                   },
                   {
                     id: 2,
                     imglink: "/images/stop7_2.jpg",
                     alt: "",
                     caption:
-                      "The Beacon Theatre marquee on opening day in 1934 (2)",
+                      "The Beacon Theatre marquee on opening day. August 16, 1934 (2)",
                   },
                   {
                     id: 3,
                     imglink: "/images/Stop7_BeaconTheatre_1.jpg",
                     alt: "",
                     caption:
-                      "Max Ginsberg at left and other investors who built the Beacon Theatre, August 7, 1934 (3)",
+                      "Max Ginsberg at left and other investors who built the Beacon Theatre. August 7, 1934 (2)",
                   },
                   {
                     id: 4,
                     imglink: "/images/Stop7_BeaconTheatre_3.jpg",
                     alt: "",
                     caption:
-                      "An ad for movies at the Beacon Theatre, c. 1930 (4)",
+                      "An ad for movies at the Beacon Theatre, c. 1930 (3)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop7_3.jpg",
                     alt: "",
-                    caption: "Storyscreen Theater marquee in 2022 (5)",
+                    caption: "Storyscreen Theater marquee in 2022 (1)",
                   },
                   {
                     id: 6,
                     imglink: "/images/stop7_4.jpg",
                     alt: "",
                     caption:
-                      "Original Wonderbar sign painted on the side of 445 Main (6)",
+                      "Original Wonderbar sign painted on the side of 445 Main (3)",
                   },
                   {
                     id: 7,
                     imglink: "/images/stop7_5.jpg",
                     alt: "",
-                    caption: "The cover of the Wonder-bar menu, c. 1940 (7)",
+                    caption: "The cover of the Wonder-bar menu, c. 1940 (3)",
                   },
                 ]}
               />
@@ -752,6 +796,17 @@ const App = () => (
                 hasBusiness={false}
               />
               {/* <Link text="Business" to="/business-1" /> */}
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Frank Ritter, Frank Ritter Photography",
+                  <br />,
+                  "(2) Beacon News",
+                  <br />,
+                  "(3) Beacon Historical Society",
+                ]}
+              />
             </div>
           }
         ></Route>
@@ -775,40 +830,41 @@ const App = () => (
                     imglink: "/images/stop8_2.jpg",
                     alt: "",
                     caption:
-                      "Present day “brown block” looking west from 472 Main (2)",
+                      "Present day “brown block” looking west from 472 Main. March 11, 2022 (2)",
                   },
                   {
                     id: 3,
                     imglink: "/images/stop8_3.jpg",
                     alt: "",
                     caption:
-                      "Main Street from the old Howland library looking west c. 1933 (3)",
+                      "Main Street from the old Howland library looking west c. 1933 (1)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop8_5.jpg",
                     alt: "",
                     caption:
-                      "The Ed. Harris Building at 464 Main Street was sold in 1940 (4)",
+                      "The Ed. Harris Building at 464 Main Street was sold in 1940. February 29, 1940 (3)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop8_6.jpg",
                     alt: "",
                     caption:
-                      "Edward Harris owned a clothing store on the east end of Main Street that claimed to be 'Beacon's Largest Store' in the 1930s (5)",
+                      "Edward Harris owned a clothing store on the east end of Main Street that claimed to be 'Beacon's Largest Store' in the 1930s (1)",
                   },
                   {
                     id: 6,
                     imglink: "/images/stop8_4.jpg",
                     alt: "",
-                    caption: "Beacon Falls Cafe stands today at 472 Main (6)",
+                    caption:
+                      "Beacon Falls Cafe stands today at 472 Main. March 11, 2022 (2)",
                   },
                   {
                     id: 7,
                     imglink: "/images/stop8_7.jpg",
                     alt: "",
-                    caption: "Max Bernstein’s business card from 1943 (7)",
+                    caption: "Max Bernstein’s business card from 1943 (1)",
                   },
                 ]}
               />
@@ -821,6 +877,17 @@ const App = () => (
                 hasBusiness={false}
               />
               {/* <Link text="Business" to="/business-1" /> */}
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Beacon Historical Society",
+                  <br />,
+                  "(2) Frank Ritter, Frank Ritter Photography",
+                  <br />,
+                  "(3) Beacon News",
+                ]}
+              />
             </div>
           }
         ></Route>
@@ -843,41 +910,42 @@ const App = () => (
                     id: 2,
                     imglink: "/images/stop9_1.jpg",
                     alt: "",
-                    caption: "Main Street at the dummy light in 2022 (2)",
+                    caption:
+                      "Main Street at the dummy light. March 11, 2022 (2)",
                   },
                   {
                     id: 3,
                     imglink: "/images/stop9_2.jpg",
                     alt: "",
-                    caption: "Main Street at the dummy light c. 1999 (3)",
+                    caption: "Main Street at the dummy light c. 1999 (1)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop9_3.jpg",
                     alt: "",
                     caption:
-                      "Lithograph of Matteawan with early factory buildings, c. 1850s (4)",
+                      "Lithograph of Matteawan with early factory buildings, c. 1850s (1)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop9_4.jpg",
                     alt: "",
                     caption:
-                      "Shrader Hat Company Works at 1 East Main St, c. 1914 (5)",
+                      "Shrader Hat Company Works at 1 East Main St, c. 1914 (1)",
                   },
                   {
                     id: 6,
                     imglink: "/images/stop9_5.jpg",
                     alt: "",
                     caption:
-                      "Werber Leather Coat Company occupied 578 Main Street after the Littauer Silk Mill closed (6)",
+                      "Werber Leather Coat Company occupied 578 Main Street after the Littauer Silk Mill closed (1)",
                   },
                   {
                     id: 7,
                     imglink: "/images/stop9_6.jpg",
                     alt: "",
                     caption:
-                      "The old factory building at Ackerman and Main in 2022 (7)",
+                      "The old factory building at Ackerman and Main. April 1, 2022  (2)",
                   },
                 ]}
               />
@@ -890,6 +958,15 @@ const App = () => (
                 hasBusiness={false}
               />
               {/* <Link text="Business" to="/business-1" /> */}
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Beacon Historical Society",
+                  <br />,
+                  "(2) Frank Ritter, Frank Ritter Photography",
+                ]}
+              />
             </div>
           }
         ></Route>
@@ -906,7 +983,7 @@ const App = () => (
                     imglink: "/images/stop10_5.jpg",
                     alt: "",
                     caption:
-                      "View looking towards 15 East Main from the Ron and Ronnie Sauers bridge in 2022 (1)",
+                      "View looking towards 15 East Main from the Ron and Ronnie Sauers bridge. April 1, 2022 (1)",
                   },
                   {
                     id: 2,
@@ -920,41 +997,42 @@ const App = () => (
                     imglink: "/images/stop10_2.jpg",
                     alt: "",
                     caption:
-                      "The Chanler Fife, Drum and Bugle Corps marching towards the old horse fountain at Fountain Square, c. 1915 (3)",
+                      "The Chanler Fife, Drum and Bugle Corps marching towards the old horse fountain at Fountain Square, c. 1915 (2)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop10_3.jpg",
                     alt: "",
-                    caption: "A house at 36 East Main Street in 2022 (4)",
+                    caption:
+                      "A house at 36 East Main Street. March 11, 2022 (1)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop10_4.jpg",
                     alt: "",
                     caption:
-                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 East Main, c. 1956 (5)",
+                      "Dr. Simon Lewis and his daughter Barbara at their home on 36 East Main, c. 1956 (3)",
                   },
                   {
                     id: 6,
                     imglink: "/images/stop10_6.jpg",
                     alt: "",
                     caption:
-                      "A photo of Louis Stein from a Merchant Profile article in the Beacon News, c. 1934 (6)",
+                      "A photo of Louis Stein from a Merchant Profile article in the Beacon News, c. 1934 (2)",
                   },
                   {
                     id: 7,
                     imglink: "/images/stop10_7.jpg",
                     alt: "",
                     caption:
-                      "The Sisterhood of BHA with Rabbi Wengrovsky and his wife. President Tillie Shapiro is standing at the right end, c. 1962 (7)",
+                      "The Sisterhood of BHA with Rabbi Wengrovsky and his wife. President Tillie Shapiro is standing at the right end, c. 1962 (4)",
                   },
                   {
                     id: 8,
                     imglink: "/images/BHS_1.jpg",
                     alt: "",
                     caption:
-                      "The former rectory of St. Joachim’s has been the home of Beacon Historical Society since 2021 (8)",
+                      "The former rectory of St. Joachim’s has been the home of Beacon Historical Society since 2021 (2)",
                   },
                 ]}
               />
@@ -967,6 +1045,19 @@ const App = () => (
                 hasBusiness={false}
               />
               {/* <Link text="Business" to="/business-1" /> */}
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Frank Ritter, Frank Ritter Photography",
+                  <br />,
+                  "(2) Beacon Historical Society",
+                  <br />,
+                  "(3) courtesy of Ian Green",
+                  <br />,
+                  "(4) Beacon News courtesy of Ann Gross",
+                ]}
+              />
             </div>
           }
         ></Route>
