@@ -10,6 +10,7 @@ import { Description } from "./Components/Description";
 import { Link } from "./Components/Link";
 import { Slider } from "./Components/Slider";
 import { AudioPlayer } from "./Components/AudioPlayer";
+import { PhotoCredits } from "./Components/PhotoCredits";
 
 const App = () => (
   <ThemeProvider>
@@ -68,34 +69,34 @@ const App = () => (
                     imglink: "/images/BHS_2.jpg",
                     alt: "",
                     caption:
-                      "The original farmhouse purchased in 1860 by the church and expanded in 1875 (2)",
+                      "The original farmhouse purchased in 1860 by the church and expanded in 1875 (1)",
                   },
                   {
                     id: 3,
                     imglink: "/images/BHS_3.jpg",
                     alt: "",
-                    caption: "St. Joachim’s rectory (3)",
+                    caption: "St. Joachim’s rectory c. 1931 (1)",
                   },
                   {
                     id: 4,
                     imglink: "/images/BHS_4.jpg",
                     alt: "",
                     caption:
-                      "Display on Jewish War Veterans of WWII at BHS in April 20220 (4)",
+                      "Display on Jewish War Veterans of WWII at BHS in April 20220 (2)",
                   },
                   {
                     id: 5,
                     imglink: "/images/BHS_5.jpg",
                     alt: "",
                     caption:
-                      "Display on Sam Beskin as part of exhibition “Celebrating 100 Years of Jewish Culture in Beacon” at BHS in April 2022 (5)",
+                      "Display on Sam Beskin as part of exhibition “Celebrating 100 Years of Jewish Culture in Beacon” at BHS in April 2022 (3)",
                   },
                   {
                     id: 6,
                     imglink: "/images/BHS_6.jpg",
                     alt: "",
                     caption:
-                      "Display on Louis Ritter as part of exhibition “Celebrating 100 Years of Jewish Culture in Beacon” at BHS in April 2022 (6)",
+                      "Display on Louis Ritter as part of exhibition “Celebrating 100 Years of Jewish Culture in Beacon” at BHS in April 2022 (3)",
                   },
                 ]}
               />
@@ -132,6 +133,17 @@ const App = () => (
                   " for more information.",
                 ]}
                 hasBusiness={false}
+              />
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Beacon Historical Society",
+                  <br />,
+                  "(2) Frank Ritter, Frank Ritter Photography",
+                  <br />,
+                  "(3) Diane Lapis photographer",
+                ]}
               />
             </div>
           }
@@ -181,7 +193,7 @@ const App = () => (
                     id: 6,
                     imglink: "/images/BHA_6.jpg",
                     alt: "",
-                    caption: "The Zollner’s baby naming c. 2003 (6)",
+                    caption: "The Zollner’s baby naming c. 2003 (5)",
                   },
                 ]}
               />
@@ -217,6 +229,21 @@ const App = () => (
                 ]}
                 hasBusiness={false}
               />
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Felix Lara, photographer",
+                  <br />,
+                  "(2)  Beacon News, March 31, 1930",
+                  <br />,
+                  "(3) courtesy of Diane Lapis",
+                  <br />,
+                  "(4) Beacon Hebrew Alliance",
+                  <br />,
+                  "(5) courtesy of Ellen Pearson Gersh",
+                ]}
+              />
             </div>
           }
         ></Route>
@@ -247,34 +274,34 @@ const App = () => (
                     imglink: "/images/stop1_3.jpg",
                     alt: "",
                     caption:
-                      "Postcard showing Bank Square in 1892 with the Fishkill National Bank (3)",
+                      "Postcard showing Bank Square in 1892 with the Fishkill National Bank (2)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop1_4.jpg",
                     alt: "",
-                    caption: "Postcard of Bank Square c. 1913 (4)",
+                    caption: "Postcard of Bank Square c. 1913 (2)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop1_5.jpg",
                     alt: "",
                     caption:
-                      "Beskin’s Department Store and Snidaman’s Tailor Shop on Bank Square c. 1906 (5)",
+                      "Beskin’s Department Store and Snidaman’s Tailor Shop on Bank Square c. 1906 (2)",
                   },
                   {
                     id: 6,
                     imglink: "/images/stop1_Aero_3.jpg",
                     alt: "",
                     caption:
-                      "The foreman of Aero Leather and women workers during WWII, c. 1942. (6)",
+                      "The foreman of Aero Leather and women workers during WWII, c. 1942. (2)",
                   },
                   {
                     id: 7,
                     imglink: "/images/stop1_LewisPine_3.jpg",
                     alt: "",
                     caption:
-                      "The Lewis & Pine storefront at 133 Main Street (7)",
+                      "The Lewis & Pine storefront at 133 Main Street (1)",
                   },
                 ]}
               />
@@ -283,6 +310,7 @@ const App = () => (
                 header="Historic Bank Square"
                 text={[
                   "Polhill Park was once a wide intersection of five streets called Bank Square, which was lined with many shops and businesses. It was the main hub of commercial activity in the village of Fishkill Landing and later in the city of Beacon after it was established in 1913. One hundred years ago, you would have seen the square teeming with trolley cars, pedestrians, automobiles, and a few horse-drawn carriages. Sadly, this area was completely demolished in the 1960s during Beacon’s urban renewal program. Tap the list below to learn more about the Jewish businesses that thrived in Bank Square during its heyday and scroll through the pictures to get a sense of what this busy intersection looked like at the turn of the twentieth century.",
+                  <br />,
                   <br />,
                   "On your way to the next stop, check out Lewis & Pine Jewelry and Apothecary at 133 Main Street. This present-day Jewish-owned business sells handmade jewelry and is in a beautifully restored historic building.",
                 ]}
@@ -295,6 +323,15 @@ const App = () => (
                 text="Lewis&Pine Jewelry and Apothecary"
                 to="/stop1_LewisPine"
               /> */}
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Frank Ritter, Frank Ritter Photography",
+                  <br />,
+                  "(2) Beacon Historical Society",
+                ]}
+              />
             </div>
           }
         ></Route>
@@ -324,41 +361,41 @@ const App = () => (
                     imglink: "/images/stop2_4.jpg",
                     alt: "",
                     caption:
-                      "View of Main Street looking west from Cross Street, c. 1900 (3)",
+                      "View of Main Street looking west from Cross Street, c. 1900 (1)",
                   },
                   {
                     id: 4,
                     imglink: "/images/stop2_5.jpg",
                     alt: "",
                     caption:
-                      "View of Main Street looking west from Cross Street in 2022 (4)",
+                      "View of Main Street looking west from Cross Street in 2022 (2)",
                   },
                   {
                     id: 5,
                     imglink: "/images/stop2_6.jpg",
                     alt: "",
-                    caption: "The street view of 172 Main Street in 2022 (5)",
+                    caption: "The street view of 172 Main Street in 2022 (2)",
                   },
                   {
                     id: 6,
                     imglink: "/images/stop2_7.jpg",
                     alt: "",
                     caption:
-                      "The tiled entryway of 172 Main still bears Samuel Cahn’s name, March 2022 (6)",
+                      "The tiled entryway of 172 Main still bears Samuel Cahn’s name, March 2022 (2)",
                   },
                   {
                     id: 7,
                     imglink: "/images/stop2_8.jpg",
                     alt: "",
                     caption:
-                      "The storefronts from 165-167 Main where the Beacon Furniture Company was once located (7)",
+                      "The storefronts from 165-167 Main where the Beacon Furniture Company was once located (2)",
                   },
                   {
                     id: 8,
                     imglink: "/images/stop2_9.jpg",
                     alt: "",
                     caption:
-                      "Ausher Bernstein's Guarantee Outfitting House, c. 1921 at 171-173 Main; 'the house where quality counts' (8)",
+                      "Ausher Bernstein's Guarantee Outfitting House, c. 1921 at 171-173 Main; 'the house where quality counts' (1)",
                   },
                 ]}
               />
@@ -371,6 +408,15 @@ const App = () => (
                 hasBusiness={false}
               />
               {/* <Link text="Business" to="/business-1" /> */}
+              <PhotoCredits
+                credits={[
+                  "Photo Credits",
+                  <br />,
+                  "(1) Beacon Historical Society",
+                  <br />,
+                  "(2) Frank Ritter, Frank Ritter Photography",
+                ]}
+              />
             </div>
           }
         ></Route>
