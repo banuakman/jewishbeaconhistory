@@ -16,8 +16,6 @@ const App = () => (
   <ThemeProvider>
     <Container>
       <Routes>
-        <Route path="/" element={<ComingSoon />}></Route>
-
         <Route
           path="/credits"
           element={
@@ -29,7 +27,7 @@ const App = () => (
         ></Route>
 
         <Route
-          path="/home"
+          path="/"
           element={
             <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
               <Header text="Jewish Beacon History Walk" />

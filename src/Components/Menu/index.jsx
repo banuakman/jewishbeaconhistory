@@ -19,7 +19,7 @@ function Menu() {
   if (isDesktop) {
     return (
       <div className="menu-container-desktop">
-        <Link to="/home">Map</Link>
+        <Link to="/">Map</Link>
         <Link to="/credits">Credits</Link>
         <button
           onClick={() => {
@@ -60,6 +60,16 @@ function Menu() {
             <div>
               <Link to="/stop10">10 - East Main and Water</Link>
             </div>
+            <div>
+              <Link to="/beaconhebrewalliance">
+                Beacon Hebrew Alliance (BHA)
+              </Link>
+            </div>
+            <div>
+              <Link to="/beaconhistoricalsociety">
+                Beacon Historical Society (BHS)
+              </Link>
+            </div>
           </div>
         )}
       </div>
@@ -79,7 +89,7 @@ function Menu() {
                 </button>
                 <h1>Jewish Beacon History Walk</h1>
               </div>
-              <Link to="/home">Map</Link>
+              <Link to="/">Map</Link>
               <Link to="/credits">Credits</Link>
               <span>Tour Stops</span>
               <div className="menu-box-deep-links">
@@ -93,6 +103,12 @@ function Menu() {
                 <Link to="/stop8">8 - Tioronda and Main</Link>
                 <Link to="/stop9">9 - North and Main</Link>
                 <Link to="/stop10">10 - East Main and Water</Link>
+                <Link to="/beaconhebrewalliance">
+                  Beacon Hebrew Alliance (BHA)
+                </Link>
+                <Link to="/beaconhistoricalsociety">
+                  Beacon Historical Society (BHS)
+                </Link>
               </div>
             </div>
           </div>
