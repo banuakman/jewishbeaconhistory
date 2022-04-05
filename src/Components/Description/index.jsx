@@ -23,6 +23,7 @@ function Description({ header, text, hasBusiness }) {
                 ? "location_pin_empty_black.svg"
                 : "location_pin_empty_orange.svg"
             }
+            alt=""
             style={{ color: "#E86C4F" }}
           />
           View Jewish businesses in this location

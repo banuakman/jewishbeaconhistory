@@ -7,32 +7,52 @@ function Credits() {
       <div className="credits-header">Credits</div>
       <div className="credits-title">Produced by</div>
       <p className="credits-body">
-        <a href="https://www.beaconhebrewalliance.org/" target="_blank">
+        <a
+          href="https://www.beaconhebrewalliance.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           the Beacon Hebrew Alliance
         </a>
         <br />
-        <a href="https://www.beaconhistorical.org/" target="_blank">
+        <a
+          href="https://www.beaconhistorical.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           the Beacon Historical Society
         </a>
       </p>
       <div className="credits-title">Written and narrated by</div>
       <div className="credits-body">
         Anna Brady Marcus,{" "}
-        <a href="https://anchoryourlegacy.com/" target="_blank">
+        <a
+          href="https://anchoryourlegacy.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Anchor Your Legacy
         </a>
       </div>
       <div className="credits-title">Designed and developed by</div>
       <div className="credits-body">
         Banu Akman,{" "}
-        <a href="https://banuakman.com" target="_blank">
+        <a
+          href="https://banuakman.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Breative.net
         </a>
       </div>
       <div className="credits-title">Photography by</div>
       <div className="credits-body">
         Frank Ritter,{" "}
-        <a href="http://www.ritterphoto.com/" target="_blank">
+        <a
+          href="http://www.ritterphoto.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Frank Ritter Photography
         </a>
       </div>

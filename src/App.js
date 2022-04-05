@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import ThemeProvider from "react-bootstrap/ThemeProvider";
 import Container from "react-bootstrap/Container";
 import { Routes, Route, useLocation } from "react-router-dom";
-import { ComingSoon } from "./Components/ComingSoon";
 import { Credits } from "./Components/Credits";
 import { Header } from "./Components/Header";
 import { Map } from "./Components/Map";
@@ -119,7 +118,11 @@ const App = () => {
                     "Address: 61 Leonard Street",
                     <br />,
                     "Website: ",
-                    <a href="https://www.beaconhistorical.org/" target="_blank">
+                    <a
+                      href="https://www.beaconhistorical.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       www.beaconhistorical.org
                     </a>,
                     <br />,
@@ -136,7 +139,11 @@ const App = () => {
                     <br />,
                     <br />,
                     "Please call 845-831-0514 or visit our website at ",
-                    <a href="https://www.beaconhistorical.org/" target="_blank">
+                    <a
+                      href="https://www.beaconhistorical.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       www.beaconhistorical.org
                     </a>,
                     " for more information.",
@@ -220,6 +227,7 @@ const App = () => {
                     <a
                       href="https://www.beaconhebrewalliance.org/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       www.beaconhebrewalliance.org
                     </a>,

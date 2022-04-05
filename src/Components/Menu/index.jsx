@@ -26,7 +26,7 @@ function Menu() {
             setIsDrop(!isDrop);
           }}
         >
-          Tour Stops <img src="drop-icon.png" />
+          Tour Stops <img src="drop-icon.png" alt="" />
         </button>
         {isDrop && (
           <div className="menu-dropdown" onMouseLeave={() => setIsDrop(false)}>
@@ -78,14 +78,14 @@ function Menu() {
     return (
       <div className="menu-container">
         <button className="menu-button" onClick={() => setIsOpen(true)}>
-          <img src="hamburger-icon.png" />
+          <img src="hamburger-icon.png" alt="" />
         </button>
         {isOpen && (
           <div className="menu-box">
             <div className="menu-box-links">
               <div className="menu-box-links-header">
                 <button onClick={() => setIsOpen(false)}>
-                  <img className="close-icon" src="close-icon.png" />
+                  <img className="close-icon" src="close-icon.png" alt="" />
                 </button>
                 <h1>Jewish Beacon History Walk</h1>
               </div>
