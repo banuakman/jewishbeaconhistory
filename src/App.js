@@ -139,7 +139,6 @@ const App = () => {
                     <a href="https://www.beaconhistorical.org/" target="_blank">
                       www.beaconhistorical.org
                     </a>,
-                    ,
                     " for more information.",
                   ]}
                   hasBusiness={false}
