@@ -464,7 +464,7 @@ const App = () => {
                       imglink: "/images/stop3_1.jpg",
                       alt: "",
                       caption:
-                        "Storefront at 215 Main where Schuman’s Army & Navy Store was once located. (1)",
+                        "Storefront at 215 Main where Schuman’s Army & Navy Store was once located. April 4, 2022 (1)",
                     },
                     {
                       id: 2,
@@ -1514,6 +1514,85 @@ const App = () => {
                     "(1) The 1921 Fireman’s Parade Souvenir Program produced by the Beacon Journal",
                     <br />,
                     "(2) Beacon Historical Society",
+                    <br />,
+                    "(3) Frank Ritter, Frank Ritter Photography",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop2_Cahn"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Samuel Cahn’s Dry Goods & Dr. Simon Cahn’s Dental Practice" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop2_Cahn_1.jpg",
+                      alt: "",
+                      caption:
+                        "Samuel Cahn owned a dry goods store at 172 Main Street. 1920's (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop2_Bernstein_2.jpg",
+                      alt: "",
+                      caption:
+                        "A stained glass window in the sanctuary of the Beacon Hebrew Alliance is dedicated to Minnie Beskin Cahn, 2012 (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop2_Cahn_3.jpg",
+                      alt: "",
+                      caption:
+                        "The street view of 172 Main Street in March 6, 2022 (3)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop2_Cahn_4.jpg",
+                      alt: "",
+                      caption: "Dr. Simon Cahn c. 1950 (1)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop2_Cahn_5.jpg",
+                      alt: "",
+                      caption: "Mrs. Sadie Jane Effron Cahn c. 1950 (1)",
+                    },
+                    {
+                      id: 6,
+                      imglink: "/images/stop2_Cahn_6.jpg",
+                      alt: "",
+                      caption:
+                        "Owner and son of RonzWorld Guitar Gallery at 172 Main with the name S. Cahn in the entryway (3)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Samuel Cahn’s Dry Goods & Dr. Simon Cahn’s Dental Practice"
+                  text={[
+                    "Owner: Samuel Cahn, Dr. Simon Cahn",
+                    <br />,
+                    "Date established: 1897",
+                    <br />,
+                    "Address: 172 Main Street",
+                    <br />,
+                    <br />,
+                    "Samuel Cahn was born in Latvia, in what was alternately Poland and Russia. He immigrated to the United States in the 1880s and married Minnie Beskin, the sister of Samuel Beskin, who was a successful business owner and Beacon’s second mayor. Beskin helped the Cahns start up a dry goods store at 172 Main Street that ran for 50 years. The store featured men’s, women’s, and children’s furnishings and shoes. Their son, Dr. Simon Cahn had a dentistry practice on the second floor of the building for 45 years. Dr. Cahn and his wife Sadie Jane Effron Cahn were prominent members of the Beacon business community, both serving on the board of directors for the Fishkill National Bank. Dr. Cahn was president of the Beacon Hebrew Alliance in the early 1950s when the synagogue underwent a major renovation. Sadie Cahn lived to be 101, and was at one point the oldest living alumna of Vassar College. She also served as president of the Sisterhood of BHA and on the board of directors of Highland Hospital. After many changes of businesses, Samuel Cahn’s name is still inscribed in the tiled entryway of 172 Main Street.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Beacon Historical Society",
+                    <br />,
+                    "(2) Beacon Hebrew Alliance",
                     <br />,
                     "(3) Frank Ritter, Frank Ritter Photography",
                   ]}
