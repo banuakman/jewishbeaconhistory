@@ -9,22 +9,22 @@
 
 .swipercaption {
   font-size: 0.75em;
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 .swiper-pagination-bullet {
-  width: 1em !important;
-  height: 1em !important;
+  width: 0.75em !important;
+  height: 0.75em !important;
 }
 
 .swiper-pagination-bullet-active {
-  width: 1em !important;
-  height: 1em !important;
+  width: 0.75em !important;
+  height: 0.75em !important;
   background: #e86c4f !important;
 }
 
-.swiper-pagination-horizontal {
-  bottom: 0px !important;
+.swiper-pagination-clickable {
+  bottom: -5px !important;
 }
 
 .swiper-button-next {
