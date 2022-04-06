@@ -19,7 +19,10 @@ function Map() {
   let navigate = useNavigate();
 
   return (
-    <div className="map-container" style={{ height: isDesktop ? "700px" : "400px" }}>
+    <div
+      className="map-container"
+      style={{ height: isDesktop ? "700px" : "400px" }}
+    >
       <MapContainer
         style={{ height: "100%", width: "100%" }}
         center={[41.50492, -73.96988]}
@@ -121,7 +124,7 @@ function Map() {
         />
         <Marker
           position={[41.50522126463467, -73.96568542352239]}
-          icon={icon('<img src="location_pin_BHA.svg"/>')}
+          icon={icon('<img src="location_pin_BHA.svg" alt=""/>')}
           eventHandlers={{
             click: (e) => {
               return navigate("/beaconhebrewalliance");
@@ -130,7 +133,7 @@ function Map() {
         />
         <Marker
           position={[41.504112456175555, -73.95916229102383]}
-          icon={icon('<img src="location_pin_BHS.svg"/>')}
+          icon={icon('<img src="location_pin_BHS.svg" alt=""/>')}
           eventHandlers={{
             click: (e) => {
               return navigate("/beaconhistoricalsociety");
