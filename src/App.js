@@ -31,7 +31,7 @@ const App = () => {
             path="/credits"
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
-                <Header text="Jewish Beacon History Walk" />
+                <Header text="Jewish Beacon History Walk -  Credits" />
                 <Credits />
               </div>
             }
@@ -331,15 +331,15 @@ const App = () => {
                     <br />,
                     "On your way to the next stop, check out Lewis & Pine Jewelry and Apothecary at 133 Main Street. This present-day Jewish-owned business sells handmade jewelry and is in a beautifully restored historic building.",
                   ]}
-                  hasBusiness={false}
+                  hasBusiness={true}
                 />
-                {/* <Link text="Beskin’s Department Store" to="/stop1_Beskin" />
-              <Link text="Snidaman the Tailor" to="/stop1_Snidaman" />
-              <Link text="Aero Leather Clothing Company" to="/stop1_Aero" />
-              <Link
-                text="Lewis&Pine Jewelry and Apothecary"
-                to="/stop1_LewisPine"
-              /> */}
+                <Link text="Beskin’s Department Store" to="/stop1_Beskin" />
+                <Link text="Snidaman the Tailor" to="/stop1_Snidaman" />
+                <Link text="Aero Leather Clothing Company" to="/stop1_Aero" />
+                <Link
+                  text="Lewis&Pine Jewelry and Apothecary (133 Main)"
+                  to="/stop1_LewisPine"
+                />
                 <PhotoCredits
                   credits={[
                     "Photo Credits",
@@ -424,9 +424,21 @@ const App = () => {
                   text={[
                     "The west end of Main Street looks much the same today as it did one hundred years ago. The buildings are constructed of bricks from right here on the Hudson. People of all sorts were attracted to Beacon in the late nineteenth and early twentieth centuries, for its abundance of jobs and natural beauty. Jewish business owners set up shop here to serve this new growing city, and many of the founders of Beacon Hebrew Alliance ran businesses in this area. Here at 172 Main, you’ll find the location of Samuel Cahn’s Dry Goods store along with his son Dr. Simon Cahn’s dentistry practice. You can still see Sam Cahn’s name in the tiled entryway. Across the street and a little west of here was the Beacon Furniture Company at 163-167 Main owned and operated for sixty years by three generations of the Isaacs family. Directly across the street at 171-173 Main was Bernstein and Sons department store, started by Ausher Bernstein and later run by his son Nathan.",
                   ]}
-                  hasBusiness={false}
+                  hasBusiness={true}
                 />
-                {/* <Link text="Business" to="/business-1" /> */}
+                <Link
+                  text="Beacon Furniture Company (163-167 Main 1937-1970 - moved to 316 Main 1971-1980s and 320 Main 1994)"
+                  to="/stop2_BeaconFurniture"
+                />
+                <Link
+                  text="Bernstein and Sons (171-173 Main) 1920s-60s"
+                  to="/stop2_Bernstein"
+                />
+                <Link
+                  text="Samuel Cahn’s Dry Goods & Dr. Simon Cahn’s Dental Practice (172 Main)"
+                  to="/stop2_Cahn"
+                />
+
                 <PhotoCredits
                   credits={[
                     "Photo Credits",
@@ -1105,26 +1117,26 @@ const App = () => {
                       imglink: "/images/stop1_Beskins_3.jpg",
                       alt: "",
                       caption:
-                        "Business card for Beskin’s Department Store, c. 1912 (3)",
+                        "Business card for Beskin’s Department Store, c. 1912 (2)",
                     },
                     {
                       id: 4,
                       imglink: "/images/stop1_Beskins_4.jpg",
                       alt: "",
-                      caption: "Jugs from Beskin’s bottling works, c. 1910 (4)",
+                      caption: "Jugs from Beskin’s bottling works, c. 1910 (2)",
                     },
                     {
                       id: 5,
                       imglink: "/images/stop1_Beskins_5.jpg",
                       alt: "",
-                      caption: "Mayor Samuel Beskin’s gavel, 1917-1921 (5)",
+                      caption: "Mayor Samuel Beskin’s gavel, 1917-1921 (1)",
                     },
                     {
                       id: 6,
                       imglink: "/images/stop1_Beskins_6.jpg",
                       alt: "",
                       caption:
-                        "The gravesite of Samuel Beskin in Agudas Israel Cemetery in New Windsor (6)",
+                        "The gravesite of Samuel Beskin in Agudas Israel Cemetery in New Windsor (1)",
                     },
                   ]}
                 />
@@ -1142,6 +1154,15 @@ const App = () => {
                     "Samuel Beskin is perhaps the most prominent Jewish leader in Beacon’s history.  He arrived in Fishkill Landing at the age of 27 in 1894 from Russia as a poor street  peddler who spoke little English. Within 20 years he established himself as a successful businessman, operating a hotel, a bottling works, an apartment house, the Overland Headwear Company, and two department stores (the second one with Beacon’s first elevator). He held an important position as the State Road contractor under Governor Al Smith helping to build a road around the Ashokan Dam among other projects. He served as Beacon’s second mayor from 1917-1921. Beskin was one of the founding members of the Beacon Hebrew Alliance, and helped to establish the congregation in the early 1920s. Sadly, Beskin died of a heart attack in 1924, and he never did get to see the beautiful Beacon Hebrew Alliance building completed. He is buried in the Agudas Israel cemetery in New Windsor.",
                   ]}
                   hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) courtesy of Rick Rosenthal",
+                    <br />,
+                    "(2) Beacon Historical Society",
+                  ]}
                 />
               </div>
             }
@@ -1195,6 +1216,17 @@ const App = () => {
                   ]}
                   hasBusiness={false}
                 />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Fishkill Standard",
+                    <br />,
+                    "(2) Beacon Historical Society",
+                    <br />,
+                    "(3) Findagrave.com, accessed October 17, 2021",
+                  ]}
+                />
               </div>
             }
           ></Route>
@@ -1217,35 +1249,35 @@ const App = () => {
                       imglink: "/images/stop1_Aero_2.jpg",
                       alt: "",
                       caption:
-                        "An Aero Leather worker sewing a seam on a leather coat, c. 1942 (2)",
+                        "An Aero Leather worker sewing a seam on a leather coat, c. 1942 (1)",
                     },
                     {
                       id: 3,
                       imglink: "/images/stop1_Aero_3.jpg",
                       alt: "",
                       caption:
-                        "The foreman of Aero Leather surrounded by women workers during WWII, c. 1942 (3)",
+                        "The foreman of Aero Leather surrounded by women workers during WWII, c. 1942 (2)",
                     },
                     {
                       id: 4,
                       imglink: "/images/stop1_Aero_4.jpg",
                       alt: "",
                       caption:
-                        "The back of an Aero Leather bomber jacket in the collection of the Beacon Historical Society (4)",
+                        "The back of an Aero Leather bomber jacket in the collection of the Beacon Historical Society (2)",
                     },
                     {
                       id: 5,
                       imglink: "/images/stop1_Aero_5.jpg",
                       alt: "",
                       caption:
-                        "Newspaper advertisement for Aero Leather Company, c. 1950s (5)",
+                        "Newspaper advertisement for Aero Leather Company, c. 1950s (2)",
                     },
                     {
                       id: 6,
                       imglink: "/images/stop1_Aero_6.jpg",
                       alt: "",
                       caption:
-                        "The stained glass window donated by Abe and Ann Wolkowitz in the sanctuary at Beacon Hebrew Alliance (6)",
+                        "The stained glass window donated by Abe and Ann Wolkowitz in the sanctuary at Beacon Hebrew Alliance (3)",
                     },
                   ]}
                 />
@@ -1265,6 +1297,17 @@ const App = () => {
                     "Text by Diane Lapis",
                   ]}
                   hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Edward Gruber photographer, collection of the U.S. Office of War Information",
+                    <br />,
+                    "(2) Beacon Historical Society",
+                    <br />,
+                    "(3) Beacon Hebrew Alliance, 2012",
+                  ]}
                 />
               </div>
             }
@@ -1286,14 +1329,14 @@ const App = () => {
                       id: 2,
                       imglink: "/images/stop1_LewisPine_2.jpg",
                       alt: "",
-                      caption: "Owner Yali Lewis shows off her wares (2)",
+                      caption: "Owner Yali Lewis shows off her wares (1)",
                     },
                     {
                       id: 3,
                       imglink: "/images/stop1_LewisPine_3.jpg",
                       alt: "",
                       caption:
-                        "Lewis & Pine is on the right at 133 Main Street (3)",
+                        "Lewis & Pine is on the right at 133 Main Street (1)",
                     },
                   ]}
                 />
@@ -1313,6 +1356,168 @@ const App = () => {
                   hasBusiness={false}
                 />
                 {/* <AudioPlayer audiofile="/audios/S1_LewisPine_YaliLewisinterview.MOV" /> */}
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Frank Ritter, Frank Ritter Photography",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop2_BeaconFurniture"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Beacon Furniture Company" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop2_BeaconFurniture_1.jpg",
+                      alt: "",
+                      caption:
+                        "The storefronts from 165-167 Main where the Beacon Furniture Company was once located (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop2_BeaconFurniture_2.jpg",
+                      alt: "",
+                      caption:
+                        "The storefronts of 167 and 165 Main looking west, March 3, 2022 (1)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop2_BeaconFurniture_3.jpg",
+                      alt: "",
+                      caption:
+                        "Ad for the Beacon Furniture Companyl, April 4, 1967 (2)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop2_BeaconFurniture_4.jpg",
+                      alt: "",
+                      caption:
+                        "The second location of Beacon Furniture Company at 316 Main is on the left (3)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop2_BeaconFurniture_5.jpg",
+                      alt: "",
+                      caption:
+                        "Ad for second generation Beacon Furniture Company, January 26, 1975 (2)",
+                    },
+                    {
+                      id: 6,
+                      imglink: "/images/stop2_BeaconFurniture_6.jpg",
+                      alt: "",
+                      caption:
+                        "Ad for third generation Beacon Furniture Company, March 6, 1994 (2)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Beacon Furniture Company"
+                  text={[
+                    "Owner: Philip Isaacs, later son Marvin Isaacs and grandson Stephen Isaacs",
+                    <br />,
+                    "Date established: 1937",
+                    <br />,
+                    "Original Address: 163-167 Main Street",
+                    <br />,
+                    "Second Address: 316 Main Street (former Schoonmaker’s Department Store)",
+                    <br />,
+                    "Third Address: 320 Main Street (next to Rite Aid)",
+                    <br />,
+                    <br />,
+                    "The Beacon Furniture Company was started in 1937 by Philip Isaacs, an immigrant born in Russia. After arriving in New York in 1920, Philip and his wife Tillie moved with their young son Marvin to Beacon in the mid-1930s and soon became integrated with the Jewish community here. Their store sold home furnishings and appliances out of 165-167 Main Street for 33 years. In 1971, their son Marvin took over the business and moved it to the site of the former Schoonmaker’s Department Store at 316 Main Street, which had more space for the growth. After Marvin sold the business and retired, in 1994, Marvin’s son Stephen Isaacs reopened The Beacon Furniture Company store at 320 Main Street (next to the Rite Aid today). The opening was touted at the time as a hopeful sign that Beacon’s Main Street would soon bounce back from its long decline.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Frank Ritter, Frank Ritter Photography",
+                    <br />,
+                    "(2) Poughkeepsie Journal",
+                    <br />,
+                    "(3) Beacon Historical Society",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop2_Bernstein"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Bernstein and Sons" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop2_Bernstein_1.jpg",
+                      alt: "",
+                      caption: "Ausher Bernstein c. 1921 (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop2_Bernstein_2.jpg",
+                      alt: "",
+                      caption:
+                        "Bernstein's Guarantee Outfitting House 'where quality counts' (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop2_Bernstein_3.jpg",
+                      alt: "",
+                      caption: "Nathan Bernstein c. 1933 (2)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop2_Bernstein_4.jpg",
+                      alt: "",
+                      caption: "Bernstein and Sons clothing store c. 1933 (2)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop2_Bernstein_5.jpg",
+                      alt: "",
+                      caption: "The storefronts of 171-173 Main in 2022 (3)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Bernstein and Sons"
+                  text={[
+                    "Owner: Ausher Bernstein, Nathan Bernstein",
+                    <br />,
+                    "Date established: 1912",
+                    <br />,
+                    "Address: 171-173 Main Street",
+                    <br />,
+                    <br />,
+                    "Ausher Bernstein arrived in Beacon literally by accident. He got in a car crash in 1911 while passing through town and after a short recovery at Highland Hospital was so enthused by the possibilities of the area he decided to stay. Ausher started the Guarantee Outfitting House, a department store with high-class men’s and women’s apparel at moderate prices. “The House where quality counts” was his slogan. Upon Ausher’s death in 1933, his son Nathan took over the business and named it Bernstein and Sons. The store was considered the height of luxury:  selling Mallory, Stetson and Pencraft Hats for men and fine suits. One of Ausher’s other sons Max Bernstein ran an auto supply store and then a toy store on the east end of Main Street (see stop #8). A third son Barry had a store in Peekskill.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) The 1921 Fireman’s Parade Souvenir Program produced by the Beacon Journal",
+                    <br />,
+                    "(2) Beacon Historical Society",
+                    <br />,
+                    "(3) Frank Ritter, Frank Ritter Photography",
+                  ]}
+                />
               </div>
             }
           ></Route>
