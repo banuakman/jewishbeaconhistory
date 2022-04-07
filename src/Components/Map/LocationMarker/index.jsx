@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { useMap, Marker, Circle } from "react-leaflet"
-import L from 'leaflet';
+import { useMap, Marker } from "react-leaflet";
+import L from "leaflet";
 
 var icon = L.divIcon({
-  className: 'leaflet-div-icon-location',
+  className: "leaflet-div-icon-location",
   html: "<div><div class='marker-pin'></div><div class='marker-circle'></div></div>",
   iconSize: [30, 42],
-  iconAnchor: [15, 42]
+  iconAnchor: [15, 42],
 });
 
 function LocationMarker() {
@@ -21,8 +21,7 @@ function LocationMarker() {
   }, [map]);
 
   return position === null ? null : (
-      <Marker position={position} icon={icon}>
-      </Marker>
+    <Marker position={position} icon={icon}></Marker>
   );
 }
 

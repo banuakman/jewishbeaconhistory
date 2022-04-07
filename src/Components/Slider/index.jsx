@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import "./style.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
@@ -8,6 +9,13 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 function Slider({ sliderdata }) {
+  const [swiper, setSwiper] = useState(null);
+
+  let location = useLocation();
+  useEffect(() => {
+    if (swiper) swiper.slideTo(0);
+  }, [location]);
+
   return (
     <Swiper
       // install Swiper modules
@@ -18,7 +26,7 @@ function Slider({ sliderdata }) {
         clickable: true,
       }}
       // scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
+      onSwiper={(swiper) => setSwiper(swiper)}
       onSlideChange={() => console.log("slide change")}
       className="swiper-responsive"
     >
