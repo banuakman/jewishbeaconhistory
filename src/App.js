@@ -661,9 +661,20 @@ const App = () => {
                   text={[
                     "The corner of South Chestnut and Main Street was a locus of Jewish enterprise, led by the Ritter family who owned much of the block (from 327 Main to 8 S. Chestnut). Sarah and Jacob Ritter were Hungarian Jewish immigrants who moved to Beacon in the early 1920s from New York City to raise their family of five children. They started a laundry around the corner at 4-6 South Chestnut Street, and then expanded into real estate development, and later their son Louis had an insurance business there. Some of the other Jewish businesses on this block included Izzy Stone’s watch repair shop at 329 Main, and Shapiro Shoes at 331 Main run by Morris and Tillie Shapiro. Across the street at 328 Main was Rosenblum’s Shoes, and a little further east at 334 Main was Abe Lewis’s Grocery store. All of these business owners were members of the Beacon Hebrew Alliance and very active in Jewish and civic life in Beacon.",
                   ]}
-                  hasBusiness={false}
+                  hasBusiness={true}
                 />
-                {/* <Link text="Business" to="/business-1" /> */}
+                <Link
+                  text="Ritter Laundry and Insurance office (4-6 S. Chestnut St)"
+                  to="/stop5_Ritter"
+                />
+                <Link
+                  text="Rosenblum’s Shoes (328 Main) 1930s-60s"
+                  to="/stop5_Rosenblum"
+                />
+                <Link
+                  text="Lewis’s Grocery (334 Main) 1930s-40s"
+                  to="/stop5_Lewis"
+                />
                 <PhotoCredits
                   credits={[
                     "Photo Credits",
@@ -1738,6 +1749,225 @@ const App = () => {
                     "(1) Beacon Historical Society",
                     <br />,
                     "(2) Poughkeepsie Journal",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop5_Ritter"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Beacon Laundry and Ritter Insurance Office" />
+                <Breadcrumb stopno="5" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop5_Ritter_1.jpg",
+                      alt: "",
+                      caption:
+                        "Pacha the barber in front of his barber shop at 4-6 S. Chestnut Street where the Beacon Laundry and Louis Ritter Insurance Agency used to be, March 6, 2022 (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop5_Ritter_2.jpg",
+                      alt: "",
+                      caption:
+                        "The inside of the Beacon Laundry c. 1925 with owners Sarah and Jacob Ritter on the left and their employees on the right. (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop5_Ritter_3.jpg",
+                      alt: "",
+                      caption: "Sarah and Jacob Ritter in the 1940s. (2)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop5_Ritter_4.jpg",
+                      alt: "",
+                      caption:
+                        "Second Lt. Louis Ritter served in both the Army and Air Force for five years during WWII, c. 1943 (2)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop5_Ritter_5.jpg",
+                      alt: "",
+                      caption:
+                        "Snapshots of Louis Ritter (center) and the employees of his insurance agency, c. 1990 (2)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Beacon Laundry and Ritter Insurance Office"
+                  text={[
+                    "Owner: Jacob and Sarah Ritter, later son Louis Ritter",
+                    <br />,
+                    "Date established: 1920's",
+                    <br />,
+                    "Address: 4-6 S. Chestnut Street",
+                    <br />,
+                    <br />,
+                    "Jacob and Sarah Ritter were founders of the Beacon Hebrew Alliance, and ran the Beacon Laundry at 4-6 S. Chestnut Street for over twenty years. The operation had seven to twelve employees running the steam-powered industrial machines. Over time, the Ritters expanded into real estate development, buying up all the buildings on this block from Lord of the Strings (8 S. Chestnut) to Beans Cat Cafe (325 Main). They also built the M.H. Fishman Department Store building at S. Cedar and Main, which they sold in 1971 to the Howland Public Library.",
+                    <br />,
+                    <br />,
+                    "After the laundry closed, their son Louis Ritter ran an insurance agency out of 4-6 S. Chestnut for thirty years. A captain in the Air Force during WWII, Louis Ritter was active in business and civic affairs in Beacon serving as founder and life member of Jewish War Veterans, Herman Siegel Post 625, State Life Membership Chairman of the Builders Association of the Hudson Valley, and on the Dutchess County Chamber of Commerce. Today, the Ritter family still owns the buildings on this block, and are proud to support Beacon’s local businesses and artisans as well as the Jewish community at BHA.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Frank Ritter, Frank Ritter Photography",
+                    <br />,
+                    "(2) courtesy of Frank Ritter",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop5_Rosenblum"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Rosenblum’s Shoes" />
+                <Breadcrumb stopno="5" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop5_Rosenblum_1.jpg",
+                      alt: "",
+                      caption:
+                        "Mollie and Sam Rosenblum at the wedding of two BHA members, March 22, 1964 (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop5_Rosenblum_2.jpg",
+                      alt: "",
+                      caption:
+                        "Rosenblum Shoes (second store from left) at 328 Main c. 1965 (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop5_Rosenblum_3.jpg",
+                      alt: "",
+                      caption:
+                        "Article in the Poughkeepsie Journal about the fire that destroyed Rosenblum Shoes, February 22, 1967 (3)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop5_Rosenblum_4.jpg",
+                      alt: "",
+                      caption:
+                        "The northwest corner of Eliza Street and Main in 2022 is all new construction since the fire in 1967 - April 2, 2022 (4)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Rosenblum’s Shoes"
+                  text={[
+                    "Owner: Samuel Rosenblum",
+                    <br />,
+                    "Date established: 1930's",
+                    <br />,
+                    "Original Address: 331 Main Street",
+                    <br />,
+                    "Second Address: 328 Main Street",
+                    <br />,
+                    <br />,
+                    "Rosenblum’s Shoes was started in the early 1930s by Samuel Rosenblum, a former President of the Beacon Hebrew Alliance. The store’s first location was in the Ritter building at 331 Main Street, but moved across the street and one block east in 1949 to 328 Main. Rosenblum’s shoes operated for over thirty years when sadly it was destroyed by fire on February 22, 1967. The fire started in the back of the restaurant at 330 Main and spread quickly to Rosenblum’s next door and the Mid-Town Market on the other side. It took two hundred firefighters seven hours in the frigid cold to put out the fire. All the buildings from 328 Main to the corner of Eliza Street were rebuilt after the fire.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) courtesy of Ian Green",
+                    <br />,
+                    "(2) Beacon Historical Society",
+                    <br />,
+                    "(3) Poughkeepsie Journal",
+                    <br />,
+                    "(4) Frank Ritter, Frank Ritter Photography",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop5_Lewis"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Lewis Grocery" />
+                <Breadcrumb stopno="5" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop5_Lewis_1.jpg",
+                      alt: "",
+                      caption:
+                        "The Mid-Town Market at right is where the Lewis grocery was once located, c. 1965.(1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop5_Lewis_2.jpg",
+                      alt: "",
+                      caption:
+                        "Martha and Abraham Lewis attended their son Simon’s graduation from the University of Pennsylvania School of Dental Medicine, c. 1939 (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop5_Lewis_3.jpg",
+                      alt: "",
+                      caption: "Portrait of Abraham Lewis, date unknown  (2)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop5_Lewis_4.jpg",
+                      alt: "",
+                      caption:
+                        "Holiday dinner at the Lewis family home on 36 East Main Street, c. 1952. From left: Martha Lewis, daughter Ethel Green, son-in-law Ralph Green (2)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop5_Lewis_4.jpg",
+                      alt: "",
+                      caption:
+                        "Dr. Simon Lewis served in the 87th Infantry Division in the Army Dental Corps, c. 1943. (1)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Lewis Grocery"
+                  text={[
+                    "Owner:  Abraham and Martha Lewis",
+                    <br />,
+                    "Date established: 1930's",
+                    <br />,
+                    "Original Address: 334 Main Street",
+                    <br />,
+                    <br />,
+                    "Abraham and Martha Lewis were devout members of the Beacon Hebrew Alliance who epitomized the hardworking American immigrant experience. Abraham Lewis was born in 1884 in Smarhn, Russia, which is now part of Belarus. He arrived in New York City at the age of 20, and soon moved to Newburgh. There he met Martha Yasgoor, and they married and had three children. By the 1910’s Lewis was working as a foreman in a hat factory in Beacon. The family moved to Beacon in the 1920s, eventually taking up residence at 36 East Main (see stop #10). After the factory closed during the Depression, the Lewis’s opened a grocery at 334 Main Street. When their son Dr. Simon Lewis enlisted in the Army and went overseas during WWII, Abraham Lewis pledged he would donate a torah to BHA if his son made it safely home. Simon did return, a decorated war hero, and Abraham donated a torah to BHA that is still in use today.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Beacon Historical Society",
+                    <br />,
+                    "(2) courtesy of Albert Green",
                   ]}
                 />
               </div>
