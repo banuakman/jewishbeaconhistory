@@ -15,7 +15,13 @@ function AudioPlayer({ audiofile }) {
   }, [location, player]);
 
   return (
-    <div style={{ display: "flex", justifyContent: "center", margin: "20px" }}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        margin: "25px 20px 0px 20px",
+      }}
+    >
       <ReactPlayer
         url={audiofile}
         width="400px"
