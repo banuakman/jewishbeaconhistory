@@ -516,9 +516,16 @@ const App = () => {
                   text={[
                     "Here in the central portion of Main Street, Beacon’s older buildings start to give way to newer construction. This stop at 215 Main was the site of Schuman’s Army & Navy Store owned and operated by Sidney and Rose Schuman. The Schumans were active founding members of the Beacon Hebrew Alliance; prior to the synagogue’s construction in 1929, the membership would hold services and meetings above their store. Further east and across the street was the second location of Vogel Pharmacy at 234 Main Street, run by Max Vogel until 1968. Another founder of BHA, Hyman Pomeranz, ran Pomey’s Hotel and Bar at 246 Main. The bar there is original to the building from the days when it was the Grand Cafe, then Pomey’s, and now Max’s On Main. Finally, Nathan Rotner, a Russian Jewish immigrant, had a tailor shop at 257 Main.",
                   ]}
-                  hasBusiness={false}
+                  hasBusiness={true}
                 />
-                {/* <Link text="Business" to="/business-1" /> */}
+                <Link
+                  text="Schuman’s Army Navy Store (215 Main - 1920s-1970s & 324 Main)"
+                  to="/stop3_Schuman"
+                />
+                <Link
+                  text="Vogel’s Drug Store (later location 234 Main)"
+                  to="/stop3_Vogel"
+                />
                 <PhotoCredits
                   credits={[
                     "Photo Credits",
@@ -1538,7 +1545,7 @@ const App = () => {
                     },
                     {
                       id: 2,
-                      imglink: "/images/stop2_Bernstein_2.jpg",
+                      imglink: "/images/stop2_Cahn_2.jpg",
                       alt: "",
                       caption:
                         "A stained glass window in the sanctuary of the Beacon Hebrew Alliance is dedicated to Minnie Beskin Cahn, 2012 (2)",
@@ -1595,6 +1602,132 @@ const App = () => {
                     "(2) Beacon Hebrew Alliance",
                     <br />,
                     "(3) Frank Ritter, Frank Ritter Photography",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop3_Schuman"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Schuman’s Army & Navy Stores" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop3_Schuman_1.jpg",
+                      alt: "",
+                      caption: "A portrait of Sidney Schuman, c. 1920s (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop3_Schuman_2.jpg",
+                      alt: "",
+                      caption:
+                        "The storefront of Schuman’s Army & Navy Store at 215 Main Street, c. 1965 (1)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop3_1.jpg",
+                      alt: "",
+                      caption:
+                        "The storefront of 215 Main Street in April 4, 2022 (2)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop3_Schuman_4.jpg",
+                      alt: "",
+                      caption:
+                        "Beacon Free Press article announcing the closing of Schuman’s in August 7, 1991. From left: John, Mike, and Sydell (Syd) Ligotino (3)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Schuman’s Army & Navy Stores"
+                  text={[
+                    "Owner: Sidney & Rose Schuman, later their daughter Sydell ran the store with her husband John Ligotino",
+                    <br />,
+                    "Date established: 1920",
+                    <br />,
+                    "Original Address: 215 Main Street",
+                    "Second Address: 324 Main Street",
+                    <br />,
+                    <br />,
+                    "Schuman’s Army and Navy Stores sold everything from boots to overalls to fishing tackle. The owner/proprietor Sidney Schuman was a pillar of both the Beacon Business community and the Beacon Jewish community. He served on the board of the Beacon Hebrew Alliance and was the co-chair of the building committee in 1928-29, responsible for raising funds to build the new synagogue. Before the synagogue was built, Beacon Hebrew Alliance would hold its services and meetings in Schuman’s store. He also was secretary of the Beacon Retail Group, a life-member of the Tompkins Hose Company, and served on the Beacon Board of Education. After Sid retired to Florida with his wife Rose, their daughter Sydell took over the store and ran it with her husband John Ligotino at a new location at 324 Main Street until 1991.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Beacon Historical Society",
+                    <br />,
+                    "(2) Frank Ritter, Frank Ritter Photography",
+                    <br />,
+                    "(3) Beacon Free Press",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop3_Vogel"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Vogel Pharmacy" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop3_Vogel_1.jpg",
+                      alt: "",
+                      caption:
+                        "Newspaper article about Vogel Pharmacy’s move from Bank Square to 234 Main in 1956 (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop3_Vogel_2.jpg",
+                      alt: "",
+                      caption: "Interior of Vogel Pharmacy c. 2005. (1)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop3_Vogel_3.jpg",
+                      alt: "",
+                      caption:
+                        "Max Vogel (far right) at the opening of Beacon’s Golden Jubilee Headquarters on March 10, 1963 (2)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Vogel Pharmacy"
+                  text={[
+                    "Owner: Max Vogel",
+                    <br />,
+                    "Date established: 1937",
+                    <br />,
+                    "Original Address: Bank Square",
+                    "Second Address: 234 Main",
+                    "Current Address: 1475 NY-9D, Wappingers Falls",
+                    <br />,
+                    <br />,
+                    "Vogel Pharmacy was a mainstay in Beacon for over seventy-five years, first starting out on Bank Square, and then moving in 1956 to 234 Main Street where it stayed well into the 2010s. Today it still operates as a community pharmacy in the Dutchess Stadium complex in Wappingers. Max Vogel, the original owner, and his wife Jeanette were members of the Beacon Hebrew Alliance. They were also very active in the civic life of Beacon, including serving on committees for local schools and participating in the Southern Dutchess Singers, the Civic Music Society, Highland Hospital, and Beacon’s Golden Jubilee celebration (50th anniversary) in 1963. In 1968, the Vogels sold the business and retired to Florida.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Beacon Historical Society",
+                    <br />,
+                    "(2) Poughkeepsie Journal",
                   ]}
                 />
               </div>
