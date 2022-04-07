@@ -852,9 +852,12 @@ const App = () => {
                   text={[
                     "Max and Bertha Ginsberg were founding members of Beacon Hebrew Alliance, as well as the owners and proprietors of three movie theaters in the area; among the Beacon Theatre, whose building still stands at 445 Main Street and provides a home today for the Story Screen Beacon Theater. Max and Bertha had four sons: Benjamin, Julius, Murray, and Jacob, all of them members of BHA. Benjamin was the manager of the theater, and his brother Julius opened the popular Wonderbar over the theater with his partner Tommy Hanlon, who eventually took over the business. Julius’s son Bernard ran the theater until it closed in the late 1960s. In addition to the Beacon Theatre, several other Jewish businesses were tenants in the building in the 1950s and 60s, including Pappy’s Luncheonette and the optometry office of Dr. Robert Frankel. Across the street, Morris Alper, the son of former BHA Board President David Alper, had an insurance business.",
                   ]}
-                  hasBusiness={false}
+                  hasBusiness={true}
                 />
-                {/* <Link text="Business" to="/business-1" /> */}
+                <Link
+                  text="The Beacon Theatre (445 Main)"
+                  to="/stop7_BeaconTheather"
+                />
                 <PhotoCredits
                   credits={[
                     "Photo Credits",
@@ -1990,7 +1993,7 @@ const App = () => {
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
                 <Header text="Fannie Miller’s Store" />
-                <Breadcrumb stopno="5" />
+                <Breadcrumb stopno="6" />
                 <Slider
                   sliderdata={[
                     {
@@ -2060,7 +2063,7 @@ const App = () => {
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
                 <Header text="Dental Office of Dr. Rogen and Dr. Ginsberg" />
-                <Breadcrumb stopno="5" />
+                <Breadcrumb stopno="6" />
                 <Slider
                   sliderdata={[
                     {
@@ -2117,14 +2120,20 @@ const App = () => {
                 <Description
                   header="Dental Office of Dr. Rogen and Dr. Ginsberg"
                   text={[
-                    "Owner: Fannie Miller",
+                    "Owner: Dr. Louis Rogen, later Dr. Harold Ginsberg",
                     <br />,
-                    "Date established: 1920's",
+                    "Date established: 1928",
                     <br />,
-                    "Original Address: 403 Main Street",
+                    "Original Address: 476 ½ Main",
+                    <br />,
+                    "Second Address: 398 ½ Main",
+                    <br />,
+                    "Third Address: 11 Fishkill Ave",
+                    <br />,
+                    "Fourth Address: 333 Fishkill Ave",
                     <br />,
                     <br />,
-                    "Fannie Miller was a long-time President of the Beacon Hebrew Ladies Aid Society, which was a separate entity from Beacon Hebrew Alliance composed of Jewish women who devoted themselves to raising funds for Jewish causes and charitable giving in the community. Widowed at a young age, and left to raise her son alone, Miller’s strong character and business acumen was inspirational to the younger women in the community. In the late 1920s, when BHA needed funds to build its synagogue, Miller co-chaired the fundraising committee with BHA trustee Sidney Schuman (see stop #3). Together they worked their contacts in the Jewish business community to raise over $6,000 (equivalent to almost $100,000 today) for the construction. Miller was the founder of the BHA Chapter of Hadassah (the Women’s Zionist Organization of America) and there is a stained glass window in her honor in the upstairs sanctuary of BHA, which she helped to build.",
+                    "Dr. Louis Rogen was the youngest of six children of Russian Jewish immigrants, and grew up in a hardworking Jewish neighborhood on New York’s Lower East Side. A bright student, Rogen advanced quickly through primary school and went on to attend the New York Dental School (later merged with NYU). During the summers he worked upstate and would visit his older sister Lena in Beacon. On one of those visits he met Miriam Pomeranz, whose father Hyman owned Pomey’s Hotel and Bar (see stop #3). Rogen moved to Beacon in 1927 right after graduating Dental School, married Miriam, and opened his dental practice on Main Street all within two months. Rogen was President of the Beacon Hebrew Alliance twice in 1930 and 1939, and was a life-long member of the Beacon Elks Lodge. He served in WWII as a Captain in the Army Air Corps. After building a large and devoted clientele, he retired in 1962, leaving his practice to fellow BHA member Dr. Harold Ginsberg.",
                   ]}
                   hasBusiness={false}
                 />
@@ -2139,6 +2148,81 @@ const App = () => {
                     "(3) Beacon Historical Society",
                     <br />,
                     "(4) courtesy of Dr. Harold Ginsberg",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop7_BeaconTheather"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Beacon Theatre" />
+                <Breadcrumb stopno="7" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop7_BeaconTheather_1.jpg",
+                      alt: "",
+                      caption:
+                        "Max Ginsberg (left) and other officials who built the Beacon Theatre, August 7, 1934. (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop7_BeaconTheather_2.jpg",
+                      alt: "",
+                      caption: "Marquee of the Beacon Theatre, c. 1950. (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop7_BeaconTheather_3.jpg",
+                      alt: "",
+                      caption:
+                        "Ad for movies at the Beacon Theatre, c. 1930. (2)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop7_BeaconTheather_4.jpg",
+                      alt: "",
+                      caption:
+                        "Ad for the Beacon Theatre Grand Opening, July 31, 1934. (1)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop7_BeaconTheather_5.jpg",
+                      alt: "",
+                      caption:
+                        "Excerpt from Beacon Theatre weekly program bulletin, September 4, 1949 (2)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Beacon Theatre"
+                  text={[
+                    "Owner: Max Ginsberg with sons Benjamin and Julius Ginsberg and later grandson Bernard Ginsberg",
+                    <br />,
+                    "Date established: 1934s",
+                    <br />,
+                    "Address: 445 Main Street",
+                    <br />,
+                    <br />,
+                    "The Beacon Theatre was built in 1934 by Max Ginsberg and run by his sons Benjamin, Murray and Julius. Ginsberg’s grandson, Dr. Harold Ginsberg recalled the theater in an oral history interview conducted in 2017: “It was described as the movie palace between Yonkers and Albany, or maybe Yonkers and Hudson.  It opened in 1934, and it was quite luxurious. We changed the program three times a week; the same movie would play Sunday, Monday, and Tuesday.  Wednesday was a separate day; lesser movies, but you'd have something like Bank Night, or Give Away Dishes, or Give Away Encyclopedias.  And then the next was Thursday, Friday, and Saturdays. At the time -- I'm going back to the '40s and '50s -- motion picture theaters were very, very popular.  It was a major form of entertainment, besides people going to a bar.”",
+                    <br />,
+                    <br />,
+                    "The Beacon Theatre ran until the 1960s when television had replaced movies as the primary form of entertainment for Americans. Today, the new Story Screen Theater has replicated the marquee of the original Beacon Theatre, and has brought the cinematic experience back to Main Street in Beacon.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Beacon News ",
+                    <br />,
+                    "(2) Beacon Historical Society",
                   ]}
                 />
               </div>
