@@ -760,7 +760,7 @@ const App = () => {
                   text={[
                     "Two Jewish leaders who were instrumental in the building of the Beacon Hebrew Alliance (BHA) synagogue in 1929 operated businesses located in this area. Fannie Miller had a dress shop at 403 Main Street and was the president of the Beacon Hebrew Ladies Aid Society for many years. Miller’s BHA leadership counterpart, David Alper was president of BHA when the synagogue was constructed, and his real estate office was located where the Verizon building sits today. Going north at 11 Fishkill Avenue, there was once the dental practice of Dr. Louis Rogen and Dr. Harold Ginsberg, both former presidents of BHA. And at the corner of Fishkill and Verplanck, perched up on a hill, you’ll see the Beacon Hebrew Alliance synagogue.  Turning right on Verplanck, you can see a townhouse development where the old Highland Hospital once stood. Many Jewish doctors worked there, including Dr. Irving Mond, Dr. Harold Kaplan, and Dr. Frank Hacker.",
                   ]}
-                  hasBusiness={false}
+                  hasBusiness={true}
                 />
                 {/* <Link text="Business" to="/business-1" /> */}
                 <PhotoCredits
