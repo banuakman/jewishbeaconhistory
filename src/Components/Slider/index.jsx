@@ -14,7 +14,7 @@ function Slider({ sliderdata }) {
   let location = useLocation();
   useEffect(() => {
     if (swiper) swiper.slideTo(0);
-  }, [location]);
+  }, [location, swiper]);
 
   return (
     <Swiper
