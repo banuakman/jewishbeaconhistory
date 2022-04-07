@@ -762,7 +762,18 @@ const App = () => {
                   ]}
                   hasBusiness={true}
                 />
-                {/* <Link text="Business" to="/business-1" /> */}
+                <Link
+                  text="Fannie Miller’s store (403 Main)"
+                  to="/Stop6_Miller"
+                />
+                <Link
+                  text="Dr. Rogen and Dr. Ginsberg’s Dental Office (Original: 398 ½ Main, then 11 Fishkill Ave) 1920s-70s"
+                  to="/Stop6_RogenGinsberg"
+                />
+                <Link
+                  text="Beacon Hebrew Alliance"
+                  to="/beaconhebrewalliance"
+                />
                 <PhotoCredits
                   credits={[
                     "Photo Credits",
@@ -1968,6 +1979,166 @@ const App = () => {
                     "(1) Beacon Historical Society",
                     <br />,
                     "(2) courtesy of Albert Green",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop6_Miller"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Fannie Miller’s Store" />
+                <Breadcrumb stopno="5" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop6_Miller_1.jpg",
+                      alt: "",
+                      caption:
+                        "The view of 403 Main Street where Fannie Miller’s clothing store used to be, March 11, 2022 (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop6_Miller_2.jpg",
+                      alt: "",
+                      caption:
+                        "From a plaque that hangs at BHA honoring Ladies Aid Society President Fannie Miller and other members who helped to build the synagogue in 1929 - May 20, 2021 (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop6_Miller_3.jpg",
+                      alt: "",
+                      caption:
+                        "Co-chairs of the building fundraising committee for BHA. From left: Sidney Schuman and Fannie Miller  (3)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop6_Miller_4.jpg",
+                      alt: "",
+                      caption:
+                        "The window dedicated to Mrs. Fannie Miller that hangs in the upstairs sanctuary at BHA - 2012 (4)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Fannie Miller’s Store"
+                  text={[
+                    "Owner: Fannie Miller",
+                    <br />,
+                    "Date established: 1920's",
+                    <br />,
+                    "Original Address: 403 Main Street",
+                    <br />,
+                    <br />,
+                    "Fannie Miller was a long-time President of the Beacon Hebrew Ladies Aid Society, which was a separate entity from Beacon Hebrew Alliance composed of Jewish women who devoted themselves to raising funds for Jewish causes and charitable giving in the community. Widowed at a young age, and left to raise her son alone, Miller’s strong character and business acumen was inspirational to the younger women in the community. In the late 1920s, when BHA needed funds to build its synagogue, Miller co-chaired the fundraising committee with BHA trustee Sidney Schuman (see stop #3). Together they worked their contacts in the Jewish business community to raise over $6,000 (equivalent to almost $100,000 today) for the construction. Miller was the founder of the BHA Chapter of Hadassah (the Women’s Zionist Organization of America) and there is a stained glass window in her honor in the upstairs sanctuary of BHA, which she helped to build.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Frank Ritter, Frank Ritter Photography ",
+                    <br />,
+                    "(2) Ellen Pearson Gersh",
+                    <br />,
+                    "(3) Beacon Historical Society",
+                    <br />,
+                    "(4) courtesy of Beacon Hebrew Alliance",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop6_RogenGinsberg"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Dental Office of Dr. Rogen and Dr. Ginsberg" />
+                <Breadcrumb stopno="5" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop6_RogenGinsberg_1.jpg",
+                      alt: "",
+                      caption:
+                        "This Victorian house at 11 Fishkill Avenue was the dental office of Dr. Louis Rogen and Dr. Harold Ginsberg from approx 1950-1975 - March 13, 2022 (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop6_RogenGinsberg_2.jpg",
+                      alt: "",
+                      caption:
+                        "The wedding of Dr. Louis Rogen and Miriam Pomeranz on February 5, 1928 (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop6_RogenGinsberg_3.jpg",
+                      alt: "",
+                      caption:
+                        "Lt. Dr. Louis Rogen reporting for duty in the Army Dental Corps during WWII, c. 1943. (3)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop6_RogenGinsberg_4.jpg",
+                      alt: "",
+                      caption:
+                        "Dr. Louis Rogen making a toast at BHA, c. 1950s. (2)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop6_RogenGinsberg_5.jpg",
+                      alt: "",
+                      caption:
+                        "Dr. Harold Ginsberg’s graduation picture from University of Pennsylvania Dental School, c. 1956 (4)",
+                    },
+                    {
+                      id: 6,
+                      imglink: "/images/stop6_RogenGinsberg_6.jpg",
+                      alt: "",
+                      caption:
+                        "The Ginsberg family at son Stuart’s Bar Mitzvah, December 28, 1968 (4)",
+                    },
+                    {
+                      id: 7,
+                      imglink: "/images/stop6_RogenGinsberg_7.jpg",
+                      alt: "",
+                      caption: "Dr. Ginsberg in his dental office, c. 1976 (4)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Dental Office of Dr. Rogen and Dr. Ginsberg"
+                  text={[
+                    "Owner: Fannie Miller",
+                    <br />,
+                    "Date established: 1920's",
+                    <br />,
+                    "Original Address: 403 Main Street",
+                    <br />,
+                    <br />,
+                    "Fannie Miller was a long-time President of the Beacon Hebrew Ladies Aid Society, which was a separate entity from Beacon Hebrew Alliance composed of Jewish women who devoted themselves to raising funds for Jewish causes and charitable giving in the community. Widowed at a young age, and left to raise her son alone, Miller’s strong character and business acumen was inspirational to the younger women in the community. In the late 1920s, when BHA needed funds to build its synagogue, Miller co-chaired the fundraising committee with BHA trustee Sidney Schuman (see stop #3). Together they worked their contacts in the Jewish business community to raise over $6,000 (equivalent to almost $100,000 today) for the construction. Miller was the founder of the BHA Chapter of Hadassah (the Women’s Zionist Organization of America) and there is a stained glass window in her honor in the upstairs sanctuary of BHA, which she helped to build.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Frank Ritter, Frank Ritter Photography ",
+                    <br />,
+                    "(2) courtesy of Karen Moses ",
+                    <br />,
+                    "(3) Beacon Historical Society",
+                    <br />,
+                    "(4) courtesy of Dr. Harold Ginsberg",
                   ]}
                 />
               </div>
