@@ -1,0 +1,13 @@
+.breadcrumb {
+  font-size: 1em;
+  padding: 0px 10px 0px 0px;
+}
+
+.breadcrumb button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #816638;
+  text-align: start;
+  padding: 0px;
+}

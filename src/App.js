@@ -10,6 +10,7 @@ import { Link } from "./Components/Link";
 import { Slider } from "./Components/Slider";
 import { AudioPlayer } from "./Components/AudioPlayer";
 import { PhotoCredits } from "./Components/PhotoCredits";
+import { Breadcrumb } from "./Components/Breadcrumb";
 import ReactGA from "react-ga4";
 
 const App = () => {
@@ -1103,6 +1104,7 @@ const App = () => {
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
                 <Header text="Beskin’s Department Store" />
+                <Breadcrumb stopno="1" />
                 <Slider
                   sliderdata={[
                     {
@@ -1179,6 +1181,7 @@ const App = () => {
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
                 <Header text="Samuel Snidaman, Tailor" />
+                <Breadcrumb stopno="1" />
                 <Slider
                   sliderdata={[
                     {
@@ -1242,6 +1245,7 @@ const App = () => {
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
                 <Header text="Aero Leather Clothing Company" />
+                <Breadcrumb stopno="1" />
                 <Slider
                   sliderdata={[
                     {
@@ -1324,6 +1328,7 @@ const App = () => {
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
                 <Header text="Lewis & Pine" />
+                <Breadcrumb stopno="1" />
                 <Slider
                   sliderdata={[
                     {
@@ -1379,6 +1384,7 @@ const App = () => {
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
                 <Header text="Beacon Furniture Company" />
+                <Breadcrumb stopno="2" />
                 <Slider
                   sliderdata={[
                     {
@@ -1464,6 +1470,7 @@ const App = () => {
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
                 <Header text="Bernstein and Sons" />
+                <Breadcrumb stopno="2" />
                 <Slider
                   sliderdata={[
                     {
@@ -1534,6 +1541,7 @@ const App = () => {
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
                 <Header text="Samuel Cahn’s Dry Goods & Dr. Simon Cahn’s Dental Practice" />
+                <Breadcrumb stopno="2" />
                 <Slider
                   sliderdata={[
                     {
@@ -1613,6 +1621,7 @@ const App = () => {
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
                 <Header text="Schuman’s Army & Navy Stores" />
+                <Breadcrumb stopno="3" />
                 <Slider
                   sliderdata={[
                     {
@@ -1680,6 +1689,7 @@ const App = () => {
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
                 <Header text="Vogel Pharmacy" />
+                <Breadcrumb stopno="3" />
                 <Slider
                   sliderdata={[
                     {
