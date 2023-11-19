@@ -758,11 +758,26 @@ const App = () => {
                 <Description
                   header="Fishkill/Teller and Main"
                   text={[
-                    "Two Jewish leaders who were instrumental in the building of the Beacon Hebrew Alliance (BHA) synagogue in 1929 operated businesses located in this area. Fannie Miller had a dress shop at 403 Main Street and was the president of the Beacon Hebrew Ladies Aid Society for many years. Miller’s BHA leadership counterpart, David Alper was president of BHA when the synagogue was constructed, and his real estate office was located where the Verizon building sits today. Going north at 11 Fishkill Avenue, there was once the dental practice of Dr. Louis Rogen and Dr. Harold Ginsberg, both former presidents of BHA. And at the corner of Fishkill and Verplanck, perched up on a hill, you’ll see the Beacon Hebrew Alliance synagogue.  Turning right on Verplanck, you can see a townhouse development where the old Highland Hospital once stood. Many Jewish doctors worked there, including Dr. Irving Mond, Dr. Harold Kaplan, and Dr. Frank Hacker.",
+                    "Two Jewish leaders who were instrumental in the building of the Beacon Hebrew Alliance (BHA) synagogue in 1929 operated businesses in this area. Fannie Miller had a dress shop at 403 Main Street and was the president of the Beacon Hebrew Ladies Aid Society for many years. Miller’s BHA leadership counterpart, David Alper was president of BHA when the synagogue was constructed, and his real estate office was located where the Verizon building sits today. Approaching the intersection at 347 Main Street was Fisch’s Mens Shop, operating as a clothing and sporting goods store by three generations of Fischs from 1919 to 1992. Going north at 11 Fishkill Avenue, there was once the dental practice of Dr. Louis Rogen and Dr. Harold Ginsberg, both former presidents of BHA. And at the corner of Fishkill and Verplanck, perched up on a hill, you’ll see the Beacon Hebrew Alliance synagogue.  Turning right on Verplanck, you can see a townhouse development where the old Highland Hospital once stood. Many Jewish doctors worked there, including Dr. Irving Mond, Dr. Harold Kaplan, and Dr. Frank Hacker.",
                   ]}
-                  hasBusiness={false}
+                  hasBusiness={true}
                 />
-                {/* <Link text="Business" to="/business-1" /> */}
+                <Link
+                  text="Fannie Miller’s store (403 Main)"
+                  to="/Stop6_Miller"
+                />
+                <Link
+                  text="Dr. Rogen and Dr. Ginsberg’s Dental Office (Original: 398 ½ Main, then 11 Fishkill Ave) 1920s-70s"
+                  to="/Stop6_RogenGinsberg"
+                />
+                <Link
+                  text="Fisch’s Mens Shop (347-351 Main)"
+                  to="/Stop6_Fisch"
+                />
+                <Link
+                  text="Beacon Hebrew Alliance"
+                  to="/beaconhebrewalliance"
+                />
                 <PhotoCredits
                   credits={[
                     "Photo Credits",
@@ -841,9 +856,12 @@ const App = () => {
                   text={[
                     "Max and Bertha Ginsberg were founding members of Beacon Hebrew Alliance, as well as the owners and proprietors of three movie theaters in the area; among the Beacon Theatre, whose building still stands at 445 Main Street and provides a home today for the Story Screen Beacon Theater. Max and Bertha had four sons: Benjamin, Julius, Murray, and Jacob, all of them members of BHA. Benjamin was the manager of the theater, and his brother Julius opened the popular Wonderbar over the theater with his partner Tommy Hanlon, who eventually took over the business. Julius’s son Bernard ran the theater until it closed in the late 1960s. In addition to the Beacon Theatre, several other Jewish businesses were tenants in the building in the 1950s and 60s, including Pappy’s Luncheonette and the optometry office of Dr. Robert Frankel. Across the street, Morris Alper, the son of former BHA Board President David Alper, had an insurance business.",
                   ]}
-                  hasBusiness={false}
+                  hasBusiness={true}
                 />
-                {/* <Link text="Business" to="/business-1" /> */}
+                <Link
+                  text="The Beacon Theatre (445 Main)"
+                  to="/stop7_BeaconTheather"
+                />
                 <PhotoCredits
                   credits={[
                     "Photo Credits",
@@ -1968,6 +1986,497 @@ const App = () => {
                     "(1) Beacon Historical Society",
                     <br />,
                     "(2) courtesy of Albert Green",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop6_Miller"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Fannie Miller’s Store" />
+                <Breadcrumb stopno="6" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop6_Miller_1.jpg",
+                      alt: "",
+                      caption:
+                        "The view of 403 Main Street where Fannie Miller’s clothing store used to be, March 11, 2022 (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop6_Miller_2.jpg",
+                      alt: "",
+                      caption:
+                        "From a plaque that hangs at BHA honoring Ladies Aid Society President Fannie Miller and other members who helped to build the synagogue in 1929 - May 20, 2021 (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop6_Miller_3.jpg",
+                      alt: "",
+                      caption:
+                        "Co-chairs of the building fundraising committee for BHA. From left: Sidney Schuman and Fannie Miller  (3)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop6_Miller_4.jpg",
+                      alt: "",
+                      caption:
+                        "The window dedicated to Mrs. Fannie Miller that hangs in the upstairs sanctuary at BHA - 2012 (4)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Fannie Miller’s Store"
+                  text={[
+                    "Owner: Fannie Miller",
+                    <br />,
+                    "Date established: 1920's",
+                    <br />,
+                    "Original Address: 403 Main Street",
+                    <br />,
+                    <br />,
+                    "Fannie Miller was a long-time President of the Beacon Hebrew Ladies Aid Society, which was a separate entity from Beacon Hebrew Alliance composed of Jewish women who devoted themselves to raising funds for Jewish causes and charitable giving in the community. Widowed at a young age, and left to raise her son alone, Miller’s strong character and business acumen was inspirational to the younger women in the community. In the late 1920s, when BHA needed funds to build its synagogue, Miller co-chaired the fundraising committee with BHA trustee Sidney Schuman (see stop #3). Together they worked their contacts in the Jewish business community to raise over $6,000 (equivalent to almost $100,000 today) for the construction. Miller was the founder of the BHA Chapter of Hadassah (the Women’s Zionist Organization of America) and there is a stained glass window in her honor in the upstairs sanctuary of BHA, which she helped to build.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Frank Ritter, Frank Ritter Photography ",
+                    <br />,
+                    "(2) Ellen Pearson Gersh",
+                    <br />,
+                    "(3) Beacon Historical Society",
+                    <br />,
+                    "(4) courtesy of Beacon Hebrew Alliance",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop6_RogenGinsberg"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Dental Office of Dr. Rogen and Dr. Ginsberg" />
+                <Breadcrumb stopno="6" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop6_RogenGinsberg_1.jpg",
+                      alt: "",
+                      caption:
+                        "This Victorian house at 11 Fishkill Avenue was the dental office of Dr. Louis Rogen and Dr. Harold Ginsberg from approx 1950-1975 - March 13, 2022 (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop6_RogenGinsberg_2.jpg",
+                      alt: "",
+                      caption:
+                        "The wedding of Dr. Louis Rogen and Miriam Pomeranz on February 5, 1928 (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop6_RogenGinsberg_3.jpg",
+                      alt: "",
+                      caption:
+                        "Lt. Dr. Louis Rogen reporting for duty in the Army Dental Corps during WWII, c. 1943. (3)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop6_RogenGinsberg_4.jpg",
+                      alt: "",
+                      caption:
+                        "Dr. Louis Rogen making a toast at BHA, c. 1950s. (2)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop6_RogenGinsberg_5.jpg",
+                      alt: "",
+                      caption:
+                        "Dr. Harold Ginsberg’s graduation picture from University of Pennsylvania Dental School, c. 1956 (4)",
+                    },
+                    {
+                      id: 6,
+                      imglink: "/images/stop6_RogenGinsberg_6.jpg",
+                      alt: "",
+                      caption:
+                        "The Ginsberg family at son Stuart’s Bar Mitzvah, December 28, 1968 (4)",
+                    },
+                    {
+                      id: 7,
+                      imglink: "/images/stop6_RogenGinsberg_7.jpg",
+                      alt: "",
+                      caption: "Dr. Ginsberg in his dental office, c. 1976 (4)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Dental Office of Dr. Rogen and Dr. Ginsberg"
+                  text={[
+                    "Owner: Dr. Louis Rogen, later Dr. Harold Ginsberg",
+                    <br />,
+                    "Date established: 1928",
+                    <br />,
+                    "Original Address: 476 ½ Main",
+                    <br />,
+                    "Second Address: 398 ½ Main",
+                    <br />,
+                    "Third Address: 11 Fishkill Ave",
+                    <br />,
+                    "Fourth Address: 333 Fishkill Ave",
+                    <br />,
+                    <br />,
+                    "Dr. Louis Rogen was the youngest of six children of Russian Jewish immigrants, and grew up in a hardworking Jewish neighborhood on New York’s Lower East Side. A bright student, Rogen advanced quickly through primary school and went on to attend the New York Dental School (later merged with NYU). During the summers he worked upstate and would visit his older sister Lena in Beacon. On one of those visits he met Miriam Pomeranz, whose father Hyman owned Pomey’s Hotel and Bar (see stop #3). Rogen moved to Beacon in 1927 right after graduating Dental School, married Miriam, and opened his dental practice on Main Street all within two months. Rogen was President of the Beacon Hebrew Alliance twice in 1930 and 1939, and was a life-long member of the Beacon Elks Lodge. He served in WWII as a Captain in the Army Air Corps. After building a large and devoted clientele, he retired in 1962, leaving his practice to fellow BHA member Dr. Harold Ginsberg.",
+
+                    "Dr. Ginsberg was born in Beacon in 1930 in Highland Hospital. His paternal grandparents Max and Bertha Ginsberg were founders of the Beacon Theatre (see stop #7). After attaining his dental degree from University of Pennsylvania and serving on an Air Force base in Ardmore, Oklahoma during the Korean War, in 1959 he moved with his wife Phyllis and his growing family back to Beacon, with aspirations to open a dental practice. As luck would have it, Dr. Rogen was looking to retire, and Dr. Ginsberg transitioned to take over the practice. Dr. Ginsberg practiced dentistry in Beacon for fifty years, and many of his clients, who had been introduced to him by Dr. Rogen, stayed with him his entire career. Dr. Ginsberg and his wife Phyllis were also very involved in BHA. He served as President of BHA in the late 1960s, and Phyllis served in the Sisterhood of BHA. Dr. Ginsberg passed away in April 2023 at the age of 92. Through his stories and photos, he has  contributed to preserving the history of the Jewish community here.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Frank Ritter, Frank Ritter Photography ",
+                    <br />,
+                    "(2) courtesy of Karen Moses ",
+                    <br />,
+                    "(3) Beacon Historical Society",
+                    <br />,
+                    "(4) courtesy of Dr. Harold Ginsberg",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop6_Fisch"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Fisch’s Men’s Shop" />
+                <Breadcrumb stopno="6" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop6_Fish_1.jpg",
+                      alt: "",
+                      caption:
+                        "A profile on Abraham Fisch in the 1921 Fireman’s Parade Souvenir Program produced by the Beacon Journal (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop6_Fish_2.jpg",
+                      alt: "",
+                      caption:
+                        "Advertisement for Fisch’s Mens Shop, c. 1930 (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop6_Fish_3.jpg",
+                      alt: "",
+                      caption: "Fisch’s clothing label, c. 1940s (3)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop6_Fish_4.jpg",
+                      alt: "",
+                      caption:
+                        "Storefront of Fisch’s Mens Shop at 347 Main Street, c. 1960 (1)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop6_Fish_5.jpg",
+                      alt: "",
+                      caption:
+                        "Storefront of Alan Fisch’s Beacon Sneaker, c. 1990 (3)",
+                    },
+                    {
+                      id: 6,
+                      imglink: "/images/stop6_Fish_6.jpg",
+                      alt: "",
+                      caption:
+                        "Beacon Sneaker owner Alan Fisch and his wife inside their store, c. 1990 (3)",
+                    },
+                    {
+                      id: 7,
+                      imglink: "/images/stop6_Fish_7.jpg",
+                      alt: "",
+                      caption:
+                        "The Fisch building at 347 and 349 Main Street in April 2022 (4)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Fisch’s Men’s Shop"
+                  text={[
+                    "Owners: Abraham Fisch, Samuel Fisch, Nathan Fisch, Alan Fisch",
+                    <br />,
+                    "Date established: 1919",
+                    <br />,
+                    "Original Address: 445 Main Street",
+                    "Second Address: 347, 349, and 351 Main Street (Fisch Building)",
+                    <br />,
+                    <br />,
+                    "Abraham Fisch immigrated to the United States from Germany and founded Fisch’s Men Shop, a suit tailor, in 1919 by leasing a small shop at 455 Main St. He worked to establish the Beacon Hebrew Alliance in 1921 and to fund the building of the current temple in 1929 as a charter member. Abraham passed the shop to his son, Samuel Fisch, and nephew, Nathan Fisch.",
+
+                    "Sam and Nate built the Fisch Building in 1955 at 347, 349, and 351 Main St. In 1981, after Nate moved to Texas and as demand shifted to more casual styles, Sam converted Fisch’s Men Shop to Fisch’s for Jeans. In 1984, Alan Fisch carried on the third generation of the family business by establishing Beacon Sneaker in the adjacent store at 351 Main Street focused on sporting goods and sneakers. Both Fisch stores operated next to each other, complimenting each other until Sam Fisch retired in 1990. Then Fisch’s for Jeans merged with Beacon Sneaker and the family renovated the larger store at 347 to serve clothing, sporting goods, and sneakers all under one roof until 1992.",
+
+                    "After closing their doors on Main Street, the Fisch Family enterprise went on with Alan creating a swimming pool company that operated until his death and his son Jason Fisch starting a nationally recognized technology company. The family still owns the Fisch Building, which is currently leased to other tenants.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Beacon Historical Society",
+                    <br />,
+                    "(2) Beacon News",
+                    <br />,
+                    "(3) courtesy of Jason Fisch",
+                    <br />,
+                    "(4) Anna Brady Marcus",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop7_BeaconTheather"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Beacon Theatre" />
+                <Breadcrumb stopno="7" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop7_BeaconTheather_1.jpg",
+                      alt: "",
+                      caption:
+                        "Max Ginsberg (left) and other officials who built the Beacon Theatre, August 7, 1934. (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop7_BeaconTheather_2.jpg",
+                      alt: "",
+                      caption: "Marquee of the Beacon Theatre, c. 1950. (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop7_BeaconTheather_3.jpg",
+                      alt: "",
+                      caption:
+                        "Ad for movies at the Beacon Theatre, c. 1930. (2)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop7_BeaconTheather_4.jpg",
+                      alt: "",
+                      caption:
+                        "Ad for the Beacon Theatre Grand Opening, July 31, 1934. (1)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop7_BeaconTheather_5.jpg",
+                      alt: "",
+                      caption:
+                        "Excerpt from Beacon Theatre weekly program bulletin, September 4, 1949 (2)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Beacon Theatre"
+                  text={[
+                    "Owner: Max Ginsberg with sons Benjamin and Julius Ginsberg and later grandson Bernard Ginsberg",
+                    <br />,
+                    "Date established: 1934s",
+                    <br />,
+                    "Address: 445 Main Street",
+                    <br />,
+                    <br />,
+                    "The Beacon Theatre was built in 1934 by Max Ginsberg and run by his sons Benjamin, Murray and Julius. Ginsberg’s grandson, Dr. Harold Ginsberg recalled the theater in an oral history interview conducted in 2017: “It was described as the movie palace between Yonkers and Albany, or maybe Yonkers and Hudson.  It opened in 1934, and it was quite luxurious. We changed the program three times a week; the same movie would play Sunday, Monday, and Tuesday.  Wednesday was a separate day; lesser movies, but you'd have something like Bank Night, or Give Away Dishes, or Give Away Encyclopedias.  And then the next was Thursday, Friday, and Saturdays. At the time -- I'm going back to the '40s and '50s -- motion picture theaters were very, very popular.  It was a major form of entertainment, besides people going to a bar.”",
+                    <br />,
+                    <br />,
+                    "The Beacon Theatre ran until the 1960s when television had replaced movies as the primary form of entertainment for Americans. Today, the new Story Screen Theater has replicated the marquee of the original Beacon Theatre, and has brought the cinematic experience back to Main Street in Beacon.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Beacon News ",
+                    <br />,
+                    "(2) Beacon Historical Society",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+          <Route
+            path="/stop8_Bernstein"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Bernstein’s Toy and Novelty Store" />
+                <Breadcrumb stopno="8" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop8_Bernstein_1.jpg",
+                      alt: "",
+                      caption:
+                        "Beacon Falls Cafe stands today at 472 Main. (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop8_Bernstein_2.jpg",
+                      alt: "",
+                      caption:
+                        "Max Bernstein in his auto supply store, which preceded his toy and novelty store, c. 1930. (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop8_Bernstein_3.jpg",
+                      alt: "",
+                      caption:
+                        "Portrait of Max Bernstein as a soldier in WWI, c. 1918 (2)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop8_Bernstein_4.jpg",
+                      alt: "",
+                      caption:
+                        "Still from one of Max Bernstein’s WWII home movies of Beacon GI’s and draftees, c. 1942 (3)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop8_Bernstein_5.jpg",
+                      alt: "",
+                      caption:
+                        "A ticket for one of Max Bernstein’s Moving Picture Parties featuring WWII Draftees from Beacon, February 5, 1943 (2)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Bernstein’s Toy and Novelty Store"
+                  text={[
+                    "Owner: Max Bernstein",
+                    <br />,
+                    "Date established: 1940",
+                    <br />,
+                    "Original Address: 340 Main Street",
+                    <br />,
+                    "Second Address: 472 Main Street",
+                    <br />,
+                    <br />,
+                    "Max Bernstein ran an auto supply store on Main Street, and later had a toy store and wholesale distribution business for thirty years at 340 Main and 472 Main. Max also served in WWI and is noted for filming a series of home movies of Beacon draftees leaving to fight in WWII. He was the son of Ausher Bernstein and brother of Nathan Bernstein who owned Bernstein and Sons Department store on the west side of Main Street (see stop #2). Max was a member of many fraternal organizations including the OBED Lodge of Masons in Poughkeepsie, past commander of the William B. Wilson Post 666 of the Veterans of Foreign Wars and past commander of Post 203 of the American Legion in Beacon. The Beacon Historical Society has a number of his home movies of Beacon’s WWII soldiers in its collections.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Frank Ritter, Frank Ritter Photography",
+                    <br />,
+                    "(2) Beacon Historical Society",
+                    <br />,
+                    "(3) Max Bernstein courtesy of Beacon Historical Society",
+                  ]}
+                />
+              </div>
+            }
+          ></Route>
+
+          <Route
+            path="/stop9_Tailors"
+            element={
+              <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
+                <Header text="Tailors near North and Main" />
+                <Breadcrumb stopno="9" />
+                <Slider
+                  sliderdata={[
+                    {
+                      id: 1,
+                      imglink: "/images/stop9_Tailors_1.jpg",
+                      alt: "",
+                      caption:
+                        "Beacon Falls Cafe stands today at 472 Main. (1)",
+                    },
+                    {
+                      id: 2,
+                      imglink: "/images/stop9_Tailors_2.jpg",
+                      alt: "",
+                      caption:
+                        "Max Bernstein in his auto supply store, which preceded his toy and novelty store, c. 1930. (2)",
+                    },
+                    {
+                      id: 3,
+                      imglink: "/images/stop9_Tailors_3.jpg",
+                      alt: "",
+                      caption:
+                        "Portrait of Max Bernstein as a soldier in WWI, c. 1918 (2)",
+                    },
+                    {
+                      id: 4,
+                      imglink: "/images/stop9_Tailors_4.jpg",
+                      alt: "",
+                      caption:
+                        "Still from one of Max Bernstein’s WWII home movies of Beacon GI’s and draftees, c. 1942 (3)",
+                    },
+                    {
+                      id: 5,
+                      imglink: "/images/stop9_Tailors_5.jpg",
+                      alt: "",
+                      caption:
+                        "A ticket for one of Max Bernstein’s Moving Picture Parties featuring WWII Draftees from Beacon, February 5, 1943 (2)",
+                    },
+                  ]}
+                />
+                {/* <AudioPlayer audiofile="/audios/S1_Snidaman.mp3" /> */}
+                <Description
+                  header="Tailors near North and Main"
+                  text={[
+                    "Owner: Max Bernstein",
+                    <br />,
+                    "Date established: 1940",
+                    <br />,
+                    "Original Address: 340 Main Street",
+                    <br />,
+                    "Second Address: 472 Main Street",
+                    <br />,
+                    <br />,
+                    "Max Bernstein ran an auto supply store on Main Street, and later had a toy store and wholesale distribution business for thirty years at 340 Main and 472 Main. Max also served in WWI and is noted for filming a series of home movies of Beacon draftees leaving to fight in WWII. He was the son of Ausher Bernstein and brother of Nathan Bernstein who owned Bernstein and Sons Department store on the west side of Main Street (see stop #2). Max was a member of many fraternal organizations including the OBED Lodge of Masons in Poughkeepsie, past commander of the William B. Wilson Post 666 of the Veterans of Foreign Wars and past commander of Post 203 of the American Legion in Beacon. The Beacon Historical Society has a number of his home movies of Beacon’s WWII soldiers in its collections.",
+                  ]}
+                  hasBusiness={false}
+                />
+                <PhotoCredits
+                  credits={[
+                    "Photo Credits",
+                    <br />,
+                    "(1) Frank Ritter, Frank Ritter Photography",
+                    <br />,
+                    "(2) Beacon Historical Society",
+                    <br />,
+                    "(3) Max Bernstein courtesy of Beacon Historical Society",
                   ]}
                 />
               </div>
