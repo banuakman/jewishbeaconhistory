@@ -771,10 +771,13 @@ const App = () => {
                   to="/Stop6_RogenGinsberg"
                 />
                 <Link
+<<<<<<< HEAD
                   text="Fisch’s Mens Shop (347-351 Main)"
                   to="/Stop6_Fisch"
                 />
                 <Link
+=======
+>>>>>>> main
                   text="Beacon Hebrew Alliance"
                   to="/beaconhebrewalliance"
                 />
@@ -2138,8 +2141,11 @@ const App = () => {
                     <br />,
                     <br />,
                     "Dr. Louis Rogen was the youngest of six children of Russian Jewish immigrants, and grew up in a hardworking Jewish neighborhood on New York’s Lower East Side. A bright student, Rogen advanced quickly through primary school and went on to attend the New York Dental School (later merged with NYU). During the summers he worked upstate and would visit his older sister Lena in Beacon. On one of those visits he met Miriam Pomeranz, whose father Hyman owned Pomey’s Hotel and Bar (see stop #3). Rogen moved to Beacon in 1927 right after graduating Dental School, married Miriam, and opened his dental practice on Main Street all within two months. Rogen was President of the Beacon Hebrew Alliance twice in 1930 and 1939, and was a life-long member of the Beacon Elks Lodge. He served in WWII as a Captain in the Army Air Corps. After building a large and devoted clientele, he retired in 1962, leaving his practice to fellow BHA member Dr. Harold Ginsberg.",
+<<<<<<< HEAD
 
                     "Dr. Ginsberg was born in Beacon in 1930 in Highland Hospital. His paternal grandparents Max and Bertha Ginsberg were founders of the Beacon Theatre (see stop #7). After attaining his dental degree from University of Pennsylvania and serving on an Air Force base in Ardmore, Oklahoma during the Korean War, in 1959 he moved with his wife Phyllis and his growing family back to Beacon, with aspirations to open a dental practice. As luck would have it, Dr. Rogen was looking to retire, and Dr. Ginsberg transitioned to take over the practice. Dr. Ginsberg practiced dentistry in Beacon for fifty years, and many of his clients, who had been introduced to him by Dr. Rogen, stayed with him his entire career. Dr. Ginsberg and his wife Phyllis were also very involved in BHA. He served as President of BHA in the late 1960s, and Phyllis served in the Sisterhood of BHA. Dr. Ginsberg passed away in April 2023 at the age of 92. Through his stories and photos, he has  contributed to preserving the history of the Jewish community here.",
+=======
+>>>>>>> main
                   ]}
                   hasBusiness={false}
                 />
@@ -2161,6 +2167,7 @@ const App = () => {
           ></Route>
 
           <Route
+<<<<<<< HEAD
             path="/stop6_Fisch"
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
@@ -2256,6 +2263,8 @@ const App = () => {
           ></Route>
 
           <Route
+=======
+>>>>>>> main
             path="/stop7_BeaconTheather"
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
@@ -2329,6 +2338,7 @@ const App = () => {
               </div>
             }
           ></Route>
+<<<<<<< HEAD
           <Route
             path="/stop8_Bernstein"
             element={
@@ -2482,6 +2492,8 @@ const App = () => {
               </div>
             }
           ></Route>
+=======
+>>>>>>> main
         </Routes>
       </Container>
     </ThemeProvider>
