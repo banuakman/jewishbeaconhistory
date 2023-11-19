@@ -771,13 +771,10 @@ const App = () => {
                   to="/Stop6_RogenGinsberg"
                 />
                 <Link
-<<<<<<< HEAD
                   text="Fisch’s Mens Shop (347-351 Main)"
                   to="/Stop6_Fisch"
                 />
                 <Link
-=======
->>>>>>> main
                   text="Beacon Hebrew Alliance"
                   to="/beaconhebrewalliance"
                 />
@@ -787,7 +784,7 @@ const App = () => {
                     <br />,
                     "(1) Frank Ritter, Frank Ritter Photography",
                     <br />,
-                    "(2) Beacon Historical Society",
+                    "(2git branch) Beacon Historical Society",
                     <br />,
                     "(3) Beacon News",
                     <br />,
@@ -2167,7 +2164,6 @@ const App = () => {
           ></Route>
 
           <Route
-<<<<<<< HEAD
             path="/stop6_Fisch"
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
@@ -2263,8 +2259,6 @@ const App = () => {
           ></Route>
 
           <Route
-=======
->>>>>>> main
             path="/stop7_BeaconTheather"
             element={
               <div style={{ maxWidth: "1024px", margin: "0 auto" }}>
@@ -2338,7 +2332,6 @@ const App = () => {
               </div>
             }
           ></Route>
-<<<<<<< HEAD
           <Route
             path="/stop8_Bernstein"
             element={
@@ -2492,8 +2485,6 @@ const App = () => {
               </div>
             }
           ></Route>
-=======
->>>>>>> main
         </Routes>
       </Container>
     </ThemeProvider>
