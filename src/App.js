@@ -713,40 +713,47 @@ const App = () => {
                     },
                     {
                       id: 3,
+                      imglink: "/images/stop6_Fisch_4.jpg",
+                      alt: "",
+                      caption:
+                        "Fisch’s Mens Shop at 347 Main Street c. 1960 (2)",
+                    },
+                    {
+                      id: 4,
                       imglink: "/images/stop6_5.jpg",
                       alt: "",
                       caption:
                         "The Verizon building is now located on the former site of David Alper’s real estate office. March 11, 2022 (1)",
                     },
                     {
-                      id: 4,
+                      id: 5,
                       imglink: "/images/stop6_7.jpg",
                       alt: "",
                       caption:
                         "This Victorian house at 11 Fishkill Avenue was the dental office of Dr. Louis Rogen and Dr. Harold Ginsberg from approx 1950-1975. March 13, 2022 (1)",
                     },
                     {
-                      id: 5,
+                      id: 6,
                       imglink: "/images/BHA_2.jpg",
                       alt: "",
                       caption:
                         "A newspaper article in 1930 reporting on the opening of the 'new Hebrew Synagogue and Community Center'. March 31, 1930 (3)",
                     },
                     {
-                      id: 6,
+                      id: 7,
                       imglink: "/images/BHA_1.jpg",
                       alt: "",
                       caption: "A 2021 aerial view of the BHA building (4)",
                     },
                     {
-                      id: 7,
+                      id: 8,
                       imglink: "/images/stop6_3.jpg",
                       alt: "",
                       caption:
                         "Highland Hospital on Verplanck Ave between Fishkill and Schenck, c. 1914 (2)",
                     },
                     {
-                      id: 8,
+                      id: 9,
                       imglink: "/images/stop6_6.jpg",
                       alt: "",
                       caption:
