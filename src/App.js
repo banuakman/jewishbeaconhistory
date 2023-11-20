@@ -2170,48 +2170,48 @@ const App = () => {
                   sliderdata={[
                     {
                       id: 1,
-                      imglink: "/images/stop6_Fish_1.jpg",
+                      imglink: "/images/stop6_Fisch_1.jpg",
                       alt: "",
                       caption:
                         "A profile on Abraham Fisch in the 1921 Fireman’s Parade Souvenir Program produced by the Beacon Journal (1)",
                     },
                     {
                       id: 2,
-                      imglink: "/images/stop6_Fish_2.jpg",
+                      imglink: "/images/stop6_Fisch_2.jpg",
                       alt: "",
                       caption:
                         "Advertisement for Fisch’s Mens Shop, c. 1930 (2)",
                     },
                     {
                       id: 3,
-                      imglink: "/images/stop6_Fish_3.jpg",
+                      imglink: "/images/stop6_Fisch_3.jpg",
                       alt: "",
                       caption: "Fisch’s clothing label, c. 1940s (3)",
                     },
                     {
                       id: 4,
-                      imglink: "/images/stop6_Fish_4.jpg",
+                      imglink: "/images/stop6_Fisch_4.jpg",
                       alt: "",
                       caption:
                         "Storefront of Fisch’s Mens Shop at 347 Main Street, c. 1960 (1)",
                     },
                     {
                       id: 5,
-                      imglink: "/images/stop6_Fish_5.jpg",
+                      imglink: "/images/stop6_Fisch_5.jpg",
                       alt: "",
                       caption:
                         "Storefront of Alan Fisch’s Beacon Sneaker, c. 1990 (3)",
                     },
                     {
                       id: 6,
-                      imglink: "/images/stop6_Fish_6.jpg",
+                      imglink: "/images/stop6_Fisch_6.jpg",
                       alt: "",
                       caption:
                         "Beacon Sneaker owner Alan Fisch and his wife inside their store, c. 1990 (3)",
                     },
                     {
                       id: 7,
-                      imglink: "/images/stop6_Fish_7.jpg",
+                      imglink: "/images/stop6_Fisch_7.jpg",
                       alt: "",
                       caption:
                         "The Fisch building at 347 and 349 Main Street in April 2022 (4)",
