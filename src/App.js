@@ -2238,9 +2238,9 @@ const App = () => {
                     <br />,
                     <br />,
                     "Abraham Fisch immigrated to the United States from Germany and founded Fisch’s Men Shop, a suit tailor, in 1919 by leasing a small shop at 455 Main St. He worked to establish the Beacon Hebrew Alliance in 1921 and to fund the building of the current temple in 1929 as a charter member. Abraham passed the shop to his son, Samuel Fisch, and nephew, Nathan Fisch.",
-
+                    <br />,
                     "Sam and Nate built the Fisch Building in 1955 at 347, 349, and 351 Main St. In 1981, after Nate moved to Texas and as demand shifted to more casual styles, Sam converted Fisch’s Men Shop to Fisch’s for Jeans. In 1984, Alan Fisch carried on the third generation of the family business by establishing Beacon Sneaker in the adjacent store at 351 Main Street focused on sporting goods and sneakers. Both Fisch stores operated next to each other, complimenting each other until Sam Fisch retired in 1990. Then Fisch’s for Jeans merged with Beacon Sneaker and the family renovated the larger store at 347 to serve clothing, sporting goods, and sneakers all under one roof until 1992.",
-
+                    <br />,
                     "After closing their doors on Main Street, the Fisch Family enterprise went on with Alan creating a swimming pool company that operated until his death and his son Jason Fisch starting a nationally recognized technology company. The family still owns the Fisch Building, which is currently leased to other tenants.",
                   ]}
                   hasBusiness={false}
